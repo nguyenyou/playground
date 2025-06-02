@@ -17,6 +17,6 @@ body {
 console.log("hello")
 ```
 ```html index.html hidden
-<div>Hello</div>
+<div>Hello World</div>
 ```
 </Playground>
