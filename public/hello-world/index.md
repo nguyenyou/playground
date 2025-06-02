@@ -5,7 +5,7 @@ date: '2025-06-03'
 
  ## Markup
 
-helooooooooo123123
+Hello
 
 <Playground>
 ```css styles.css hidden
@@ -24,7 +24,7 @@ console.log("hello")
 ```
 ```html index.html hidden
 <div>
-  <div>Hello Worlddd</div>
+  <div>Hello World</div>
 </div>
 ```
 </Playground>

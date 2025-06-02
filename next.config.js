@@ -1,7 +1,7 @@
 module.exports = {
   output: "export",
-  // trailingSlash: true,
-  // experimental: {
-  //   viewTransition: true,
-  // },
+  trailingSlash: true,
+  experimental: {
+    viewTransition: true,
+  },
 };
