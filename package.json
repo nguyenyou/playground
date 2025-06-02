@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "next build --turbo",
+    "start": "next start"
   },
   "dependencies": {
     "next": "15.4.0-canary.61",
