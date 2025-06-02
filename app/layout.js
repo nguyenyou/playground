@@ -19,6 +19,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/@ui5/webcomponents-base@2.10.0/dist/jsx-runtime.js" as="script" />
+        <link rel="prefetch" href="https://cdn.jsdelivr.net/npm/@ui5/webcomponents@2.10.0/" />
+        <link rel="prefetch" href="https://cdn.jsdelivr.net/npm/@ui5/webcomponents-base@2.10.0/" />
+        <link rel="prefetch" href="https://cdn.jsdelivr.net/npm/@ui5/webcomponents-fiori@2.10.0/" />
+        <link rel="prefetch" href="https://cdn.jsdelivr.net/npm/lit-html@2" />
+
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
