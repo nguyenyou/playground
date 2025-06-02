@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   output: "export",
   basePath: process.env.PAGES_BASE_PATH,
   trailingSlash: true,
@@ -6,3 +7,5 @@ module.exports = {
     viewTransition: true,
   },
 };
+
+export default nextConfig;

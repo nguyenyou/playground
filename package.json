@@ -11,13 +11,12 @@
     "@tailwindcss/postcss": "^4.1.8",
     "feed": "^5.1.0",
     "gray-matter": "^4.0.3",
-    "next": "15.4.0-canary.23",
+    "next": "^15.4.0-canary.61",
     "next-mdx-remote-client": "^2.1.2",
     "postcss": "^8.5.4",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "tailwindcss": "^4.1.8",
-    "typescript": "^5.8.3",
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
