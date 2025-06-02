@@ -10,13 +10,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: red;
 }
 ```
 ```js index.js active
+import "@ui5/webcomponents/dist/Button.js";
 console.log("hello")
 ```
 ```html index.html hidden
-<div>Hello World</div>
+<div>
+  <div>Hello Worlddd</div>
+  <ui5-button>Click me</ui5-button>
+</div>
 ```
 </Playground>

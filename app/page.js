@@ -13,23 +13,36 @@ function buildIframeContent(files) {
       <head>
         <meta charset="UTF-8" />
         <style>${css}</style>
+        <script type="importmap">
+        {
+          "imports": {
+            "@ui5/webcomponents/":"https://cdn.jsdelivr.net/npm/@ui5/webcomponents@2.10.0/",
+            "@ui5/webcomponents-ai/":"https://cdn.jsdelivr.net/npm/@ui5/webcomponents-ai@2.10.0/",
+            "@ui5/webcomponents-fiori/":"https://cdn.jsdelivr.net/npm/@ui5/webcomponents-fiori@2.10.0/",
+            "@ui5/webcomponents-compat/":"https://cdn.jsdelivr.net/npm/@ui5/webcomponents-compat@2.10.0/",
+            "@ui5/webcomponents-base/jsx-runtime":"https://cdn.jsdelivr.net/npm/@ui5/webcomponents-base@2.10.0/dist/jsx-runtime.js",
+            "@ui5/webcomponents-base/":"https://cdn.jsdelivr.net/npm/@ui5/webcomponents-base@2.10.0/",
+            "@ui5/webcomponents-icons/":"https://cdn.jsdelivr.net/npm/@ui5/webcomponents-icons@2.10.0/",
+            "@ui5/webcomponents-localization/":"https://cdn.jsdelivr.net/npm/@ui5/webcomponents-localization@2.10.0/",
+            "@ui5/webcomponents-theming/":"https://cdn.jsdelivr.net/npm/@ui5/webcomponents-theming@2.10.0/",
+            "lit-html":"https://cdn.jsdelivr.net/npm/lit-html@2",
+            "lit-html/":"https://cdn.jsdelivr.net/npm/lit-html@2/",
+            "@zxing/library/":"https://cdn.jsdelivr.net/npm/@zxing/library@0/"
+          }
+        }
+        </script>
       </head>
       <body>
         ${html}
-        <script>
-          try {
-            ${js}
-          } catch(e) {
-            document.body.innerHTML += '<pre style="color:red;">' + e + '</pre>';
-          }
-        <\/script>
+        <script type="module">${js}</script>
       </body>
     </html>
   `;
 }
 
 export const Playground = ({ files: filesJson }) => {
-  const files = typeof filesJson === "string" ? JSON.parse(filesJson) : filesJson;
+  const files =
+    typeof filesJson === "string" ? JSON.parse(filesJson) : filesJson;
   const srcDoc = buildIframeContent(files);
 
   return (
@@ -93,7 +106,6 @@ function prepareFilesProp(node) {
   return files;
 }
 
-
 export function remarkMdxPlayground() {
   return (tree) => {
     visit(tree, (node) => {
@@ -116,7 +128,7 @@ export default async function RemoteMdxPage() {
   return (
     <MDXRemote
       components={{
-        Playground
+        Playground,
       }}
       source={markdown}
       options={{
