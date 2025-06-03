@@ -1,11 +1,31 @@
 import * as React from "react";
 import { Tabs } from "@base-ui-components/react/tabs";
 import PreviewContainer from "./PreviewContainer";
+const swc = require("@swc/core");
 
-function buildIframeContent(files) {
+async function transformJSX(jsxCode) {
+  const result = await swc.transform(jsxCode, {
+    jsc: {
+      parser: {
+        syntax: "ecmascript",
+        jsx: true,
+      },
+      transform: {
+        react: {
+          runtime: "classic",
+        },
+      },
+    },
+  });
+
+  return result.code;
+}
+
+async function buildIframeContent(files) {
   const html = files["/index.html"]?.code || "<div id='root'></div>";
   const css = files["/index.css"]?.code || files["/styles.css"]?.code || "";
   const js = files["/index.js"]?.code || "";
+  const jsxCode = await transformJSX(js);
 
   return `
     <!DOCTYPE html>
@@ -13,19 +33,23 @@ function buildIframeContent(files) {
       <head>
         <meta charset="UTF-8" />
         <style>${css}</style>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <script crossorigin src="https://cdn.jsdelivr.net/npm/react@18/umd/react.production.min.js"></script>
+        <script crossorigin src="https://cdn.jsdelivr.net/npm/react-dom@18/umd/react-dom.production.min.js"></script>
       </head>
       <body>
         ${html}
-        <script type="module">${js}</script>
+        <div id="root"></div>
+        <script type="module">${jsxCode}</script>
       </body>
     </html>
   `;
 }
 
-export const Playground = ({ files: filesJson }) => {
+export const ReactPlayground = async ({ files: filesJson }) => {
   const files =
     typeof filesJson === "string" ? JSON.parse(filesJson) : filesJson;
-  const srcDoc = buildIframeContent(files);
+  const srcDoc = await buildIframeContent(files);
 
   return (
     <div>

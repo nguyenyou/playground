@@ -3,6 +3,7 @@ import { MDXRemote } from "next-mdx-remote-client/rsc";
 import matter from "gray-matter";
 import { remarkMdxPlayground } from "./mdx";
 import { Playground } from "./Playground";
+import { ReactPlayground } from "./ReactPlayground";
 
 export default async function PostPage({ params }) {
   const { slug } = await params;
@@ -24,6 +25,7 @@ export default async function PostPage({ params }) {
         <MDXRemote
           components={{
             Playground,
+            ReactPlayground,
           }}
           source={content}
           options={{

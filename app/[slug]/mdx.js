@@ -46,7 +46,7 @@ function processMeta(meta) {
   export function remarkMdxPlayground() {
     return (tree) => {
       visit(tree, (node) => {
-        if (node.name === "Playground") {
+        if (node.name === "Playground" || node.name === "ReactPlayground") {
           node.attributes = node.attributes || [];
           const files = prepareFilesProp(node);
           node.attributes.push({

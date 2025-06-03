@@ -5,6 +5,7 @@ const nextConfig = {
   trailingSlash: true,
   experimental: {
     viewTransition: true,
+    reactCompiler: true,
   },
 };
 
