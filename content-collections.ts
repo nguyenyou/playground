@@ -1,7 +1,7 @@
 import { defineCollection, defineConfig } from "@content-collections/core";
 import { z } from "zod";
 import { compileMDX } from "@content-collections/mdx";
-import { remarkMdxPlayground } from "./app/[slug]/mdx";
+import { remarkMdxPlayground } from "./mdx";
 
 const posts = defineCollection({
   name: "posts",
