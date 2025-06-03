@@ -27,7 +27,7 @@ async function transformJSX(jsxCode) {
 }
 
 async function buildIframeContent(files) {
-  const html = files["/index.html"]?.code || "<div id='root'></div>";
+  const html = files["/index.html"]?.code || "";
   const css = files["/index.css"]?.code || files["/styles.css"]?.code || "";
   const js = files["/index.js"]?.code || "";
   const jsxCode = await transformJSX(js);
