@@ -7,8 +7,9 @@ async function transformJSX(jsxCode) {
   const result = await swc.transform(jsxCode, {
     jsc: {
       parser: {
-        syntax: "ecmascript",
+        syntax: "typescript",
         jsx: true,
+        tsx: true,
       },
       transform: {
         react: {

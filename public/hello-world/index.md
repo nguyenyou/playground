@@ -86,12 +86,19 @@ button:focus {
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 
-const App = () => {
-  const [count, setCount] = React.useState(0)
+type Props = {
+  initialCount: number
+}
+const Counter = (props: Props) => {
+  const [count, setCount] = React.useState(props.initialCount)
   return <div className="flex items-center gap-4">
     <span>{count}</span>
     <button onClick={() => setCount(count + 1)}>Click me</button>
   </div>;
+}
+
+const App = () => {
+  return <Counter initialCount={10}/>
 };
 let root = createRoot(document.getElementById("root"));
 root.render(<App />);
