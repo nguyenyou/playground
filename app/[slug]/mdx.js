@@ -1,6 +1,5 @@
 import { visit } from "unist-util-visit";
 
-
 function processMeta(meta) {
     const result = {
       fileName: null,
