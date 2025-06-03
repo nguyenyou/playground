@@ -14,9 +14,11 @@ const posts = defineCollection({
     const mdx = await compileMDX(context, document, {
       remarkPlugins: [remarkMdxPlayground],
     });
+    const slug = document.title.toLowerCase().replace(/ /g, "-");
     return {
       ...document,
       mdx,
+      slug,
     };
   },
 });

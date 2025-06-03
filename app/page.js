@@ -5,8 +5,8 @@ function Posts() {
   return (
     <ul>
       {allPosts.map((post) => (
-        <li key={post._meta.path}>
-          <Link href={`/posts/${post._meta.path}`}>
+        <li key={post.slug}>
+          <Link href={`/${post.slug}`}>
             <h3>{post.title}</h3>
           </Link>
         </li>
