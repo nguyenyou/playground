@@ -9,13 +9,13 @@ function Posts() {
     <ul>
       {allPosts.map((post) => (
         <li key={post._meta.path}>
-          <a href={`/posts/${post._meta.path}`}>
+          <Link href={`/posts/${post._meta.path}`}>
             <h3>{post.title}</h3>
             <MDXContent code={post.mdx} components={{
               Playground: Playground,
               ReactPlayground: ReactPlayground,
             }}/>
-          </a>
+          </Link>
         </li>
       ))}
     </ul>
