@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start"
   },
@@ -15,7 +15,7 @@
     "esbuild": "^0.25.5",
     "feed": "^5.1.0",
     "gray-matter": "^4.0.3",
-    "next": "^15.4.0-canary.61",
+    "next": "^15.4.0-canary.62",
     "next-mdx-remote-client": "^2.1.2",
     "postcss": "^8.5.4",
     "react": "19.1.0",
@@ -24,6 +24,10 @@
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
-    "@types/node": "^22.15.29"
+    "@content-collections/core": "^0.9.0",
+    "@content-collections/mdx": "^0.2.2",
+    "@content-collections/next": "^0.2.6",
+    "@types/node": "^22.15.29",
+    "zod": "^3.25.49"
   }
 }
