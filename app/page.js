@@ -1,8 +1,8 @@
-import Link from "./Link";
 import { allPosts } from "content-collections";
 import { MDXContent } from "@content-collections/mdx/react";
 import { Playground } from "./[slug]/Playground";
 import { ReactPlayground } from "./[slug]/ReactPlayground";
+import Link from "next/link";
 
 function Posts() {
   return (
