@@ -12,9 +12,13 @@ async function transformJSX(jsxCode) {
       },
       transform: {
         react: {
-          runtime: "classic",
+          runtime: "automatic",
+          importSource: "react",
         },
       },
+    },
+    module: {
+      type: "es6",
     },
   });
 
@@ -34,13 +38,23 @@ async function buildIframeContent(files) {
         <meta charset="UTF-8" />
         <style>${css}</style>
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-        <script crossorigin src="https://cdn.jsdelivr.net/npm/react@18/umd/react.production.min.js"></script>
-        <script crossorigin src="https://cdn.jsdelivr.net/npm/react-dom@18/umd/react-dom.production.min.js"></script>
       </head>
       <body>
         ${html}
         <div id="root"></div>
-        <script type="module">${jsxCode}</script>
+        <script type="importmap">
+          {
+            "imports": {
+              "react": "https://esm.sh/react@19",
+              "react-dom": "https://esm.sh/react-dom@19",
+              "react-dom/client": "https://esm.sh/react-dom@19/client",
+              "react/jsx-runtime": "https://esm.sh/react@19/jsx-runtime"
+            }
+          }
+        </script>
+        <script type="module">
+          ${jsxCode}
+        </script>
       </body>
     </html>
   `;

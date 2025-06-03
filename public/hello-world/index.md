@@ -83,6 +83,9 @@ button:focus {
 }
 ```
 ```js index.js active
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+
 const App = () => {
   const [count, setCount] = React.useState(0)
   return <div className="flex items-center gap-4">
@@ -90,7 +93,7 @@ const App = () => {
     <button onClick={() => setCount(count + 1)}>Click me</button>
   </div>;
 };
-let root = ReactDOM.createRoot(document.getElementById("root"));
+let root = createRoot(document.getElementById("root"));
 root.render(<App />);
 ```
 ```html index.html hidden
