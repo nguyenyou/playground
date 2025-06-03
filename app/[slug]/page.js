@@ -7,7 +7,7 @@ import { ReactPlayground } from "./ReactPlayground";
 
 export default async function PostPage({ params }) {
   const { slug } = await params;
-  const filename = "./public/" + slug + "/index.md";
+  const filename = "./public/" + slug + "/index.mdx";
   const file = await readFile(filename, "utf8");
   
   const { content, data } = matter(file);
@@ -50,7 +50,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const file = await readFile("./public/" + slug + "/index.md", "utf8");
+  const file = await readFile("./public/" + slug + "/index.mdx", "utf8");
   let { data } = matter(file);
   return {
     title: data.title,

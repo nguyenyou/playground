@@ -3,15 +3,15 @@ import matter from "gray-matter";
 import { Feed } from "feed";
 
 export const metadata = {
-  title: "overreacted — A blog by Dan Abramov",
-  description: "A blog by Dan Abramov",
+  title: "Nextjs Playground",
+  description: "A playground for Nextjs",
   openGraph: {
-    title: "overreacted",
+    title: "Nextjs Playground",
   },
   alternates: {
     types: {
-      "application/atom+xml": "https://overreacted.io/atom.xml",
-      "application/rss+xml": "https://overreacted.io/rss.xml",
+      "application/atom+xml": "https://nextjs-playground.vercel.app/atom.xml",
+      "application/rss+xml": "https://nextjs-playground.vercel.app/rss.xml",
     },
   },
 };
@@ -22,7 +22,7 @@ export async function getPosts() {
     .filter((entry) => entry.isDirectory())
     .map((entry) => entry.name);
   const fileContents = await Promise.all(
-    dirs.map((dir) => readFile("./public/" + dir + "/index.md", "utf8")),
+    dirs.map((dir) => readFile("./public/" + dir + "/index.mdx", "utf8")),
   );
   const posts = dirs.map((slug, i) => {
     const fileContent = fileContents[i];
@@ -37,12 +37,12 @@ export async function getPosts() {
 
 export async function generateFeed() {
   const posts = await getPosts();
-  const site_url = "https://overreacted.io/";
+  const site_url = "https://nextjs-playground.vercel.app/";
 
   const feedOptions = {
     author: {
-      name: "Dan Abramov",
-      email: "dan.abramov@gmail.com",
+      name: "Nextjs Playground",
+      email: "nextjs-playground@gmail.com",
       link: site_url,
     },
     description: metadata.description,
@@ -50,7 +50,7 @@ export async function generateFeed() {
     feedLinks: { atom: `${site_url}atom.xml`, rss: `${site_url}rss.xml` },
     generator: "Feed for Node.js",
     id: site_url,
-    image: "https://github.com/gaearon.png",
+    image: "https://github.com/nextjs-playground.png",
     link: site_url,
     title: metadata.title,
   };
