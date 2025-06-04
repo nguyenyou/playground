@@ -13,7 +13,7 @@ async function transformJSX(jsxCode) {
       },
       transform: {
         react: {
-          runtime: "automatic",
+          runtime: "classic",
           importSource: "react",
         },
       },
@@ -37,6 +37,7 @@ async function buildIframeContent(files) {
     <html>
       <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <style>${css}</style>
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
       </head>
@@ -48,8 +49,7 @@ async function buildIframeContent(files) {
             "imports": {
               "react": "https://esm.sh/react@19",
               "react-dom": "https://esm.sh/react-dom@19",
-              "react-dom/client": "https://esm.sh/react-dom@19/client",
-              "react/jsx-runtime": "https://esm.sh/react@19/jsx-runtime"
+              "react-dom/client": "https://esm.sh/react-dom@19/client"
             }
           }
         </script>
