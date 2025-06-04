@@ -30,16 +30,16 @@ export default function PreviewContainer({ children }) {
     updateCursor();
 
     const handleMouseMove = (e) => {
-      console.log("handle mouse move");
       const deltaX = e.clientX - startX;
       const newWidth = startWidth + deltaX;
       ele.style.width = `${newWidth}px`;
     };
 
     const handleMouseUp = () => {
-      console.log("handle mouse up");
       document.removeEventListener("mousemove", handleMouseMove);
       document.removeEventListener("mouseup", handleMouseUp);
+      ele.style.removeProperty("user-select");
+      ele.style.removeProperty("pointer-events");
       resetCursor();
     };
     document.addEventListener("mousemove", handleMouseMove);
