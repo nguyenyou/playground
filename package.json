@@ -7,14 +7,16 @@
     "build": "next build",
     "start": "next start"
   },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120
+  },
   "dependencies": {
     "@base-ui-components/react": "^1.0.0-beta.0",
     "@swc/core": "^1.11.29",
     "@tailwindcss/postcss": "^4.1.8",
     "babel-plugin-react-compiler": "^19.1.0-rc.2",
-    "esbuild": "^0.25.5",
-    "feed": "^5.1.0",
-    "gray-matter": "^4.0.3",
     "next": "^15.4.0-canary.62",
     "next-mdx-remote-client": "^2.1.2",
     "postcss": "^8.5.4",

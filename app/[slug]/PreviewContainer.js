@@ -46,7 +46,6 @@ export default function PreviewContainer({ children }) {
     document.addEventListener("mouseup", handleMouseUp);
   };
 
-
   return (
     <div ref={containerRef} className="relative w-full">
       {children}

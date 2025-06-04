@@ -7,15 +7,18 @@ import { TailwindPlayground } from "./TailwindPlayground";
 export default async function PostPage({ params }) {
   const { slug } = await params;
   const post = allPosts.find((post) => post.slug === slug);
-  
+
   return (
     <>
       <article>
-        <MDXContent code={post.mdx} components={{
-          Playground: Playground,
-          ReactPlayground: ReactPlayground,
-          TailwindPlayground: TailwindPlayground,
-        }}/>
+        <MDXContent
+          code={post.mdx}
+          components={{
+            Playground: Playground,
+            ReactPlayground: ReactPlayground,
+            TailwindPlayground: TailwindPlayground,
+          }}
+        />
       </article>
     </>
   );

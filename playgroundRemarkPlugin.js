@@ -43,11 +43,7 @@ function prepareFilesProp(node) {
   return files;
 }
 
-const Playgrounds = [
-  "Playground",
-  "ReactPlayground",
-  "TailwindPlayground",
-];
+const Playgrounds = ["Playground", "ReactPlayground", "TailwindPlayground"];
 
 export function playgroundRemarkPlugin() {
   return (tree) => {

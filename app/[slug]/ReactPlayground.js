@@ -94,7 +94,9 @@ export const ReactPlayground = async ({ files: filesJson }) => {
           <Tabs.Indicator className="absolute top-1/2 left-0 z-[-1] h-6 w-[var(--active-tab-width)] -translate-y-1/2 translate-x-[var(--active-tab-left)] rounded-sm bg-gray-100 transition-all duration-200 ease-in-out" />
         </Tabs.List>
         <Tabs.Panel className="h-32" value="index.html">
-          <pre className="h-full overflow-auto">{files["/index.html"]?.code}</pre>
+          <pre className="h-full overflow-auto">
+            {files["/index.html"]?.code}
+          </pre>
         </Tabs.Panel>
         <Tabs.Panel className="h-32" value="styles.css">
           <pre className="h-full overflow-auto">
