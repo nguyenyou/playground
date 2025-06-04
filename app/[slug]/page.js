@@ -2,6 +2,7 @@ import { MDXContent } from "@content-collections/mdx/react";
 import { allPosts } from "content-collections";
 import { Playground } from "./Playground";
 import { ReactPlayground } from "./ReactPlayground";
+import { TailwindPlayground } from "./TailwindPlayground";
 
 export default async function PostPage({ params }) {
   const { slug } = await params;
@@ -13,6 +14,7 @@ export default async function PostPage({ params }) {
         <MDXContent code={post.mdx} components={{
           Playground: Playground,
           ReactPlayground: ReactPlayground,
+          TailwindPlayground: TailwindPlayground,
         }}/>
       </article>
     </>

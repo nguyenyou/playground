@@ -1,7 +1,7 @@
 import { defineCollection, defineConfig } from "@content-collections/core";
 import { z } from "zod";
 import { compileMDX } from "@content-collections/mdx";
-import { remarkMdxPlayground } from "./mdx";
+import { playgroundRemarkPlugin } from "./playgroundRemarkPlugin";
 
 const posts = defineCollection({
   name: "posts",
@@ -12,7 +12,7 @@ const posts = defineCollection({
   }),
   transform: async (document, context) => {
     const mdx = await compileMDX(context, document, {
-      remarkPlugins: [remarkMdxPlayground],
+      remarkPlugins: [playgroundRemarkPlugin],
     });
     const slug = document.title.toLowerCase().replace(/ /g, "-");
     return {
