@@ -17,6 +17,7 @@ export default async function PostPage({ params }) {
             Playground: Playground,
             ReactPlayground: ReactPlayground,
             TailwindPlayground: TailwindPlayground,
+            Sandpack: ReactPlayground,
           }}
         />
       </article>
