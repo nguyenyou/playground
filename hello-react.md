@@ -7,7 +7,6 @@ title: "Hello React"
 This is my first post!
 
 <ReactPlayground>
-
 ```css styles.css hidden
 html, body {
   width: 100%;
@@ -66,5 +65,4 @@ root.render(<App />);
 ```html index.html hidden
 
 ```
-
 </ReactPlayground>
