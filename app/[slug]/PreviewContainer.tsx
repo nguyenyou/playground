@@ -11,10 +11,10 @@ const updateCursor = () => {
   document.body.style.userSelect = "none";
 };
 
-export default function PreviewContainer({ children }) {
-  const containerRef = React.useRef(null);
+export default function PreviewContainer({ children }: { children: React.ReactNode }) {
+  const containerRef = React.useRef<HTMLDivElement | null>(null);
 
-  const handleMouseDown = (e) => {
+  const handleMouseDown = (e: React.MouseEvent) => {
     const ele = containerRef.current;
     if (!ele) {
       return;
@@ -29,7 +29,7 @@ export default function PreviewContainer({ children }) {
 
     updateCursor();
 
-    const handleMouseMove = (e) => {
+    const handleMouseMove = (e: MouseEvent) => {
       const deltaX = e.clientX - startX;
       const newWidth = startWidth + deltaX;
       ele.style.width = `${newWidth}px`;

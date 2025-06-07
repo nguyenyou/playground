@@ -1,6 +1,10 @@
 import { Tabs } from '@base-ui-components/react/tabs'
 
-export const FileExplorer = ({ files }) => {
+type Props = {
+  files: Record<string, { code: string }>
+}
+
+export const FileExplorer = ({ files }: Props) => {
   return (
     <Tabs.Root className="rounded-md border border-gray-200" defaultValue="index.html">
       <Tabs.List className="relative z-0 flex gap-1 px-1 shadow-[inset_0_-1px] shadow-gray-200">

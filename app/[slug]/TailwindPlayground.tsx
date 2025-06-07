@@ -1,10 +1,9 @@
+import * as React from "react";
 import { FileExplorer } from "./FileExplorer";
 import PreviewContainer from "./PreviewContainer";
-import { ReactPlayground } from "./ReactPlayground";
-import { TailwindPlayground } from "./TailwindPlayground";
 
-function buildIframeContent(files) {
-  const html = files["/index.html"]?.code || "<div id='root'></div>";
+async function buildIframeContent(files: Record<string, { code: string }>) {
+  const html = files["/index.html"]?.code || "";
   const css = files["/index.css"]?.code || files["/styles.css"]?.code || "";
   const js = files["/index.js"]?.code || "";
 
@@ -15,30 +14,26 @@ function buildIframeContent(files) {
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <style>${css}</style>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
       </head>
       <body>
         ${html}
-        <script type="module">${js}</script>
+        <div id="root"></div>
+        <script type="module">
+          ${js}
+        </script>
       </body>
     </html>
   `;
 }
 
-export const Playground = (props) => {
-  const { framework, files: filesJson } = props;
-  
-  if(framework === "react") {
-    return <ReactPlayground {...props} />;
-  }
-
-  if(framework === "tailwind") {
-    return <TailwindPlayground {...props} />;
-  }
-
+type Props = {
+  files: string;
+}
+export const TailwindPlayground = async ({ files: filesJson }: Props) => {
   const files =
     typeof filesJson === "string" ? JSON.parse(filesJson) : filesJson;
-
-  const srcDoc = buildIframeContent(files);
+  const srcDoc = await buildIframeContent(files);
 
   return (
     <div>
@@ -52,5 +47,5 @@ export const Playground = (props) => {
         />
       </PreviewContainer>
     </div>
-  );
-};
+  )
+}

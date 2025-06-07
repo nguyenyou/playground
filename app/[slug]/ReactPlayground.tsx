@@ -3,7 +3,7 @@ import { FileExplorer } from "./FileExplorer";
 import PreviewContainer from "./PreviewContainer";
 const swc = require("@swc/core");
 
-async function transformJSX(jsxCode) {
+async function transformJSX(jsxCode: string) {
   const result = await swc.transform(jsxCode, {
     jsc: {
       parser: {
@@ -26,7 +26,7 @@ async function transformJSX(jsxCode) {
   return result.code;
 }
 
-async function buildIframeContent(files) {
+async function buildIframeContent(files: Record<string, { code: string }>) {
   const html = files["/index.html"]?.code || "";
   const css = files["/index.css"]?.code || files["/styles.css"]?.code || "";
   const js = files["/index.js"]?.code || "";
@@ -61,7 +61,10 @@ async function buildIframeContent(files) {
   `;
 }
 
-export const ReactPlayground = async ({ files: filesJson }) => {
+type Props = {
+  files: string;
+}
+export const ReactPlayground = async ({ files: filesJson }: Props) => {
   const files =
     typeof filesJson === "string" ? JSON.parse(filesJson) : filesJson;
   const srcDoc = await buildIframeContent(files);
