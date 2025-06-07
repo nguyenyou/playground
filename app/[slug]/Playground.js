@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Tabs } from "@base-ui-components/react/tabs";
 import PreviewContainer from "./PreviewContainer";
+import { ReactPlayground } from "./ReactPlayground";
+import { TailwindPlayground } from "./TailwindPlayground";
 
 function buildIframeContent(files) {
   const html = files["/index.html"]?.code || "<div id='root'></div>";
@@ -23,9 +25,20 @@ function buildIframeContent(files) {
   `;
 }
 
-export const Playground = ({ files: filesJson }) => {
+export const Playground = (props) => {
+  const { framework, files: filesJson } = props;
+  
+  if(framework === "react") {
+    return <ReactPlayground {...props} />;
+  }
+
+  if(framework === "tailwind") {
+    return <TailwindPlayground {...props} />;
+  }
+
   const files =
     typeof filesJson === "string" ? JSON.parse(filesJson) : filesJson;
+
   const srcDoc = buildIframeContent(files);
 
   return (
