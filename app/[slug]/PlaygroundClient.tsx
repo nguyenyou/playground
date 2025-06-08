@@ -21,7 +21,7 @@ export default function PlaygroundClient({ srcDoc }: Props) {
 
   return (
     <>
-      <PreviewContainer fullscreen previewIframe={previewIframe} previewIframeRef={iframeRef} />
+      <PreviewContainer expand previewIframe={previewIframe} previewIframeRef={iframeRef} />
     </>
   )
 }
