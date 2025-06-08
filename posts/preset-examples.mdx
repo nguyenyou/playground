@@ -1,5 +1,5 @@
 ---
-title: "Playground Presets Examples"
+title: 'Playground Presets Examples'
 ---
 
 # Playground Presets Examples
@@ -9,38 +9,54 @@ This demonstrates the new preset-based playground system.
 ## Vanilla JavaScript Preset
 
 <Playground preset="vanilla">
+
 ```js index.js active
-document.body.innerHTML = '<h1>Vanilla JavaScript</h1><p>No frameworks, just pure JS!</p>';
+document.body.innerHTML = '<h1>Vanilla JavaScript</h1><p>No frameworks, just pure JS!</p>'
 ```
+
 ```css styles.css hidden
-body { 
-  font-family: system-ui, sans-serif; 
+body {
+  font-family: system-ui, sans-serif;
   padding: 20px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
 }
 ```
+
 </Playground>
 
 ## Tailwind CSS Preset
 
 <Playground preset="tailwind">
+
 ```html index.html active
 <div class="min-h-screen bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 flex items-center justify-center">
   <div class="bg-white rounded-lg shadow-xl p-8 max-w-md">
     <h1 class="text-2xl font-bold text-gray-800 mb-4">Tailwind CSS</h1>
     <p class="text-gray-600">Beautiful styling with utility classes!</p>
-    <button class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-      Click me
-    </button>
+    <button class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Click me</button>
   </div>
 </div>
 ```
+
 ```js index.js hidden
 document.querySelector('button').addEventListener('click', () => {
-  alert('Tailwind + Vanilla JS!');
-});
+  alert('Tailwind + Vanilla JS!')
+})
 ```
+
+</Playground>
+
+<Playground preset="tailwind" htmlAttr="data-theme='cupcake'" head={['<link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />', '<link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />']}>
+
+```html index.html active
+<button class="btn btn-primary mt-4">Click me</button>
+```
+
+```js index.js hidden
+
+```
+
 </Playground>
 
 ## React Preset (with Tailwind)
@@ -48,25 +64,25 @@ document.querySelector('button').addEventListener('click', () => {
 <Playground preset="react">
 
 ```js index.js active
-import React from 'react';
-import { createRoot } from 'react-dom/client';
+import React from 'react'
+import { createRoot } from 'react-dom/client'
 
 const App = () => {
-  const [count, setCount] = React.useState(0);
-  
+  const [count, setCount] = React.useState(0)
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-400 to-purple-600 flex items-center justify-center">
       <div className="bg-white rounded-lg shadow-xl p-8 text-center">
         <h1 className="text-3xl font-bold text-gray-800 mb-4">React + Tailwind</h1>
         <p className="text-gray-600 mb-4">Count: {count}</p>
         <div className="space-x-2">
-          <button 
+          <button
             onClick={() => setCount(count + 1)}
             className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
           >
             Increment
           </button>
-          <button 
+          <button
             onClick={() => setCount(count - 1)}
             className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
           >
@@ -75,37 +91,39 @@ const App = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-const root = createRoot(document.getElementById('root'));
-root.render(<App />);
+const root = createRoot(document.getElementById('root'))
+root.render(<App />)
 ```
+
 </Playground>
 
 ## React Minimal Preset (without Tailwind)
 
 <Playground preset="react-minimal">
+
 ```js index.js active
-import React from 'react';
-import { createRoot } from 'react-dom/client';
+import React from 'react'
+import { createRoot } from 'react-dom/client'
 
 const TodoApp = () => {
-  const [todos, setTodos] = React.useState(['Learn React', 'Build awesome apps']);
-  const [input, setInput] = React.useState('');
-  
+  const [todos, setTodos] = React.useState(['Learn React', 'Build awesome apps'])
+  const [input, setInput] = React.useState('')
+
   const addTodo = () => {
     if (input.trim()) {
-      setTodos([...todos, input.trim()]);
-      setInput('');
+      setTodos([...todos, input.trim()])
+      setInput('')
     }
-  };
-  
+  }
+
   return (
     <div className="container">
       <h1>Todo App</h1>
       <div className="input-group">
-        <input 
+        <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyPress={(e) => e.key === 'Enter' && addTodo()}
@@ -119,12 +137,13 @@ const TodoApp = () => {
         ))}
       </ul>
     </div>
-  );
-};
+  )
+}
 
-const root = createRoot(document.getElementById('root'));
-root.render(<TodoApp />);
+const root = createRoot(document.getElementById('root'))
+root.render(<TodoApp />)
 ```
+
 ```css styles.css hidden
 body {
   font-family: system-ui, sans-serif;
@@ -178,11 +197,13 @@ li {
   border-left: 4px solid #007bff;
 }
 ```
+
 </Playground>
 
 ## Vanilla No Reset Preset
 
 <Playground preset="vanilla-no-reset">
+
 ```html index.html active
 <h1>No CSS Reset</h1>
 <p>This playground preserves default browser styles.</p>
@@ -192,6 +213,7 @@ li {
   <li>Default box-sizing</li>
 </ul>
 ```
+
 ```css styles.css hidden
 h1 {
   color: navy;
@@ -201,6 +223,7 @@ p {
   font-style: italic;
 }
 ```
+
 </Playground>
 
 ## Custom Configuration Examples
@@ -210,15 +233,16 @@ Instead of using presets, you can create completely custom configurations:
 ### Custom: React with Bootstrap (No Tailwind)
 
 <Playground config={{ supportReact: true, supportTailwind: false, includeResetCSS: true, includeRootDiv: true, additionalHead: ['<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">'] }}>
+
 ```js index.js active
-import React from 'react';
-import { createRoot } from 'react-dom/client';
+import React from 'react'
+import { createRoot } from 'react-dom/client'
 
 const BootstrapApp = () => {
-  const [theme, setTheme] = React.useState('primary');
-  
-  const themes = ['primary', 'success', 'danger', 'warning', 'info'];
-  
+  const [theme, setTheme] = React.useState('primary')
+
+  const themes = ['primary', 'success', 'danger', 'warning', 'info']
+
   return (
     <div className="container mt-5">
       <div className={`card border-${theme}`}>
@@ -229,82 +253,72 @@ const BootstrapApp = () => {
           <p className="card-text">Custom configuration without presets!</p>
           <div className="mb-3">
             <label className="form-label">Choose Theme:</label>
-            <select 
-              className="form-select" 
-              value={theme} 
-              onChange={(e) => setTheme(e.target.value)}
-            >
-              {themes.map(t => (
-                <option key={t} value={t}>{t.charAt(0).toUpperCase() + t.slice(1)}</option>
+            <select className="form-select" value={theme} onChange={(e) => setTheme(e.target.value)}>
+              {themes.map((t) => (
+                <option key={t} value={t}>
+                  {t.charAt(0).toUpperCase() + t.slice(1)}
+                </option>
               ))}
             </select>
           </div>
-          <button className={`btn btn-${theme}`}>
-            Bootstrap Button
-          </button>
+          <button className={`btn btn-${theme}`}>Bootstrap Button</button>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-const root = createRoot(document.getElementById('root'));
-root.render(<BootstrapApp />);
+const root = createRoot(document.getElementById('root'))
+root.render(<BootstrapApp />)
 ```
+
 </Playground>
 
 ### Custom: Vanilla with Alpine.js
 
 <Playground config={{ supportTailwind: true, supportReact: false, includeResetCSS: true, includeRootDiv: false, additionalHead: ['<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>'] }}>
+
 ```html index.html active
 <div class="min-h-screen bg-gray-100 py-12" x-data="{ count: 0, message: 'Hello Alpine!' }">
   <div class="max-w-md mx-auto bg-white rounded-lg shadow-lg p-6">
     <h1 class="text-2xl font-bold text-gray-800 mb-4">Alpine.js + Tailwind</h1>
-    
+
     <div class="mb-4">
-      <input 
-        x-model="message" 
+      <input
+        x-model="message"
         class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
         placeholder="Enter a message..."
-      >
+      />
     </div>
-    
+
     <div class="mb-4 p-3 bg-blue-50 rounded-lg">
       <p class="text-blue-800" x-text="message"></p>
     </div>
-    
+
     <div class="flex items-center justify-between">
       <span class="text-lg font-medium" x-text="`Count: ${count}`"></span>
       <div class="space-x-2">
-        <button 
-          @click="count--" 
-          class="px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600"
-        >
-          -
-        </button>
-        <button 
-          @click="count++" 
-          class="px-3 py-1 bg-green-500 text-white rounded hover:bg-green-600"
-        >
-          +
-        </button>
+        <button @click="count--" class="px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600">-</button>
+        <button @click="count++" class="px-3 py-1 bg-green-500 text-white rounded hover:bg-green-600">+</button>
       </div>
     </div>
   </div>
 </div>
 ```
+
 </Playground>
 
 ### Custom: No Framework, No Reset, Custom Meta Tags
 
 <Playground config={{ supportTailwind: false, supportReact: false, includeResetCSS: false, includeRootDiv: false, additionalHead: ['<meta name="author" content="Custom Playground">', '<meta name="description" content="Custom playground example">', '<link rel="preconnect" href="https://fonts.googleapis.com">', '<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">'] }}>
+
 ```html index.html active
 <div id="app">
   <header>
     <h1>Custom Configuration</h1>
     <p>No presets, completely custom setup!</p>
   </header>
-  
+
   <main>
     <div class="feature-grid">
       <div class="feature-card">
@@ -320,11 +334,12 @@ root.render(<BootstrapApp />);
         <p>SEO tags included</p>
       </div>
     </div>
-    
+
     <button onclick="showInfo()">Click for Info</button>
   </main>
 </div>
 ```
+
 ```css styles.css hidden
 body {
   font-family: 'Inter', sans-serif;
@@ -390,11 +405,15 @@ button:hover {
   background: #2980b9;
 }
 ```
+
 ```js index.js hidden
 function showInfo() {
-  alert('This playground uses:\n• Custom fonts (Inter)\n• No CSS reset\n• Custom meta tags\n• Pure vanilla JavaScript\n• No external frameworks');
+  alert(
+    'This playground uses:\n• Custom fonts (Inter)\n• No CSS reset\n• Custom meta tags\n• Pure vanilla JavaScript\n• No external frameworks'
+  )
 }
 ```
+
 </Playground>
 
 ## Builder Methods Example
@@ -402,15 +421,16 @@ function showInfo() {
 <Playground preset="react">
 
 ```js index.js active
-import { createRoot } from 'react-dom/client';
+import { createRoot } from 'react-dom/client'
 
 const BuilderExample = () => (
   <div className="p-8 bg-blue-100 rounded">
     <h2 className="text-xl font-bold text-blue-800">Clean Preset System</h2>
     <p className="text-blue-700">Simple, powerful, and flexible!</p>
   </div>
-);
+)
 
-createRoot(document.getElementById('root')).render(<BuilderExample />);
+createRoot(document.getElementById('root')).render(<BuilderExample />)
 ```
-</Playground> 
+
+</Playground>

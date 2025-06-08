@@ -75,16 +75,24 @@ export const PLAYGROUND_PRESETS = {
 
 export type PlaygroundPresetName = keyof typeof PLAYGROUND_PRESETS
 
+
+export type BuildOptions = {
+  files: PlaygroundFiles
+  head?: string[]
+  htmlAttr?: string
+}
+
 // Base HTML template parts
 const createBaseHtmlTemplate = (
   css: string,
   additionalHead: string[] = [],
   body: string,
   scripts: string,
-  includeResetCSS: boolean = true
+  includeResetCSS: boolean = true,
+  htmlAttributes: string = ''
 ) => `
 <!DOCTYPE html>
-<html>
+<html ${htmlAttributes}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -161,7 +169,8 @@ export class PlaygroundBuilder {
     return this.withConfig({ additionalHead: [...currentHead, ...headArray] })
   }
 
-  async build(files: PlaygroundFiles): Promise<string> {
+
+  async build({ files, head, htmlAttr }: BuildOptions): Promise<string> {
     const {
       supportTailwind = false,
       supportReact = false,
@@ -174,7 +183,7 @@ export class PlaygroundBuilder {
     const css = files['/index.css']?.code || files['/styles.css']?.code || ''
     let js = files['/index.js']?.code || ''
 
-    let headContent = [...additionalHead]
+    let headContent = [...additionalHead, ...(head || [])]
     let transformedJs = js
 
     // Add Tailwind support
@@ -228,7 +237,7 @@ export class PlaygroundBuilder {
     const body = `${html}${includeRootDiv ? '<div id="root"></div>' : ''}`
     const scripts = transformedJs ? `<script type="module">${transformedJs}</script>` : ''
 
-    return createBaseHtmlTemplate(css, headContent, body, scripts, includeResetCSS)
+    return createBaseHtmlTemplate(css, headContent, body, scripts, includeResetCSS, htmlAttr)
   }
 }
 
@@ -245,7 +254,7 @@ export const buildPlaygroundContent = async (
   presetOrConfig?: PlaygroundPresetName | PlaygroundConfig
 ): Promise<string> => {
   const builder = createPlaygroundBuilder(presetOrConfig)
-  return await builder.build(files)
+  return await builder.build({ files })
 }
 
 export const getPresetConfig = (presetName: PlaygroundPresetName): PlaygroundConfig => {

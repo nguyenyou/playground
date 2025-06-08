@@ -10,16 +10,18 @@ import {
 type Props = {
   preset?: PlaygroundPresetName
   config?: PlaygroundConfig
+  head?: string[]
+  htmlAttr?: string
   files: string
 }
 
 export const Playground = async (props: Props) => {
-  const { preset = 'vanilla', config, files: filesJson } = props
+  const { preset = 'vanilla', config, files: filesJson, head, htmlAttr  } = props
   const files = parsePlaygroundFiles(filesJson)
 
   const builder = config ? createPlaygroundBuilder(config) : createPlaygroundBuilder(preset)
 
-  const srcDoc = await builder.build(files)
+  const srcDoc = await builder.build({ files, head, htmlAttr })
 
   return (
     <div>
