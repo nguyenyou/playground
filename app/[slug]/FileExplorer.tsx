@@ -1,9 +1,23 @@
 import { Tabs } from '@base-ui-components/react/tabs'
+import { Code } from './Code'
+import { Lang } from './types'
 
 type Props = {
   files: Record<string, { code: string }>
 }
+type TabPanelProps = {
+  value: string
+  code: string
+  lang: Lang
+}
 
+const TabPanel = ({ value, code, lang }: TabPanelProps) => {
+  return (
+    <Tabs.Panel className="h-40" value={value}>
+      <Code code={code} lang={lang} />
+    </Tabs.Panel>
+  )
+}
 export const FileExplorer = ({ files }: Props) => {
   return (
     <Tabs.Root className="border border-gray-200" defaultValue="index.html">
@@ -28,15 +42,9 @@ export const FileExplorer = ({ files }: Props) => {
         </Tabs.Tab>
         <Tabs.Indicator className="absolute top-1/2 left-0 z-[-1] h-6 w-[var(--active-tab-width)] -translate-y-1/2 translate-x-[var(--active-tab-left)] rounded-sm bg-gray-100 transition-all duration-200 ease-in-out" />
       </Tabs.List>
-      <Tabs.Panel className="h-32" value="index.html">
-        <pre className="h-full overflow-auto">{files['/index.html']?.code}</pre>
-      </Tabs.Panel>
-      <Tabs.Panel className="h-32" value="styles.css">
-        <pre className="h-full overflow-auto">{files['/styles.css']?.code}</pre>
-      </Tabs.Panel>
-      <Tabs.Panel className="h-32" value="index.js">
-        <pre className="h-full overflow-auto">{files['/index.js']?.code}</pre>
-      </Tabs.Panel>
+      <TabPanel value="index.html" code={files['/index.html']?.code} lang="html" />
+      <TabPanel value="styles.css" code={files['/styles.css']?.code} lang="css" />
+      <TabPanel value="index.js" code={files['/index.js']?.code} lang="javascript" />
     </Tabs.Root>
   )
 }
