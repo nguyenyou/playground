@@ -18,17 +18,31 @@ type Props = {
   previewIframe: React.ReactNode
   fullscreen?: boolean
 }
-export default function PreviewContainer({ previewIframeRef, previewIframe, minWidth = 200, fullscreen = false }: Props) {
+export default function PreviewContainer({
+  previewIframeRef,
+  previewIframe,
+  minWidth = 200,
+  fullscreen = false,
+}: Props) {
   const containerRef = React.useRef<HTMLDivElement | null>(null)
-  const initialWidth = React.useRef<number | null>(null)
+  const initialWidthRef = React.useRef<number | null>(null)
+
+  const setContainerWidth = (newWidth: number) => {
+    const ele = containerRef.current
+    const initialWidth = initialWidthRef.current
+    if (ele && initialWidth) {
+      const w = Math.min(Math.max(newWidth, minWidth), initialWidth)
+      ele.style.width = `${w}px`
+    }
+  }
 
   const handleMouseDown = (e: React.MouseEvent) => {
     const ele = containerRef.current
     if (!ele) {
       return
     }
-    if (initialWidth.current === null) {
-      initialWidth.current = ele.getBoundingClientRect().width
+    if (initialWidthRef.current === null) {
+      initialWidthRef.current = ele.getBoundingClientRect().width
     }
 
     ele.style.userSelect = 'none'
@@ -43,12 +57,7 @@ export default function PreviewContainer({ previewIframeRef, previewIframe, minW
     const handleMouseMove = (e: MouseEvent) => {
       const deltaX = e.clientX - startX
       const newWidth = startWidth + deltaX
-      // if newWidth is less than minWidth, set it to minWidth
-      // if newWidth is greater than initialWidth, set it to initialWidth
-      if (initialWidth.current) {
-        const w = Math.min(Math.max(newWidth, minWidth), initialWidth.current)
-        ele.style.width = `${w}px`
-      }
+      setContainerWidth(newWidth)
     }
 
     const handleMouseUp = () => {
@@ -62,12 +71,33 @@ export default function PreviewContainer({ previewIframeRef, previewIframe, minW
     document.addEventListener('mouseup', handleMouseUp)
   }
 
+  const resetContainerWidth = () => {
+    if (containerRef.current && initialWidthRef.current) {
+      containerRef.current.style.width = `${initialWidthRef.current}px`
+    }
+  }
+
   return (
-    <div className="w-full h-full pb-2 pt-2 pl-2 pr-3.5 flex relative flex-col gap-2 bg-slate-50/50 [background-image:radial-gradient(#dfdfdf_1px,transparent_1px)] [background-size:20px_20px] border border-gray-200">
+    <div className="w-full h-full pb-2 pt-2 pl-2 pr-3.5 flex relative flex-col gap-2 bg-gray-100/50  border border-gray-200">
       <div className="w-full flex items-center justify-center">
-        <Toolbar previewIframeRef={previewIframeRef} previewIframe={previewIframe} fullscreen={fullscreen} />
+        <Toolbar
+          resetContainerWidth={resetContainerWidth}
+          setContainerWidth={setContainerWidth}
+          previewIframeRef={previewIframeRef}
+          previewIframe={previewIframe}
+          fullscreen={fullscreen}
+        />
       </div>
-      <div ref={containerRef} className="relative w-full bg-white h-full overflow-visible rounded-md">
+      <div
+        ref={(node) => {
+          if (node) {
+            const initial = node.getBoundingClientRect().width
+            initialWidthRef.current = initial
+            containerRef.current = node
+          }
+        }}
+        className="relative w-full bg-white h-full overflow-visible"
+      >
         {previewIframe}
         <div
           className="pointer-events-auto absolute top-1/2 -right-2.5 -mt-6 h-12 w-1.5 cursor-ew-resize rounded-full bg-slate-950/20 hover:bg-slate-950/40"

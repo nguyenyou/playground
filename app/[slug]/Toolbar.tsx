@@ -9,9 +9,11 @@ type Props = {
   previewIframeRef: React.RefObject<HTMLIFrameElement | null>
   previewIframe: React.ReactNode
   fullscreen?: boolean
+  setContainerWidth: (width: number) => void
+  resetContainerWidth: () => void
 }
 
-export default function Toolbar({ previewIframeRef, previewIframe, fullscreen }: Props) {
+export default function Toolbar({ previewIframeRef, previewIframe, fullscreen, setContainerWidth, resetContainerWidth }: Props) {
   const handleRefresh = async () => {
     // Instead of trying to access contentWindow.location.reload() which is blocked by cross-origin policy,
     // we force a refresh by temporarily clearing and then restoring the srcDoc
@@ -36,22 +38,25 @@ export default function Toolbar({ previewIframeRef, previewIframe, fullscreen }:
         aria-label="Desktop"
         value="desktop"
         className="flex size-6 items-center justify-center rounded-sm text-gray-600 select-none hover:bg-gray-100 focus-visible:bg-none  focus-visible:outline-2 focus-visible:-outline-offset-1 focus-visible:outline-blue-800 active:bg-gray-200 data-[pressed]:bg-gray-100 data-[pressed]:text-gray-900"
+        onClick={() => resetContainerWidth()}
       >
         <Monitor className="size-4" />
       </Toggle>
       <Toggle
-        title="Tablet"
-        aria-label="Tablet"
+        title="Tablet (768px)"
+        aria-label="Tablet (768px)"
         value="tablet"
         className="flex size-6 items-center justify-center rounded-sm text-gray-600 select-none hover:bg-gray-100 focus-visible:bg-none  focus-visible:outline-2 focus-visible:-outline-offset-1 focus-visible:outline-blue-800 active:bg-gray-200 data-[pressed]:bg-gray-100 data-[pressed]:text-gray-900"
+        onClick={() => setContainerWidth(768)}
       >
         <Tablet className="size-4" />
       </Toggle>
       <Toggle
-        title="Phone"
-        aria-label="Phone"
+        title="Phone (375px)"
+        aria-label="Phone (375px)"
         value="phone"
         className="flex size-6 items-center justify-center rounded-sm text-gray-600 select-none hover:bg-gray-100 focus-visible:bg-none focus-visible:outline-2 focus-visible:-outline-offset-1 focus-visible:outline-blue-800 active:bg-gray-200 data-[pressed]:bg-gray-100 data-[pressed]:text-gray-900"
+        onClick={() => setContainerWidth(375)}
       >
         <Smartphone className="size-4" />
       </Toggle>

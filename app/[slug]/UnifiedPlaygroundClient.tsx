@@ -12,7 +12,7 @@ export default function UnifiedPlaygroundClient({ srcDoc}: Props) {
   const previewIframe = (
     <iframe
       srcDoc={srcDoc}
-      className="w-full h-full border border-gray-200 rounded-md"
+      className="w-full h-full"
       sandbox="allow-scripts allow-modals"
       title="Playground"
       ref={iframeRef}
