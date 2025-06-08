@@ -11,17 +11,23 @@ const updateCursor = () => {
   document.body.style.userSelect = 'none'
 }
 
-export default function PreviewContainer({ children }: { children: React.ReactNode }) {
+type Props = {
+  children: React.ReactNode
+  minWidth?: number
+}
+export default function PreviewContainer({ children, minWidth = 200 }: Props) {
   const containerRef = React.useRef<HTMLDivElement | null>(null)
+  const initialWidth = React.useRef<number | null>(null)
 
   const handleMouseDown = (e: React.MouseEvent) => {
     const ele = containerRef.current
     if (!ele) {
       return
     }
+    initialWidth.current = ele.getBoundingClientRect().width
+
     ele.style.userSelect = 'none'
     ele.style.pointerEvents = 'none'
-    console.log('handle mouse down')
 
     const startX = e.clientX
     const rect = ele.getBoundingClientRect()
@@ -32,7 +38,12 @@ export default function PreviewContainer({ children }: { children: React.ReactNo
     const handleMouseMove = (e: MouseEvent) => {
       const deltaX = e.clientX - startX
       const newWidth = startWidth + deltaX
-      ele.style.width = `${newWidth}px`
+      // if newWidth is less than minWidth, set it to minWidth
+      // if newWidth is greater than initialWidth, set it to initialWidth
+      if (initialWidth.current) {
+        const w = Math.min(Math.max(newWidth, minWidth), initialWidth.current)
+        ele.style.width = `${w}px`
+      }
     }
 
     const handleMouseUp = () => {
@@ -47,7 +58,7 @@ export default function PreviewContainer({ children }: { children: React.ReactNo
   }
 
   return (
-    <div className='flex flex-col gap-1  bg-gray-950/5 p-1 inset-ring inset-ring-gray-950/5'>
+    <div className="flex flex-col gap-1  bg-gray-950/5 p-1 inset-ring inset-ring-gray-950/5">
       <div ref={containerRef} className="relative w-full bg-white h-full">
         {children}
         <div
