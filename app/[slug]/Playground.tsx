@@ -18,7 +18,6 @@ type Props = {
 export const Playground = async (props: Props) => {
   const { preset = 'vanilla', config, files: filesJson, head, htmlAttr  } = props
   const files = parsePlaygroundFiles(filesJson)
-  console.log(files)
 
   const builder = config ? createPlaygroundBuilder(config) : createPlaygroundBuilder(preset)
 

@@ -1,4 +1,4 @@
-export type PlaygroundFiles = Record<string, { code: string }>
+import type { FilesObject } from '@/playgroundRemarkPlugin'
 
 export interface PlaygroundConfig {
   supportTailwind?: boolean
@@ -77,7 +77,7 @@ export type PlaygroundPresetName = keyof typeof PLAYGROUND_PRESETS
 
 
 export type BuildOptions = {
-  files: PlaygroundFiles
+  files: FilesObject
   head?: string[]
   htmlAttr?: string
 }
@@ -250,7 +250,7 @@ export const createPlaygroundBuilder = (
 
 // Utility functions
 export const buildPlaygroundContent = async (
-  files: PlaygroundFiles,
+  files: FilesObject,
   presetOrConfig?: PlaygroundPresetName | PlaygroundConfig
 ): Promise<string> => {
   const builder = createPlaygroundBuilder(presetOrConfig)
@@ -266,6 +266,6 @@ export const getPresetConfig = (presetName: PlaygroundPresetName): PlaygroundCon
 }
 
 // Utility to parse files from JSON string
-export const parsePlaygroundFiles = (filesJson: string | PlaygroundFiles): PlaygroundFiles => {
+export const parsePlaygroundFiles = (filesJson: string | FilesObject): FilesObject => {
   return typeof filesJson === 'string' ? JSON.parse(filesJson) : filesJson
 }

@@ -30,11 +30,6 @@ export default function Toolbar({ previewIframeRef, previewIframe, expand: expan
       }, 10)
     }
   }
-
-  const handleFullScreen = () => {
-    console.log('Full Screen')
-  }
-
   return (
     <ToggleGroup defaultValue={['desktop']} className="flex gap-px rounded-md border border-gray-200 p-0.5 bg-white">
       <Toggle
