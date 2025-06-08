@@ -8,7 +8,8 @@ type Props = {
 
 
 export const Code = ({ code, lang }: Props) => {
-  const html = highlighter.codeToHtml(code, {
+  const normalizedCode = (code || '').trim()
+  const html = highlighter.codeToHtml(normalizedCode, {
     lang,
     theme: 'github-light-default',
   })

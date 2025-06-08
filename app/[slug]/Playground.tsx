@@ -1,17 +1,27 @@
 import { FileExplorer } from './FileExplorer';
 import PlaygroundClient from './PlaygroundClient';
-import { getContentBuilder, parsePlaygroundFiles, PlaygroundFramework } from './playground-utils';
+import { 
+  createPlaygroundBuilder, 
+  parsePlaygroundFiles, 
+  PlaygroundPresetName, 
+  PlaygroundConfig
+} from './playground-utils';
 
 type Props = {
-  framework?: PlaygroundFramework;
+  preset?: PlaygroundPresetName;
+  config?: PlaygroundConfig;
   files: string;
 }
 
 export const Playground = async (props: Props) => {
-  const { framework = 'vanilla', files: filesJson } = props;
-  const files = parsePlaygroundFiles(filesJson)
-  const contentBuilder = getContentBuilder(framework)
-  const srcDoc = await contentBuilder.build(files)
+  const { preset = 'vanilla', config, files: filesJson } = props;
+  const files = parsePlaygroundFiles(filesJson);
+  
+  const builder = config 
+    ? createPlaygroundBuilder(config)
+    : createPlaygroundBuilder(preset);
+  
+  const srcDoc = await builder.build(files);
 
   return (
     <div>

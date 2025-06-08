@@ -1,5 +1,3 @@
-export type PlaygroundFramework = 'vanilla' | 'react' | 'tailwind';
-
 export type PlaygroundFiles = Record<string, { code: string }>;
 
 export interface PlaygroundConfig {
@@ -10,9 +8,72 @@ export interface PlaygroundConfig {
   additionalHead?: string;
 }
 
-export interface IframeContentBuilder {
-  build(files: PlaygroundFiles, config?: PlaygroundConfig): Promise<string> | string;
+// Preset definitions
+export interface PlaygroundPreset {
+  name: string;
+  description: string;
+  config: PlaygroundConfig;
 }
+
+export const PLAYGROUND_PRESETS = {
+  vanilla: {
+    name: 'Vanilla JavaScript',
+    description: 'Pure HTML, CSS, and JavaScript',
+    config: {
+      supportTailwind: false,
+      supportReact: false,
+      includeResetCSS: true,
+      includeRootDiv: false,
+      additionalHead: ''
+    }
+  },
+  tailwind: {
+    name: 'Tailwind CSS',
+    description: 'HTML, CSS, JavaScript with Tailwind CSS',
+    config: {
+      supportTailwind: true,
+      supportReact: false,
+      includeResetCSS: true,
+      includeRootDiv: false,
+      additionalHead: ''
+    }
+  },
+  react: {
+    name: 'React',
+    description: 'React with JSX/TSX support and Tailwind CSS',
+    config: {
+      supportTailwind: true,
+      supportReact: true,
+      includeResetCSS: true,
+      includeRootDiv: true,
+      additionalHead: ''
+    }
+  },
+  'react-minimal': {
+    name: 'React Minimal',
+    description: 'React with JSX/TSX support, no additional styling',
+    config: {
+      supportTailwind: false,
+      supportReact: true,
+      includeResetCSS: true,
+      includeRootDiv: true,
+      additionalHead: ''
+    }
+  },
+  'vanilla-no-reset': {
+    name: 'Vanilla (No Reset)',
+    description: 'Pure HTML, CSS, and JavaScript without CSS reset',
+    config: {
+      supportTailwind: false,
+      supportReact: false,
+      includeResetCSS: false,
+      includeRootDiv: false,
+      additionalHead: ''
+    }
+  }
+} as const;
+
+export type PlaygroundPresetName = keyof typeof PLAYGROUND_PRESETS;
 
 // Base HTML template parts
 const createBaseHtmlTemplate = (css: string, additionalHead: string = '', body: string, scripts: string, includeResetCSS: boolean = true) => `
@@ -39,16 +100,63 @@ const createBaseHtmlTemplate = (css: string, additionalHead: string = '', body: 
 </html>
 `;
 
-// Flexible content builder
-export const flexibleContentBuilder: IframeContentBuilder = {
-  async build(files: PlaygroundFiles, config: PlaygroundConfig = {}) {
+// Main playground builder
+export class PlaygroundBuilder {
+  private config: PlaygroundConfig;
+
+  constructor(presetOrConfig?: PlaygroundPresetName | PlaygroundConfig) {
+    if (typeof presetOrConfig === 'string') {
+      // Use preset
+      const preset = PLAYGROUND_PRESETS[presetOrConfig];
+      if (!preset) {
+        throw new Error(`Unknown preset: ${presetOrConfig}`);
+      }
+      this.config = { ...preset.config };
+    } else if (presetOrConfig) {
+      // Use custom config
+      this.config = { ...presetOrConfig };
+    } else {
+      // Default to vanilla preset
+      this.config = { ...PLAYGROUND_PRESETS.vanilla.config };
+    }
+  }
+
+  // Allow config overrides
+  withConfig(overrides: Partial<PlaygroundConfig>): PlaygroundBuilder {
+    const newBuilder = new PlaygroundBuilder(this.config);
+    newBuilder.config = { ...this.config, ...overrides };
+    return newBuilder;
+  }
+
+  // Convenience methods for common modifications
+  withTailwind(enabled: boolean = true): PlaygroundBuilder {
+    return this.withConfig({ supportTailwind: enabled });
+  }
+
+  withReact(enabled: boolean = true): PlaygroundBuilder {
+    return this.withConfig({ supportReact: enabled, includeRootDiv: enabled });
+  }
+
+  withResetCSS(enabled: boolean = true): PlaygroundBuilder {
+    return this.withConfig({ includeResetCSS: enabled });
+  }
+
+  withRootDiv(enabled: boolean = true): PlaygroundBuilder {
+    return this.withConfig({ includeRootDiv: enabled });
+  }
+
+  withAdditionalHead(head: string): PlaygroundBuilder {
+    return this.withConfig({ additionalHead: head });
+  }
+
+  async build(files: PlaygroundFiles): Promise<string> {
     const {
       supportTailwind = false,
       supportReact = false,
       includeResetCSS = true,
       includeRootDiv = false,
       additionalHead = ''
-    } = config;
+    } = this.config;
 
     const html = files['/index.html']?.code || '';
     const css = files['/index.css']?.code || files['/styles.css']?.code || '';
@@ -77,7 +185,7 @@ export const flexibleContentBuilder: IframeContentBuilder = {
             },
             transform: {
               react: {
-                runtime: "classic",
+                runtime: "automatic",
                 importSource: "react",
               },
             },
@@ -96,7 +204,8 @@ export const flexibleContentBuilder: IframeContentBuilder = {
             "imports": {
               "react": "https://esm.sh/react@19",
               "react-dom": "https://esm.sh/react-dom@19",
-              "react-dom/client": "https://esm.sh/react-dom@19/client"
+              "react-dom/client": "https://esm.sh/react-dom@19/client",
+              "react/jsx-runtime": "https://esm.sh/react@19/jsx-runtime"
             }
           }
         </script>
@@ -115,61 +224,28 @@ export const flexibleContentBuilder: IframeContentBuilder = {
       includeResetCSS
     );
   }
+}
+
+// Factory functions for easy access
+export const createPlaygroundBuilder = (presetOrConfig?: PlaygroundPresetName | PlaygroundConfig): PlaygroundBuilder => {
+  return new PlaygroundBuilder(presetOrConfig);
 };
 
-// Legacy builders for backward compatibility
-export const vanillaContentBuilder: IframeContentBuilder = {
-  build(files: PlaygroundFiles) {
-    return flexibleContentBuilder.build(files, {
-      supportTailwind: false,
-      supportReact: false,
-      includeResetCSS: true,
-      includeRootDiv: false
-    });
-  }
-};
-
-export const tailwindContentBuilder: IframeContentBuilder = {
-  build(files: PlaygroundFiles) {
-    return flexibleContentBuilder.build(files, {
-      supportTailwind: true,
-      supportReact: false,
-      includeResetCSS: true,
-      includeRootDiv: false
-    });
-  }
-};
-
-export const reactContentBuilder: IframeContentBuilder = {
-  build(files: PlaygroundFiles) {
-    return flexibleContentBuilder.build(files, {
-      supportTailwind: true, // React builder also included Tailwind in original
-      supportReact: true,
-      includeResetCSS: true,
-      includeRootDiv: true // React typically needs a root div
-    });
-  }
-};
-
-// Content builder factory - now supports config
-export const getContentBuilder = (framework: PlaygroundFramework): IframeContentBuilder => {
-  switch (framework) {
-    case 'react':
-      return reactContentBuilder;
-    case 'tailwind':
-      return tailwindContentBuilder;
-    case 'vanilla':
-    default:
-      return vanillaContentBuilder;
-  }
-};
-
-// New flexible builder function
+// Utility functions
 export const buildPlaygroundContent = async (
   files: PlaygroundFiles, 
-  config: PlaygroundConfig = {}
+  presetOrConfig?: PlaygroundPresetName | PlaygroundConfig
 ): Promise<string> => {
-  return await flexibleContentBuilder.build(files, config);
+  const builder = createPlaygroundBuilder(presetOrConfig);
+  return await builder.build(files);
+};
+
+export const getPresetConfig = (presetName: PlaygroundPresetName): PlaygroundConfig => {
+  const preset = PLAYGROUND_PRESETS[presetName];
+  if (!preset) {
+    throw new Error(`Unknown preset: ${presetName}`);
+  }
+  return { ...preset.config };
 };
 
 // Utility to parse files from JSON string
