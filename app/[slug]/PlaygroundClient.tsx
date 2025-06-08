@@ -1,13 +1,13 @@
 'use client'
 import * as React from 'react'
-import PreviewContainer from "./PreviewContainer";
+import PreviewContainer from './PreviewContainer'
 
 type Props = {
   srcDoc: string
 }
 
-export default function PlaygroundClient({ srcDoc}: Props) {
-  const iframeRef = React.useRef<HTMLIFrameElement | null>(null);
+export default function PlaygroundClient({ srcDoc }: Props) {
+  const iframeRef = React.useRef<HTMLIFrameElement | null>(null)
 
   const previewIframe = (
     <iframe
@@ -17,15 +17,11 @@ export default function PlaygroundClient({ srcDoc}: Props) {
       title="Playground"
       ref={iframeRef}
     />
-  );
+  )
 
   return (
     <>
-      <PreviewContainer
-        fullscreen
-        previewIframe={previewIframe}
-        previewIframeRef={iframeRef}
-      />
+      <PreviewContainer fullscreen previewIframe={previewIframe} previewIframeRef={iframeRef} />
     </>
   )
 }
