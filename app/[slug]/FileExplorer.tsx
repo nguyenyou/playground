@@ -20,7 +20,7 @@ const TabPanel = ({ value, code, lang }: TabPanelProps) => {
 }
 export const FileExplorer = ({ files }: Props) => {
   return (
-    <Tabs.Root className="border border-gray-200" defaultValue="index.html">
+    <Tabs.Root className="border-x border-b border-gray-200" defaultValue="index.html">
       <Tabs.List className="relative z-0 flex gap-1 px-1 shadow-[inset_0_-1px] shadow-gray-200">
         <Tabs.Tab
           className="flex h-8 items-center justify-center border-0 px-2 text-sm font-medium text-gray-600 outline-none select-none before:inset-x-0 before:inset-y-1 before:rounded-sm before:-outline-offset-1 before:outline-blue-800 hover:text-gray-900 focus-visible:relative focus-visible:before:absolute focus-visible:before:outline-2 data-[selected]:text-gray-900"
