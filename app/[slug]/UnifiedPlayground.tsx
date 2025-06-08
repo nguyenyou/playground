@@ -3,6 +3,7 @@ import { FileExplorer } from './FileExplorer'
 import PreviewContainer from './PreviewContainer'
 import { Maximize2 } from 'lucide-react'
 import { PlaygroundFramework, getContentBuilder, parsePlaygroundFiles } from './playground-utils'
+import DialogExample from './DialogExample'
 
 type Props = {
   framework?: PlaygroundFramework
@@ -16,12 +17,6 @@ export const UnifiedPlayground = async ({ framework = 'vanilla', files: filesJso
 
   return (
     <div>
-      <FileExplorer files={files} />
-      <div className="border-x border-gray-200 p-1 flex items-center justify-end">
-        <button className="p-1 rounded cursor-pointer hover:bg-gray-100 active:bg-gray-200">
-          <Maximize2 className="w-4 h-4" />
-        </button>
-      </div>
       <PreviewContainer>
         <iframe
           srcDoc={srcDoc}
@@ -30,6 +25,19 @@ export const UnifiedPlayground = async ({ framework = 'vanilla', files: filesJso
           title="Playground"
         />
       </PreviewContainer>
+      <div className="border-x border-gray-200 p-1 flex items-center justify-end">
+        <DialogExample>
+          <PreviewContainer>
+            <iframe
+              srcDoc={srcDoc}
+              className="w-full h-full border border-gray-200 rounded-md"
+              sandbox="allow-scripts allow-modals"
+              title="Playground"
+            />
+          </PreviewContainer>
+        </DialogExample>
+      </div>
+      <FileExplorer files={files} />
     </div>
   )
 }
