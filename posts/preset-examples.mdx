@@ -14,7 +14,7 @@ This demonstrates the new preset-based playground system.
 document.body.innerHTML = '<h1>Vanilla JavaScript</h1><p>No frameworks, just pure JS!</p>'
 ```
 
-```css styles.css hidden
+```css styles.css
 body {
   font-family: system-ui, sans-serif;
   padding: 20px;
@@ -39,7 +39,7 @@ body {
 </div>
 ```
 
-```js index.js hidden
+```js index.js
 document.querySelector('button').addEventListener('click', () => {
   alert('Tailwind + Vanilla JS!')
 })
@@ -55,7 +55,7 @@ document.querySelector('button').addEventListener('click', () => {
 <button class="btn btn-primary mt-4">Click me</button>
 ```
 
-```js index.js hidden
+```js index.js
 
 ```
 
@@ -146,7 +146,7 @@ const root = createRoot(document.getElementById('root'))
 root.render(<TodoApp />)
 ```
 
-```css styles.css hidden
+```css styles.css
 body {
   font-family: system-ui, sans-serif;
   max-width: 600px;
@@ -216,7 +216,7 @@ li {
 </ul>
 ```
 
-```css styles.css hidden
+```css styles.css
 h1 {
   color: navy;
 }
@@ -342,7 +342,7 @@ root.render(<BootstrapApp />)
 </div>
 ```
 
-```css styles.css hidden
+```css styles.css
 body {
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
@@ -408,7 +408,7 @@ button:hover {
 }
 ```
 
-```js index.js hidden
+```js index.js
 function showInfo() {
   alert(
     'This playground uses:\n• Custom fonts (Inter)\n• No CSS reset\n• Custom meta tags\n• Pure vanilla JavaScript\n• No external frameworks'

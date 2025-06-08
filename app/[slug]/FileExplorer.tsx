@@ -48,15 +48,17 @@ const TabPanel = ({ value, code, lang }: TabPanelProps) => {
 }
 
 export const FileExplorer = ({ files }: Props) => {
-  // Get available file paths and create file entries
-  const fileEntries = Object.entries(files).filter(([_, fileData]) => fileData?.code)
+  // Get available file paths and create file entries, filtering out hidden files
+  const fileEntries = Object.entries(files).filter(([_, fileData]) => fileData?.code && !fileData?.hidden)
 
   // If no files, return null or empty state
   if (fileEntries.length === 0) {
     return <div className="border-x border-b border-gray-200 p-4 text-center text-gray-500">No files to display</div>
   }
 
-  const defaultValue = fileEntries[0][0]
+  // Find the first active file, otherwise use the first available file
+  const activeFileEntry = fileEntries.find(([_, fileData]) => fileData?.active)
+  const defaultValue = activeFileEntry ? activeFileEntry[0] : fileEntries[0][0]
 
   return (
     <Tabs.Root className="border-x border-b border-gray-200 text-sm" defaultValue={defaultValue}>
