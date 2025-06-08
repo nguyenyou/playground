@@ -1,9 +1,10 @@
 import { Tabs } from '@base-ui-components/react/tabs'
 import { Code } from './Code'
 import { Lang } from './types'
+import type { FilesObject } from '@/playgroundRemarkPlugin'
 
 type Props = {
-  files: Record<string, { code: string }>
+  files: FilesObject
 }
 type TabPanelProps = {
   value: string
@@ -58,7 +59,7 @@ export const FileExplorer = ({ files }: Props) => {
   const defaultValue = fileEntries[0][0]
 
   return (
-    <Tabs.Root className="border-x border-b border-gray-200" defaultValue={defaultValue}>
+    <Tabs.Root className="border-x border-b border-gray-200 text-sm" defaultValue={defaultValue}>
       <Tabs.List className="relative z-0 flex gap-1 px-1 shadow-[inset_0_-1px] shadow-gray-200">
         {fileEntries.map(([filePath]) => {
           const filename = getFilenameFromPath(filePath)

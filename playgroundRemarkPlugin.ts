@@ -8,7 +8,7 @@ interface ProcessMetaResult {
   active: boolean;
 }
 
-interface FileData {
+export interface FileData {
   code: string;
   readOnly: boolean;
   hidden: boolean;
@@ -16,7 +16,7 @@ interface FileData {
   lang: string;
 }
 
-interface FilesObject {
+export interface FilesObject {
   [path: string]: FileData;
 }
 
