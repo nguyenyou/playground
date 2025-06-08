@@ -1,18 +1,18 @@
-export type PlaygroundFiles = Record<string, { code: string }>;
+export type PlaygroundFiles = Record<string, { code: string }>
 
 export interface PlaygroundConfig {
-  supportTailwind?: boolean;
-  supportReact?: boolean;
-  includeResetCSS?: boolean;
-  includeRootDiv?: boolean;
-  additionalHead?: string[];
+  supportTailwind?: boolean
+  supportReact?: boolean
+  includeResetCSS?: boolean
+  includeRootDiv?: boolean
+  additionalHead?: string[]
 }
 
 // Preset definitions
 export interface PlaygroundPreset {
-  name: string;
-  description: string;
-  config: PlaygroundConfig;
+  name: string
+  description: string
+  config: PlaygroundConfig
 }
 
 export const PLAYGROUND_PRESETS = {
@@ -24,8 +24,8 @@ export const PLAYGROUND_PRESETS = {
       supportReact: false,
       includeResetCSS: true,
       includeRootDiv: false,
-      additionalHead: [] as string[]
-    }
+      additionalHead: [] as string[],
+    },
   },
   tailwind: {
     name: 'Tailwind CSS',
@@ -35,8 +35,8 @@ export const PLAYGROUND_PRESETS = {
       supportReact: false,
       includeResetCSS: true,
       includeRootDiv: false,
-      additionalHead: [] as string[]
-    }
+      additionalHead: [] as string[],
+    },
   },
   react: {
     name: 'React',
@@ -46,8 +46,8 @@ export const PLAYGROUND_PRESETS = {
       supportReact: true,
       includeResetCSS: true,
       includeRootDiv: true,
-      additionalHead: [] as string[]
-    }
+      additionalHead: [] as string[],
+    },
   },
   'react-minimal': {
     name: 'React Minimal',
@@ -57,8 +57,8 @@ export const PLAYGROUND_PRESETS = {
       supportReact: true,
       includeResetCSS: true,
       includeRootDiv: true,
-      additionalHead: [] as string[]
-    }
+      additionalHead: [] as string[],
+    },
   },
   'vanilla-no-reset': {
     name: 'Vanilla (No Reset)',
@@ -68,28 +68,38 @@ export const PLAYGROUND_PRESETS = {
       supportReact: false,
       includeResetCSS: false,
       includeRootDiv: false,
-      additionalHead: [] as string[]
-    }
-  }
-} as const;
+      additionalHead: [] as string[],
+    },
+  },
+} as const
 
-export type PlaygroundPresetName = keyof typeof PLAYGROUND_PRESETS;
+export type PlaygroundPresetName = keyof typeof PLAYGROUND_PRESETS
 
 // Base HTML template parts
-const createBaseHtmlTemplate = (css: string, additionalHead: string[] = [], body: string, scripts: string, includeResetCSS: boolean = true) => `
+const createBaseHtmlTemplate = (
+  css: string,
+  additionalHead: string[] = [],
+  body: string,
+  scripts: string,
+  includeResetCSS: boolean = true
+) => `
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    ${includeResetCSS ? `<style>
+    ${
+      includeResetCSS
+        ? `<style>
       * {
         box-sizing: border-box;
       }
       body {
         margin: 0;
       }
-    </style>` : ''}
+    </style>`
+        : ''
+    }
     <style>${css}</style>
     ${additionalHead.join('\n    ')}
   </head>
@@ -98,57 +108,57 @@ const createBaseHtmlTemplate = (css: string, additionalHead: string[] = [], body
     ${scripts}
   </body>
 </html>
-`;
+`
 
 // Main playground builder
 export class PlaygroundBuilder {
-  private config: PlaygroundConfig;
+  private config: PlaygroundConfig
 
   constructor(presetOrConfig?: PlaygroundPresetName | PlaygroundConfig) {
     if (typeof presetOrConfig === 'string') {
       // Use preset
-      const preset = PLAYGROUND_PRESETS[presetOrConfig];
+      const preset = PLAYGROUND_PRESETS[presetOrConfig]
       if (!preset) {
-        throw new Error(`Unknown preset: ${presetOrConfig}`);
+        throw new Error(`Unknown preset: ${presetOrConfig}`)
       }
-      this.config = { ...preset.config };
+      this.config = { ...preset.config }
     } else if (presetOrConfig) {
       // Use custom config
-      this.config = { ...presetOrConfig };
+      this.config = { ...presetOrConfig }
     } else {
       // Default to vanilla preset
-      this.config = { ...PLAYGROUND_PRESETS.vanilla.config };
+      this.config = { ...PLAYGROUND_PRESETS.vanilla.config }
     }
   }
 
   // Allow config overrides
   withConfig(overrides: Partial<PlaygroundConfig>): PlaygroundBuilder {
-    const newBuilder = new PlaygroundBuilder(this.config);
-    newBuilder.config = { ...this.config, ...overrides };
-    return newBuilder;
+    const newBuilder = new PlaygroundBuilder(this.config)
+    newBuilder.config = { ...this.config, ...overrides }
+    return newBuilder
   }
 
   // Convenience methods for common modifications
   withTailwind(enabled: boolean = true): PlaygroundBuilder {
-    return this.withConfig({ supportTailwind: enabled });
+    return this.withConfig({ supportTailwind: enabled })
   }
 
   withReact(enabled: boolean = true): PlaygroundBuilder {
-    return this.withConfig({ supportReact: enabled, includeRootDiv: enabled });
+    return this.withConfig({ supportReact: enabled, includeRootDiv: enabled })
   }
 
   withResetCSS(enabled: boolean = true): PlaygroundBuilder {
-    return this.withConfig({ includeResetCSS: enabled });
+    return this.withConfig({ includeResetCSS: enabled })
   }
 
   withRootDiv(enabled: boolean = true): PlaygroundBuilder {
-    return this.withConfig({ includeRootDiv: enabled });
+    return this.withConfig({ includeRootDiv: enabled })
   }
 
   withAdditionalHead(head: string | string[]): PlaygroundBuilder {
-    const headArray = Array.isArray(head) ? head : [head];
-    const currentHead = this.config.additionalHead || [];
-    return this.withConfig({ additionalHead: [...currentHead, ...headArray] });
+    const headArray = Array.isArray(head) ? head : [head]
+    const currentHead = this.config.additionalHead || []
+    return this.withConfig({ additionalHead: [...currentHead, ...headArray] })
   }
 
   async build(files: PlaygroundFiles): Promise<string> {
@@ -157,46 +167,46 @@ export class PlaygroundBuilder {
       supportReact = false,
       includeResetCSS = true,
       includeRootDiv = false,
-      additionalHead = []
-    } = this.config;
+      additionalHead = [],
+    } = this.config
 
-    const html = files['/index.html']?.code || '';
-    const css = files['/index.css']?.code || files['/styles.css']?.code || '';
-    let js = files['/index.js']?.code || '';
+    const html = files['/index.html']?.code || ''
+    const css = files['/index.css']?.code || files['/styles.css']?.code || ''
+    let js = files['/index.js']?.code || ''
 
-    let headContent = [...additionalHead];
-    let transformedJs = js;
+    let headContent = [...additionalHead]
+    let transformedJs = js
 
     // Add Tailwind support
     if (supportTailwind) {
-      headContent.push('<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>');
+      headContent.push('<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>')
     }
 
     // Add React support
     if (supportReact) {
-      const swc = require("@swc/core");
-      
+      const swc = require('@swc/core')
+
       // Transform JSX/TSX code
       if (js) {
         const result = await swc.transform(js, {
           jsc: {
             parser: {
-              syntax: "typescript",
+              syntax: 'typescript',
               jsx: true,
               tsx: true,
             },
             transform: {
               react: {
-                runtime: "automatic",
-                importSource: "react",
+                runtime: 'automatic',
+                importSource: 'react',
               },
             },
           },
           module: {
-            type: "es6",
+            type: 'es6',
           },
-        });
-        transformedJs = result.code;
+        })
+        transformedJs = result.code
       }
 
       // Add React import map
@@ -211,46 +221,42 @@ export class PlaygroundBuilder {
             }
           }
         </script>
-      `;
-      headContent.push(importMap);
+      `
+      headContent.push(importMap)
     }
 
-    const body = `${html}${includeRootDiv ? '<div id="root"></div>' : ''}`;
-    const scripts = transformedJs ? `<script type="module">${transformedJs}</script>` : '';
+    const body = `${html}${includeRootDiv ? '<div id="root"></div>' : ''}`
+    const scripts = transformedJs ? `<script type="module">${transformedJs}</script>` : ''
 
-    return createBaseHtmlTemplate(
-      css,
-      headContent,
-      body,
-      scripts,
-      includeResetCSS
-    );
+    return createBaseHtmlTemplate(css, headContent, body, scripts, includeResetCSS)
   }
 }
 
 // Factory functions for easy access
-export const createPlaygroundBuilder = (presetOrConfig?: PlaygroundPresetName | PlaygroundConfig): PlaygroundBuilder => {
-  return new PlaygroundBuilder(presetOrConfig);
-};
+export const createPlaygroundBuilder = (
+  presetOrConfig?: PlaygroundPresetName | PlaygroundConfig
+): PlaygroundBuilder => {
+  return new PlaygroundBuilder(presetOrConfig)
+}
 
 // Utility functions
 export const buildPlaygroundContent = async (
-  files: PlaygroundFiles, 
+  files: PlaygroundFiles,
   presetOrConfig?: PlaygroundPresetName | PlaygroundConfig
 ): Promise<string> => {
-  const builder = createPlaygroundBuilder(presetOrConfig);
-  return await builder.build(files);
-};
+  const builder = createPlaygroundBuilder(presetOrConfig)
+  return await builder.build(files)
+}
 
 export const getPresetConfig = (presetName: PlaygroundPresetName): PlaygroundConfig => {
-  const preset = PLAYGROUND_PRESETS[presetName];
+  const preset = PLAYGROUND_PRESETS[presetName]
   if (!preset) {
-    throw new Error(`Unknown preset: ${presetName}`);
+    throw new Error(`Unknown preset: ${presetName}`)
   }
-  return { ...preset.config };
-};
+  return { ...preset.config }
+}
 
 // Utility to parse files from JSON string
 export const parsePlaygroundFiles = (filesJson: string | PlaygroundFiles): PlaygroundFiles => {
-  return typeof filesJson === 'string' ? JSON.parse(filesJson) : filesJson;
-}; 
+  return typeof filesJson === 'string' ? JSON.parse(filesJson) : filesJson
+}

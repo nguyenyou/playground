@@ -4,7 +4,6 @@ import { ToggleGroup } from '@base-ui-components/react/toggle-group'
 import { Tablet, Smartphone, Laptop, Monitor, Maximize2, RotateCw, Maximize, Fullscreen } from 'lucide-react'
 import { Separator } from '@base-ui-components/react/separator'
 import DialogView from './DialogView'
-import FullScreenView from './FullScreenView'
 
 type Props = {
   previewIframeRef: React.RefObject<HTMLIFrameElement | null>

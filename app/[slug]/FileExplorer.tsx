@@ -14,7 +14,7 @@ type TabPanelProps = {
 // Function to determine language based on file extension
 const getLanguageFromExtension = (filename: string): Lang => {
   const extension = filename.split('.').pop()?.toLowerCase()
-  
+
   switch (extension) {
     case 'html':
       return 'html'
@@ -49,19 +49,14 @@ const TabPanel = ({ value, code, lang }: TabPanelProps) => {
 export const FileExplorer = ({ files }: Props) => {
   // Get available file paths and create file entries
   const fileEntries = Object.entries(files).filter(([_, fileData]) => fileData?.code)
-  
+
   // If no files, return null or empty state
   if (fileEntries.length === 0) {
-    return (
-      <div className="border-x border-b border-gray-200 p-4 text-center text-gray-500">
-        No files to display
-      </div>
-    )
+    return <div className="border-x border-b border-gray-200 p-4 text-center text-gray-500">No files to display</div>
   }
-  
-  // Use the first available file as default
+
   const defaultValue = fileEntries[0][0]
-  
+
   return (
     <Tabs.Root className="border-x border-b border-gray-200" defaultValue={defaultValue}>
       <Tabs.List className="relative z-0 flex gap-1 px-1 shadow-[inset_0_-1px] shadow-gray-200">
@@ -82,14 +77,7 @@ export const FileExplorer = ({ files }: Props) => {
       {fileEntries.map(([filePath, fileData]) => {
         const filename = getFilenameFromPath(filePath)
         const lang = getLanguageFromExtension(filename)
-        return (
-          <TabPanel 
-            key={filePath}
-            value={filePath} 
-            code={fileData.code} 
-            lang={lang} 
-          />
-        )
+        return <TabPanel key={filePath} value={filePath} code={fileData.code} lang={lang} />
       })}
     </Tabs.Root>
   )

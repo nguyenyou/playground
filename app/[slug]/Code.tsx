@@ -1,5 +1,5 @@
-import { Lang } from './types'
 import { highlighter } from './highlighter'
+import { Lang } from './types'
 
 type Props = {
   code: string
