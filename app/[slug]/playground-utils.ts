@@ -5,7 +5,7 @@ export interface PlaygroundConfig {
   supportReact?: boolean;
   includeResetCSS?: boolean;
   includeRootDiv?: boolean;
-  additionalHead?: string;
+  additionalHead?: string[];
 }
 
 // Preset definitions
@@ -24,7 +24,7 @@ export const PLAYGROUND_PRESETS = {
       supportReact: false,
       includeResetCSS: true,
       includeRootDiv: false,
-      additionalHead: ''
+      additionalHead: [] as string[]
     }
   },
   tailwind: {
@@ -35,7 +35,7 @@ export const PLAYGROUND_PRESETS = {
       supportReact: false,
       includeResetCSS: true,
       includeRootDiv: false,
-      additionalHead: ''
+      additionalHead: [] as string[]
     }
   },
   react: {
@@ -46,7 +46,7 @@ export const PLAYGROUND_PRESETS = {
       supportReact: true,
       includeResetCSS: true,
       includeRootDiv: true,
-      additionalHead: ''
+      additionalHead: [] as string[]
     }
   },
   'react-minimal': {
@@ -57,7 +57,7 @@ export const PLAYGROUND_PRESETS = {
       supportReact: true,
       includeResetCSS: true,
       includeRootDiv: true,
-      additionalHead: ''
+      additionalHead: [] as string[]
     }
   },
   'vanilla-no-reset': {
@@ -68,7 +68,7 @@ export const PLAYGROUND_PRESETS = {
       supportReact: false,
       includeResetCSS: false,
       includeRootDiv: false,
-      additionalHead: ''
+      additionalHead: [] as string[]
     }
   }
 } as const;
@@ -76,7 +76,7 @@ export const PLAYGROUND_PRESETS = {
 export type PlaygroundPresetName = keyof typeof PLAYGROUND_PRESETS;
 
 // Base HTML template parts
-const createBaseHtmlTemplate = (css: string, additionalHead: string = '', body: string, scripts: string, includeResetCSS: boolean = true) => `
+const createBaseHtmlTemplate = (css: string, additionalHead: string[] = [], body: string, scripts: string, includeResetCSS: boolean = true) => `
 <!DOCTYPE html>
 <html>
   <head>
@@ -91,7 +91,7 @@ const createBaseHtmlTemplate = (css: string, additionalHead: string = '', body: 
       }
     </style>` : ''}
     <style>${css}</style>
-    ${additionalHead}
+    ${additionalHead.join('\n    ')}
   </head>
   <body>
     ${body}
@@ -145,8 +145,10 @@ export class PlaygroundBuilder {
     return this.withConfig({ includeRootDiv: enabled });
   }
 
-  withAdditionalHead(head: string): PlaygroundBuilder {
-    return this.withConfig({ additionalHead: head });
+  withAdditionalHead(head: string | string[]): PlaygroundBuilder {
+    const headArray = Array.isArray(head) ? head : [head];
+    const currentHead = this.config.additionalHead || [];
+    return this.withConfig({ additionalHead: [...currentHead, ...headArray] });
   }
 
   async build(files: PlaygroundFiles): Promise<string> {
@@ -155,19 +157,19 @@ export class PlaygroundBuilder {
       supportReact = false,
       includeResetCSS = true,
       includeRootDiv = false,
-      additionalHead = ''
+      additionalHead = []
     } = this.config;
 
     const html = files['/index.html']?.code || '';
     const css = files['/index.css']?.code || files['/styles.css']?.code || '';
     let js = files['/index.js']?.code || '';
 
-    let headContent = additionalHead;
+    let headContent = [...additionalHead];
     let transformedJs = js;
 
     // Add Tailwind support
     if (supportTailwind) {
-      headContent += '<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>';
+      headContent.push('<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>');
     }
 
     // Add React support
@@ -210,7 +212,7 @@ export class PlaygroundBuilder {
           }
         </script>
       `;
-      headContent += importMap;
+      headContent.push(importMap);
     }
 
     const body = `${html}${includeRootDiv ? '<div id="root"></div>' : ''}`;

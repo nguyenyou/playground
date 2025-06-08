@@ -209,7 +209,7 @@ Instead of using presets, you can create completely custom configurations:
 
 ### Custom: React with Bootstrap (No Tailwind)
 
-<Playground config={{ supportReact: true, supportTailwind: false, includeResetCSS: true, includeRootDiv: true, additionalHead: '<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">' }}>
+<Playground config={{ supportReact: true, supportTailwind: false, includeResetCSS: true, includeRootDiv: true, additionalHead: ['<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">'] }}>
 ```js index.js active
 import React from 'react';
 import { createRoot } from 'react-dom/client';
@@ -255,7 +255,7 @@ root.render(<BootstrapApp />);
 
 ### Custom: Vanilla with Alpine.js
 
-<Playground config={{ supportTailwind: true, supportReact: false, includeResetCSS: true, includeRootDiv: false, additionalHead: '<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>' }}>
+<Playground config={{ supportTailwind: true, supportReact: false, includeResetCSS: true, includeRootDiv: false, additionalHead: ['<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>'] }}>
 ```html index.html active
 <div class="min-h-screen bg-gray-100 py-12" x-data="{ count: 0, message: 'Hello Alpine!' }">
   <div class="max-w-md mx-auto bg-white rounded-lg shadow-lg p-6">
@@ -297,7 +297,7 @@ root.render(<BootstrapApp />);
 
 ### Custom: No Framework, No Reset, Custom Meta Tags
 
-<Playground config={{ supportTailwind: false, supportReact: false, includeResetCSS: false, includeRootDiv: false, additionalHead: '<meta name="author" content="Custom Playground"><meta name="description" content="Custom playground example"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">' }}>
+<Playground config={{ supportTailwind: false, supportReact: false, includeResetCSS: false, includeRootDiv: false, additionalHead: ['<meta name="author" content="Custom Playground">', '<meta name="description" content="Custom playground example">', '<link rel="preconnect" href="https://fonts.googleapis.com">', '<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">'] }}>
 ```html index.html active
 <div id="app">
   <header>
