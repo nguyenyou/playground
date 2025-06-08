@@ -6,7 +6,7 @@ type Props = {
   srcDoc: string
 }
 
-export default function UnifiedPlaygroundClient({ srcDoc}: Props) {
+export default function PlaygroundClient({ srcDoc}: Props) {
   const iframeRef = React.useRef<HTMLIFrameElement | null>(null);
 
   const previewIframe = (
