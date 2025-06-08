@@ -1,10 +1,6 @@
-import * as React from 'react'
 import { FileExplorer } from './FileExplorer'
-import PreviewContainer from './PreviewContainer'
-import { Maximize2 } from 'lucide-react'
 import { PlaygroundFramework, getContentBuilder, parsePlaygroundFiles } from './playground-utils'
-import DialogExample from './DialogExample'
-import Toolbar from './Toolbar'
+import UnifiedPlaygroundClient from './UnifiedPlaygroundClient'
 
 type Props = {
   framework?: PlaygroundFramework
@@ -18,17 +14,7 @@ export const UnifiedPlayground = async ({ framework = 'vanilla', files: filesJso
 
   return (
     <div>
-      <PreviewContainer
-        fullscreen
-        previewIframe={
-          <iframe
-            srcDoc={srcDoc}
-            className="w-full h-full border border-gray-200 rounded-md"
-            sandbox="allow-scripts allow-modals"
-            title="Playground"
-          />
-        }
-      ></PreviewContainer>
+      <UnifiedPlaygroundClient srcDoc={srcDoc} />
       <FileExplorer files={files} />
     </div>
   )

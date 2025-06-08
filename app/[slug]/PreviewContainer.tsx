@@ -14,10 +14,11 @@ const updateCursor = () => {
 
 type Props = {
   minWidth?: number
+  previewIframeRef: React.RefObject<HTMLIFrameElement | null>
   previewIframe: React.ReactNode
   fullscreen?: boolean
 }
-export default function PreviewContainer({ previewIframe, minWidth = 200, fullscreen = false }: Props) {
+export default function PreviewContainer({ previewIframeRef, previewIframe, minWidth = 200, fullscreen = false }: Props) {
   const containerRef = React.useRef<HTMLDivElement | null>(null)
   const initialWidth = React.useRef<number | null>(null)
 
@@ -64,7 +65,7 @@ export default function PreviewContainer({ previewIframe, minWidth = 200, fullsc
   return (
     <div className="w-full h-full pb-2 pt-2 pl-2 pr-3.5 flex relative flex-col gap-2 bg-slate-50/50 [background-image:radial-gradient(#dfdfdf_1px,transparent_1px)] [background-size:20px_20px] border border-gray-200">
       <div className="w-full flex items-center justify-center">
-        <Toolbar previewIframe={previewIframe} fullscreen={fullscreen} />
+        <Toolbar previewIframeRef={previewIframeRef} previewIframe={previewIframe} fullscreen={fullscreen} />
       </div>
       <div ref={containerRef} className="relative w-full bg-white h-full overflow-visible rounded-md">
         {previewIframe}
