@@ -4,13 +4,11 @@ import type { Node } from "unist";
 interface ProcessMetaResult {
   fileName: string | null;
   hidden: boolean;
-  readOnly: boolean;
   active: boolean;
 }
 
 export interface FileData {
   code: string;
-  readOnly: boolean;
   hidden: boolean;
   active: boolean;
   lang: string;
@@ -40,7 +38,6 @@ function processMeta(meta?: string): ProcessMetaResult {
   const result: ProcessMetaResult = {
     fileName: null,
     hidden: false,
-    readOnly: false,
     active: false,
   };
   
@@ -77,7 +74,6 @@ function prepareFilesProp(node: PlaygroundNode): FilesObject {
     
     const file: FileData = {
       code: value,
-      readOnly: result.readOnly,
       hidden: result.hidden,
       active: result.active,
       lang,
