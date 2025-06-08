@@ -3,5 +3,5 @@ type Props = {
 }
 
 export default function Layout({ children }: Props) {
-  return <div className="max-w-screen-lg mx-auto">{children}</div>;
+  return <div className="max-w-screen-md mx-auto">{children}</div>;
 }
