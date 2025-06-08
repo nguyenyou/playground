@@ -4,6 +4,7 @@ import PreviewContainer from './PreviewContainer'
 import { Maximize2 } from 'lucide-react'
 import { PlaygroundFramework, getContentBuilder, parsePlaygroundFiles } from './playground-utils'
 import DialogExample from './DialogExample'
+import Toolbar from './Toolbar'
 
 type Props = {
   framework?: PlaygroundFramework
@@ -17,26 +18,17 @@ export const UnifiedPlayground = async ({ framework = 'vanilla', files: filesJso
 
   return (
     <div>
-      <PreviewContainer>
-        <iframe
-          srcDoc={srcDoc}
-          className="w-full h-full border border-gray-200 rounded-md"
-          sandbox="allow-scripts allow-modals"
-          title="Playground"
-        />
-      </PreviewContainer>
-      <div className="border-x border-gray-200 p-1 flex items-center justify-end">
-        <DialogExample>
-          <PreviewContainer>
-            <iframe
-              srcDoc={srcDoc}
-              className="w-full h-full border border-gray-200 rounded-md"
-              sandbox="allow-scripts allow-modals"
-              title="Playground"
-            />
-          </PreviewContainer>
-        </DialogExample>
-      </div>
+      <PreviewContainer
+        fullscreen
+        previewIframe={
+          <iframe
+            srcDoc={srcDoc}
+            className="w-full h-full border border-gray-200 rounded-md"
+            sandbox="allow-scripts allow-modals"
+            title="Playground"
+          />
+        }
+      ></PreviewContainer>
       <FileExplorer files={files} />
     </div>
   )

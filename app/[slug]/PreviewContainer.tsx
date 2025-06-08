@@ -1,5 +1,6 @@
 'use client'
 import * as React from 'react'
+import Toolbar from './Toolbar'
 
 const resetCursor = () => {
   document.body.style.removeProperty('cursor')
@@ -12,10 +13,11 @@ const updateCursor = () => {
 }
 
 type Props = {
-  children: React.ReactNode
   minWidth?: number
+  previewIframe: React.ReactNode
+  fullscreen?: boolean
 }
-export default function PreviewContainer({ children, minWidth = 200 }: Props) {
+export default function PreviewContainer({ previewIframe, minWidth = 200, fullscreen = false }: Props) {
   const containerRef = React.useRef<HTMLDivElement | null>(null)
   const initialWidth = React.useRef<number | null>(null)
 
@@ -60,10 +62,12 @@ export default function PreviewContainer({ children, minWidth = 200 }: Props) {
   }
 
   return (
-    <div className="w-full h-full py-2 pl-2 pr-3.5 flex relative flex-col gap-1 bg-slate-50/50 border border-gray-200">
-      <div className="absolute inset-0 right-4 [background-image:radial-gradient(#dfdfdf_1px,transparent_1px)] [background-size:20px_20px]"></div>
+    <div className="w-full h-full pb-2 pt-2 pl-2 pr-3.5 flex relative flex-col gap-2 bg-slate-50/50 [background-image:radial-gradient(#dfdfdf_1px,transparent_1px)] [background-size:20px_20px] border border-gray-200">
+      <div className="w-full flex items-center justify-center">
+        <Toolbar previewIframe={previewIframe} fullscreen={fullscreen} />
+      </div>
       <div ref={containerRef} className="relative w-full bg-white h-full overflow-visible rounded-md">
-        {children}
+        {previewIframe}
         <div
           className="pointer-events-auto absolute top-1/2 -right-2.5 -mt-6 h-12 w-1.5 cursor-ew-resize rounded-full bg-slate-950/20 hover:bg-slate-950/40"
           onMouseDown={handleMouseDown}
