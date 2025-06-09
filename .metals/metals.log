@@ -4718,3 +4718,283 @@ demos.hello.compile Compilation failed[0m
 2025.06.09 22:35:32 INFO  BSP server: [182-handlerTasks] buildTargetScalaTestClasses took 12 msec[0m
 2025.06.09 22:35:40 INFO  BSP server: [183-compile] Entered buildTargetCompile[0m
 2025.06.09 22:35:40 INFO  BSP server: [183-compile] buildTargetCompile took 0 msec[0m
+2025.06.09 22:36:40 INFO  BSP server: [184-compile] Entered buildTargetCompile[0m
+2025.06.09 22:36:40 INFO  BSP server: [184-compile] buildTargetCompile took 4 msec[0m
+2025.06.09 22:37:40 INFO  BSP server: [185-compile] Entered buildTargetCompile[0m
+2025.06.09 22:37:40 INFO  BSP server: [185-compile] buildTargetCompile took 1 msec[0m
+2025.06.09 22:38:40 INFO  BSP server: [186-compile] Entered buildTargetCompile[0m
+2025.06.09 22:38:40 INFO  BSP server: [186-compile] buildTargetCompile took 0 msec[0m
+2025.06.09 22:39:40 INFO  BSP server: [187-compile] Entered buildTargetCompile[0m
+2025.06.09 22:39:40 INFO  BSP server: [187-compile] buildTargetCompile took 0 msec[0m
+2025.06.09 22:40:40 INFO  BSP server: [188-compile] Entered buildTargetCompile[0m
+2025.06.09 22:40:40 INFO  BSP server: [188-compile] buildTargetCompile took 1 msec[0m
+2025.06.09 22:41:40 INFO  BSP server: [189-compile] Entered buildTargetCompile[0m
+2025.06.09 22:41:40 INFO  BSP server: [189-compile] buildTargetCompile took 1 msec[0m
+2025.06.09 22:42:40 INFO  BSP server: [190-compile] Entered buildTargetCompile[0m
+2025.06.09 22:42:40 INFO  BSP server: [190-compile] buildTargetCompile took 0 msec[0m
+2025.06.09 22:43:05 INFO  BSP server: [191-compile] Entered buildTargetCompile[0m
+2025.06.09 22:43:05 INFO  BSP server: [191-compile] Evaluating 1 task[0m
+2025.06.09 22:43:05 INFO  BSP server: [191-compile] Done[0m
+2025.06.09 22:43:05 INFO  BSP server: [191-compile] buildTargetCompile took 84 msec[0m
+2025.06.09 22:43:05 INFO  BSP server: [192-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.09 22:43:05 INFO  BSP server: [192-handlerTasks] buildTargetScalaTestClasses took 0 msec[0m
+2025.06.09 22:43:05 INFO  BSP server: [193-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.09 22:43:05 INFO  BSP server: [193-handlerTasks] Evaluating 1 task[0m
+2025.06.09 22:43:05 INFO  BSP server: [193-handlerTasks] Done[0m
+2025.06.09 22:43:05 INFO  BSP server: [193-handlerTasks] buildTargetScalaMainClasses took 20 msec[0m
+Jun 09, 2025 10:43:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2111
+2025.06.09 22:43:09 INFO  time: code lens generation in 2.49s[0m
+2025.06.09 22:43:09 INFO  BSP server: [194-handlerTasks] Entered buildTargetJvmRunEnvironment[0m
+2025.06.09 22:43:09 INFO  BSP server: [195-handlerTasks] Entered buildTargetJvmRunEnvironment[0m
+2025.06.09 22:43:09 INFO  BSP server: [194-handlerTasks] Evaluating 1 task[0m
+2025.06.09 22:43:09 INFO  BSP server: [194-handlerTasks] Done[0m
+2025.06.09 22:43:09 INFO  BSP server: [194-handlerTasks] buildTargetJvmRunEnvironment took 17 msec[0m
+2025.06.09 22:43:09 INFO  BSP server: [195-handlerTasks] Evaluating 1 task[0m
+2025.06.09 22:43:09 INFO  BSP server: [195-handlerTasks] Done[0m
+2025.06.09 22:43:09 INFO  BSP server: [195-handlerTasks] buildTargetJvmRunEnvironment took 33 msec[0m
+2025.06.09 22:43:10 INFO  Shutting down server[0m
+2025.06.09 22:43:10 INFO  shutting down Metals[0m
+2025.06.09 22:43:09 INFO  BSP server: [196-buildShutdown] Entered buildShutdown[0m
+2025.06.09 22:43:10 INFO  Shut down connection with build server.[0m
+2025.06.09 22:43:09 INFO  BSP server: [197-onBuildExit] Entered onBuildExit[0m
+2025.06.09 22:43:10 INFO  Exiting server[0m
+2025.06.09 22:43:14 INFO  Started: Metals version 1.6.0+4-c8f148ce-SNAPSHOT in folders '/Users/tunguyen/Desktop/DELETEME/playground' for client Cursor 1.96.2.[0m
+2025.06.09 22:43:14 INFO  Attempting to connect to the build server...[0m
+2025.06.09 22:43:14 INFO  Running BSP server List(/Users/tunguyen/.cache/mill/download/1.0.0-RC1-native-mac-aarch64, --bsp, --disable-ticker, --color, false, --jobs, 0)[0m
+2025.06.09 22:43:14 INFO  tracing is enabled: /Users/tunguyen/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.06.09 22:43:15 INFO  BSP server: [bsp] Trying to load BSP server...[0m
+2025.06.09 22:43:15 INFO  BSP server: [bsp] BSP server started[0m
+2025.06.09 22:43:15 INFO  BSP server: [1-buildInitialize] Entered buildInitialize[0m
+2025.06.09 22:43:15 INFO  BSP server: [1-buildInitialize] Got client semanticdbVersion: 4.13.6. Enabling SemanticDB support.[0m
+2025.06.09 22:43:15 INFO  BSP server: [1-buildInitialize] buildInitialize took 3 msec[0m
+2025.06.09 22:43:15 INFO  BSP server: [2-onBuildInitialized] Build initialized[0m
+2025.06.09 22:43:14 INFO  time: Connected to build server in 0.57s[0m
+2025.06.09 22:43:15 INFO  Connected to Build server: mill-bsp v1.0.0-RC1[0m
+2025.06.09 22:43:15 INFO  BSP server: [3-workspaceBuildTargets] Entered workspaceBuildTargets[0m
+Jun 09, 2025 10:43:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2025.06.09 22:43:14 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 22:43:15 INFO  BSP server: [bsp-init] 1.0.0-RC1[0m
+2025.06.09 22:43:15 INFO  BSP server: [3-workspaceBuildTargets] Evaluating 3 tasks[0m
+2025.06.09 22:43:15 INFO  BSP server: [3-workspaceBuildTargets] Done[0m
+2025.06.09 22:43:15 INFO  BSP server: [3-workspaceBuildTargets] Evaluating 1 task[0m
+2025.06.09 22:43:16 INFO  BSP server: [3-workspaceBuildTargets] Done[0m
+2025.06.09 22:43:16 INFO  BSP server: [3-workspaceBuildTargets] workspaceBuildTargets took 833 msec[0m
+2025.06.09 22:43:16 INFO  BSP server: [4-handlerTasks] Entered buildTargetScalacOptions[0m
+2025.06.09 22:43:16 INFO  BSP server: [4-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 22:43:16 INFO  BSP server: [4-handlerTasks] Done[0m
+2025.06.09 22:43:16 INFO  BSP server: [4-handlerTasks] Evaluating 1 task[0m
+2025.06.09 22:43:16 INFO  BSP server: [4-handlerTasks] Done[0m
+2025.06.09 22:43:16 INFO  BSP server: [4-handlerTasks] buildTargetScalacOptions took 51 msec[0m
+2025.06.09 22:43:16 INFO  BSP server: [5-handlerTasks] Entered buildTargetJavacOptions[0m
+2025.06.09 22:43:16 INFO  BSP server: [5-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 22:43:16 INFO  BSP server: [5-handlerTasks] Done[0m
+2025.06.09 22:43:16 INFO  BSP server: [5-handlerTasks] Evaluating 1 task[0m
+2025.06.09 22:43:16 INFO  BSP server: [5-handlerTasks] Done[0m
+2025.06.09 22:43:16 INFO  BSP server: [5-handlerTasks] buildTargetJavacOptions took 59 msec[0m
+2025.06.09 22:43:16 INFO  BSP server: [6-sources] Entered buildTargetSources[0m
+2025.06.09 22:43:16 INFO  BSP server: [6-sources] Evaluating 3 tasks[0m
+2025.06.09 22:43:16 INFO  BSP server: [6-sources] Done[0m
+2025.06.09 22:43:16 INFO  BSP server: [6-sources] Evaluating 1 task[0m
+2025.06.09 22:43:16 INFO  BSP server: [6-sources] Done[0m
+2025.06.09 22:43:16 INFO  BSP server: [6-sources] buildTargetSources took 14 msec[0m
+2025.06.09 22:43:16 INFO  BSP server: [7-handlerTasks] Entered buildTargetDependencySources[0m
+2025.06.09 22:43:16 INFO  BSP server: [7-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 22:43:16 INFO  BSP server: [7-handlerTasks] Done[0m
+2025.06.09 22:43:16 INFO  BSP server: [7-handlerTasks] Evaluating 1 task[0m
+2025.06.09 22:43:18 INFO  BSP server: [7-handlerTasks] Done[0m
+2025.06.09 22:43:18 INFO  BSP server: [7-handlerTasks] buildTargetDependencySources took 1911 msec[0m
+2025.06.09 22:43:18 INFO  BSP server: [8-handlerTasks] Entered buildTargetDependencyModules[0m
+2025.06.09 22:43:18 INFO  BSP server: [8-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 22:43:18 INFO  BSP server: [8-handlerTasks] Done[0m
+2025.06.09 22:43:18 INFO  BSP server: [8-handlerTasks] Evaluating 1 task[0m
+2025.06.09 22:43:18 INFO  BSP server: [8-handlerTasks] Done[0m
+2025.06.09 22:43:18 INFO  BSP server: [8-handlerTasks] buildTargetDependencyModules took 155 msec[0m
+2025.06.09 22:43:18 INFO  time: Imported build in 3.07s[0m
+2025.06.09 22:43:20 INFO  time: indexed workspace in 2.11s[0m
+2025.06.09 22:43:20 INFO  BSP server: [9-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.09 22:43:20 INFO  BSP server: [10-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.09 22:43:20 INFO  BSP server: [9-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 22:43:20 INFO  BSP server: [11-compile] Entered buildTargetCompile[0m
+2025.06.09 22:43:20 INFO  BSP server: [12-handlerTasks] Entered buildTargetJvmCompileClasspath[0m
+2025.06.09 22:43:20 INFO  BSP server: [9-handlerTasks] Done[0m
+2025.06.09 22:43:20 INFO  BSP server: [9-handlerTasks] Evaluating 1 task[0m
+2025.06.09 22:43:20 INFO  BSP server: [9-handlerTasks] Done[0m
+2025.06.09 22:43:20 INFO  BSP server: [9-handlerTasks] buildTargetScalaMainClasses took 68 msec[0m
+2025.06.09 22:43:20 INFO  BSP server: [10-handlerTasks] buildTargetScalaTestClasses took 69 msec[0m
+2025.06.09 22:43:20 INFO  BSP server: [11-compile] Evaluating 1 task[0m
+2025.06.09 22:43:20 INFO  BSP server: [11-compile] Done[0m
+2025.06.09 22:43:20 INFO  BSP server: [11-compile] buildTargetCompile took 78 msec[0m
+2025.06.09 22:43:20 INFO  BSP server: [12-handlerTasks] Evaluating 1 task[0m
+2025.06.09 22:43:20 INFO  BSP server: [13-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.09 22:43:20 INFO  BSP server: [14-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.09 22:43:20 INFO  BSP server: [12-handlerTasks] Done[0m
+2025.06.09 22:43:20 INFO  BSP server: [12-handlerTasks] buildTargetJvmCompileClasspath took 84 msec[0m
+2025.06.09 22:43:20 INFO  BSP server: [13-handlerTasks] buildTargetScalaTestClasses took 7 msec[0m
+2025.06.09 22:43:20 INFO  BSP server: [14-handlerTasks] Evaluating 1 task[0m
+2025.06.09 22:43:20 INFO  BSP server: [14-handlerTasks] Done[0m
+2025.06.09 22:43:20 INFO  BSP server: [14-handlerTasks] buildTargetScalaMainClasses took 20 msec[0m
+2025.06.09 22:43:25 INFO  time: code lens generation in 4.53s[0m
+2025.06.09 22:43:25 INFO  BSP server: [15-handlerTasks] Entered buildTargetJvmRunEnvironment[0m
+2025.06.09 22:43:25 INFO  time: code lens generation in 4.71s[0m
+2025.06.09 22:43:25 INFO  time: code lens generation in 4.71s[0m
+2025.06.09 22:43:25 INFO  time: code lens generation in 4.71s[0m
+2025.06.09 22:43:25 INFO  BSP server: [16-handlerTasks] Entered buildTargetJvmRunEnvironment[0m
+2025.06.09 22:43:25 INFO  BSP server: [17-handlerTasks] Entered buildTargetJvmRunEnvironment[0m
+2025.06.09 22:43:25 INFO  BSP server: [18-handlerTasks] Entered buildTargetJvmRunEnvironment[0m
+2025.06.09 22:43:25 INFO  BSP server: [15-handlerTasks] Evaluating 1 task[0m
+2025.06.09 22:43:25 INFO  BSP server: [15-handlerTasks] Done[0m
+2025.06.09 22:43:25 INFO  BSP server: [15-handlerTasks] buildTargetJvmRunEnvironment took 18 msec[0m
+2025.06.09 22:43:25 INFO  BSP server: [16-handlerTasks] Evaluating 1 task[0m
+2025.06.09 22:43:25 INFO  BSP server: [16-handlerTasks] Done[0m
+2025.06.09 22:43:25 INFO  BSP server: [16-handlerTasks] buildTargetJvmRunEnvironment took 35 msec[0m
+2025.06.09 22:43:25 INFO  BSP server: [17-handlerTasks] Evaluating 1 task[0m
+2025.06.09 22:43:25 INFO  BSP server: [17-handlerTasks] Done[0m
+2025.06.09 22:43:25 INFO  BSP server: [17-handlerTasks] buildTargetJvmRunEnvironment took 51 msec[0m
+2025.06.09 22:43:25 INFO  BSP server: [18-handlerTasks] Evaluating 1 task[0m
+2025.06.09 22:43:25 INFO  BSP server: [18-handlerTasks] Done[0m
+2025.06.09 22:43:25 INFO  BSP server: [18-handlerTasks] buildTargetJvmRunEnvironment took 66 msec[0m
+2025.06.09 22:43:26 INFO  Shutting down server[0m
+2025.06.09 22:43:26 INFO  shutting down Metals[0m
+2025.06.09 22:43:26 INFO  BSP server: [19-buildShutdown] Entered buildShutdown[0m
+2025.06.09 22:43:26 INFO  BSP server: [20-onBuildExit] Entered onBuildExit[0m
+2025.06.09 22:43:26 INFO  Shut down connection with build server.[0m
+2025.06.09 22:43:26 INFO  BSP server: Shutting down executor[0m
+2025.06.09 22:43:26 INFO  BSP server: Reload finished, result: mill.api.internal.BspServerResult$Shutdown$@7be1ce6a[0m
+2025.06.09 22:43:26 INFO  BSP server: [bsp] BSP session returned with mill.api.internal.BspServerResult$Shutdown$@7be1ce6a[0m
+2025.06.09 22:43:26 INFO  BSP server: Stopping server via handle...[0m
+2025.06.09 22:43:26 INFO  BSP server: [bsp] Exiting BSP runner loop. Stopping BSP server. Last result: Success(mill.api.internal.BspServerResult$Shutdown$@7be1ce6a)[0m
+2025.06.09 22:43:26 INFO  Exiting server[0m
+2025.06.10 00:19:03 INFO  Started: Metals version 1.6.0+4-c8f148ce-SNAPSHOT in folders '/Users/tunguyen/Desktop/DELETEME/playground' for client Cursor 1.96.2.[0m
+2025.06.10 00:19:03 INFO  Attempting to connect to the build server...[0m
+2025.06.10 00:19:03 INFO  Running BSP server List(/Users/tunguyen/.cache/mill/download/1.0.0-RC1-native-mac-aarch64, --bsp, --disable-ticker, --color, false, --jobs, 0)[0m
+2025.06.10 00:19:03 INFO  tracing is enabled: /Users/tunguyen/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.06.10 00:19:04 INFO  BSP server: [bsp] Trying to load BSP server...[0m
+Jun 10, 2025 12:19:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2025.06.10 00:19:04 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.10 00:19:04 INFO  BSP server: [bsp] BSP server started[0m
+2025.06.10 00:19:04 INFO  BSP server: [1-buildInitialize] Entered buildInitialize[0m
+2025.06.10 00:19:04 INFO  BSP server: [1-buildInitialize] Got client semanticdbVersion: 4.13.6. Enabling SemanticDB support.[0m
+2025.06.10 00:19:04 INFO  BSP server: [1-buildInitialize] buildInitialize took 4 msec[0m
+2025.06.10 00:19:04 INFO  BSP server: [2-onBuildInitialized] Build initialized[0m
+2025.06.10 00:19:03 INFO  time: Connected to build server in 0.87s[0m
+2025.06.10 00:19:03 INFO  Connected to Build server: mill-bsp v1.0.0-RC1[0m
+2025.06.10 00:19:04 INFO  BSP server: [3-workspaceBuildTargets] Entered workspaceBuildTargets[0m
+2025.06.10 00:19:04 INFO  BSP server: [bsp-init] 1.0.0-RC1[0m
+2025.06.10 00:19:05 INFO  BSP server: [3-workspaceBuildTargets] Evaluating 3 tasks[0m
+2025.06.10 00:19:05 INFO  BSP server: [3-workspaceBuildTargets] Done[0m
+2025.06.10 00:19:05 INFO  BSP server: [3-workspaceBuildTargets] Evaluating 1 task[0m
+2025.06.10 00:19:05 INFO  BSP server: [3-workspaceBuildTargets] Done[0m
+2025.06.10 00:19:05 INFO  BSP server: [3-workspaceBuildTargets] workspaceBuildTargets took 819 msec[0m
+2025.06.10 00:19:05 INFO  BSP server: [4-handlerTasks] Entered buildTargetScalacOptions[0m
+2025.06.10 00:19:05 INFO  BSP server: [4-handlerTasks] Evaluating 3 tasks[0m
+2025.06.10 00:19:05 INFO  BSP server: [4-handlerTasks] Done[0m
+2025.06.10 00:19:05 INFO  BSP server: [4-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:19:05 INFO  BSP server: [4-handlerTasks] Done[0m
+2025.06.10 00:19:05 INFO  BSP server: [4-handlerTasks] buildTargetScalacOptions took 51 msec[0m
+2025.06.10 00:19:05 INFO  BSP server: [5-handlerTasks] Entered buildTargetJavacOptions[0m
+2025.06.10 00:19:05 INFO  BSP server: [5-handlerTasks] Evaluating 3 tasks[0m
+2025.06.10 00:19:05 INFO  BSP server: [5-handlerTasks] Done[0m
+2025.06.10 00:19:05 INFO  BSP server: [5-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:19:05 INFO  BSP server: [5-handlerTasks] Done[0m
+2025.06.10 00:19:05 INFO  BSP server: [5-handlerTasks] buildTargetJavacOptions took 60 msec[0m
+2025.06.10 00:19:05 INFO  BSP server: [6-sources] Entered buildTargetSources[0m
+2025.06.10 00:19:05 INFO  BSP server: [6-sources] Evaluating 3 tasks[0m
+2025.06.10 00:19:05 INFO  BSP server: [6-sources] Done[0m
+2025.06.10 00:19:05 INFO  BSP server: [6-sources] Evaluating 1 task[0m
+2025.06.10 00:19:05 INFO  BSP server: [6-sources] Done[0m
+2025.06.10 00:19:05 INFO  BSP server: [6-sources] buildTargetSources took 14 msec[0m
+2025.06.10 00:19:05 INFO  BSP server: [7-handlerTasks] Entered buildTargetDependencySources[0m
+2025.06.10 00:19:05 INFO  BSP server: [7-handlerTasks] Evaluating 3 tasks[0m
+2025.06.10 00:19:05 INFO  BSP server: [7-handlerTasks] Done[0m
+2025.06.10 00:19:05 INFO  BSP server: [7-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:19:07 INFO  BSP server: [7-handlerTasks] Done[0m
+2025.06.10 00:19:07 INFO  BSP server: [7-handlerTasks] buildTargetDependencySources took 2014 msec[0m
+2025.06.10 00:19:07 INFO  BSP server: [8-handlerTasks] Entered buildTargetDependencyModules[0m
+2025.06.10 00:19:07 INFO  BSP server: [8-handlerTasks] Evaluating 3 tasks[0m
+2025.06.10 00:19:07 INFO  BSP server: [8-handlerTasks] Done[0m
+2025.06.10 00:19:07 INFO  BSP server: [8-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:19:07 INFO  BSP server: [8-handlerTasks] Done[0m
+2025.06.10 00:19:07 INFO  BSP server: [8-handlerTasks] buildTargetDependencyModules took 177 msec[0m
+2025.06.10 00:19:07 INFO  time: Imported build in 3.17s[0m
+2025.06.10 00:19:09 INFO  time: indexed workspace in 1.85s[0m
+2025.06.10 00:19:09 INFO  BSP server: [9-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 00:19:09 INFO  BSP server: [10-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 00:19:09 INFO  BSP server: [11-compile] Entered buildTargetCompile[0m
+2025.06.10 00:19:09 INFO  BSP server: [12-handlerTasks] Entered buildTargetJvmCompileClasspath[0m
+2025.06.10 00:19:09 INFO  BSP server: [9-handlerTasks] Evaluating 3 tasks[0m
+2025.06.10 00:19:09 INFO  BSP server: [9-handlerTasks] Done[0m
+2025.06.10 00:19:09 INFO  BSP server: [9-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:19:09 INFO  BSP server: [9-handlerTasks] Done[0m
+2025.06.10 00:19:09 INFO  BSP server: [9-handlerTasks] buildTargetScalaMainClasses took 62 msec[0m
+2025.06.10 00:19:09 INFO  BSP server: [10-handlerTasks] buildTargetScalaTestClasses took 63 msec[0m
+2025.06.10 00:19:09 INFO  BSP server: [11-compile] Evaluating 1 task[0m
+2025.06.10 00:19:09 INFO  BSP server: [11-compile] Done[0m
+2025.06.10 00:19:09 INFO  BSP server: [11-compile] buildTargetCompile took 76 msec[0m
+2025.06.10 00:19:09 INFO  BSP server: [12-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:19:09 INFO  BSP server: [13-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 00:19:09 INFO  BSP server: [14-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 00:19:09 INFO  BSP server: [12-handlerTasks] Done[0m
+2025.06.10 00:19:09 INFO  BSP server: [12-handlerTasks] buildTargetJvmCompileClasspath took 85 msec[0m
+2025.06.10 00:19:09 INFO  BSP server: [13-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:19:09 INFO  BSP server: [13-handlerTasks] Done[0m
+2025.06.10 00:19:09 INFO  BSP server: [13-handlerTasks] buildTargetScalaMainClasses took 21 msec[0m
+2025.06.10 00:19:09 INFO  BSP server: [14-handlerTasks] buildTargetScalaTestClasses took 22 msec[0m
+2025.06.10 00:19:14 INFO  time: code lens generation in 4.78s[0m
+2025.06.10 00:19:14 INFO  time: code lens generation in 4.55s[0m
+2025.06.10 00:19:14 INFO  time: code lens generation in 4.78s[0m
+2025.06.10 00:19:14 INFO  time: code lens generation in 4.78s[0m
+2025.06.10 00:19:14 INFO  BSP server: [15-handlerTasks] Entered buildTargetJvmRunEnvironment[0m
+2025.06.10 00:19:14 INFO  BSP server: [16-handlerTasks] Entered buildTargetJvmRunEnvironment[0m
+2025.06.10 00:19:14 INFO  BSP server: [17-handlerTasks] Entered buildTargetJvmRunEnvironment[0m
+2025.06.10 00:19:14 INFO  BSP server: [18-handlerTasks] Entered buildTargetJvmRunEnvironment[0m
+2025.06.10 00:19:14 INFO  BSP server: [15-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:19:14 INFO  BSP server: [15-handlerTasks] Done[0m
+2025.06.10 00:19:14 INFO  BSP server: [15-handlerTasks] buildTargetJvmRunEnvironment took 19 msec[0m
+2025.06.10 00:19:14 INFO  BSP server: [16-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:19:14 INFO  BSP server: [16-handlerTasks] Done[0m
+2025.06.10 00:19:14 INFO  BSP server: [16-handlerTasks] buildTargetJvmRunEnvironment took 41 msec[0m
+2025.06.10 00:19:14 INFO  BSP server: [17-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:19:14 INFO  BSP server: [17-handlerTasks] Done[0m
+2025.06.10 00:19:14 INFO  BSP server: [17-handlerTasks] buildTargetJvmRunEnvironment took 58 msec[0m
+2025.06.10 00:19:14 INFO  BSP server: [18-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:19:14 INFO  BSP server: [18-handlerTasks] Done[0m
+2025.06.10 00:19:14 INFO  BSP server: [18-handlerTasks] buildTargetJvmRunEnvironment took 73 msec[0m
+2025.06.10 00:20:04 INFO  BSP server: [19-compile] Entered buildTargetCompile[0m
+2025.06.10 00:20:04 INFO  BSP server: [19-compile] buildTargetCompile took 1 msec[0m
+2025.06.10 00:20:09 INFO  BSP server: [20-compile] Entered buildTargetCompile[0m
+2025.06.10 00:20:09 INFO  Skipping reload with status 'Installed'[0m
+2025.06.10 00:20:09 INFO  BSP server: [20-compile] Evaluating 1 task[0m
+2025.06.10 00:20:09 INFO  BSP server: [20-compile] Done[0m
+2025.06.10 00:20:09 INFO  BSP server: [20-compile] buildTargetCompile took 362 msec[0m
+2025.06.10 00:20:09 INFO  BSP server: [21-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 00:20:09 INFO  BSP server: [22-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 00:20:09 INFO  BSP server: [21-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:20:09 INFO  BSP server: [21-handlerTasks] Done[0m
+2025.06.10 00:20:09 INFO  BSP server: [21-handlerTasks] buildTargetScalaMainClasses took 12 msec[0m
+2025.06.10 00:20:09 INFO  BSP server: [22-handlerTasks] buildTargetScalaTestClasses took 12 msec[0m
+2025.06.10 00:20:16 INFO  BSP server: [23-compile] Entered buildTargetCompile[0m
+2025.06.10 00:20:16 INFO  BSP server: [23-compile] Evaluating 1 task[0m
+2025.06.10 00:20:16 INFO  Skipping reload with status 'Installed'[0m
+2025.06.10 00:20:16 INFO  BSP server: [23-compile] Done[0m
+2025.06.10 00:20:16 INFO  BSP server: [23-compile] buildTargetCompile took 73 msec[0m
+2025.06.10 00:20:16 INFO  BSP server: [24-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 00:20:16 INFO  BSP server: [24-handlerTasks] buildTargetScalaTestClasses took 0 msec[0m
+2025.06.10 00:20:16 INFO  BSP server: [25-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 00:20:16 INFO  BSP server: [25-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:20:16 INFO  BSP server: [25-handlerTasks] Done[0m
+2025.06.10 00:20:16 INFO  BSP server: [25-handlerTasks] buildTargetScalaMainClasses took 14 msec[0m
+2025.06.10 00:20:19 INFO  Skipping reload with status 'Installed'[0m
+2025.06.10 00:20:20 INFO  BSP server: [26-compile] Entered buildTargetCompile[0m
+2025.06.10 00:20:20 INFO  BSP server: [26-compile] Evaluating 1 task[0m
+2025.06.10 00:20:20 INFO  Skipping reload with status 'Installed'[0m
+2025.06.10 00:20:20 INFO  BSP server: [26-compile] Done[0m
+2025.06.10 00:20:20 INFO  BSP server: [26-compile] buildTargetCompile took 55 msec[0m
+2025.06.10 00:20:20 INFO  BSP server: [27-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 00:20:20 INFO  BSP server: [28-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 00:20:20 INFO  BSP server: [27-handlerTasks] buildTargetScalaTestClasses took 0 msec[0m
+2025.06.10 00:20:20 INFO  BSP server: [28-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:20:20 INFO  BSP server: [28-handlerTasks] Done[0m
+2025.06.10 00:20:20 INFO  BSP server: [28-handlerTasks] buildTargetScalaMainClasses took 14 msec[0m
