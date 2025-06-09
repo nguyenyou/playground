@@ -124,6 +124,11 @@ object ParserTests extends TestSuite {
         assert(result == false)
         result
       }
+      test("invalid - range end with hyphen") {
+        val result = Parser.validateFormat("1-2-")
+        assert(result == false)
+        result
+      }
     }
 
   }

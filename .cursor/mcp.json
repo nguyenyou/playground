@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "playground-metals": {
+      "url": "http://localhost:58045/sse"
+    }
+  }
+}

@@ -22,24 +22,14 @@ case class App() {
           placeholder := "Ex. 1, 2-4",
           value <-- inputSignal,
           onInput.mapToValue --> inputVar
-        ),
-        button(
-          "Parse",
-          cls := "btn btn-primary",
-          onClick(_.sample(inputSignal)) --> Observer[String] { str =>
-            println(str)
-            val isValid = Parser.parse(str)
-            println(isValid)
-          }
         )
       ),
       div(
         cls("flex gap-2 items-center"),
         span("Validation: "),
         span(
-          cls <-- isValidSignal.map { isValid =>
-            if (isValid) "text-green-500" else "text-red-500"
-          },
+          cls("hidden") <-- inputSignal.map(_.isEmpty),
+          cls <-- isValidSignal.map(if (_) "text-green-500" else "text-red-500"),
           text <-- isValidSignal.map(if (_) "Valid" else "Invalid")
         )
       ),
