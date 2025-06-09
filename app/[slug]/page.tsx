@@ -1,6 +1,6 @@
 import { MDXContent } from '@content-collections/mdx/react'
 import { allPosts } from 'content-collections'
-import { Playground } from './Playground'
+import { Playground } from '@/components/Playground/Playground'
 
 type Props = {
   params: Promise<{ slug: string }>

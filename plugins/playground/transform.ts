@@ -1,4 +1,6 @@
 import type { Node } from 'unist'
+import { basename, join } from 'path';
+import { existsSync, readFileSync } from 'fs';
 
 export interface JsxNodeElement extends Node {
   name: string
@@ -61,26 +63,6 @@ export const resolveCodeMeta = (codeNode: CodeNodeElement): CodeNodeMeta => {
     }, {} as CodeNodeMeta);
 };
 
-async function prepareFilesProp(node: PlaygroundNode): Promise<void> {
-  const files: FilesObject = {}
-
-  const visit = await import('unist-util-visit').then((module) => module.visit);
-
-  visit(node, 'code', (codeNode: CodeNodeElement) => {
-    const meta = resolveCodeMeta(codeNode);
-    let code = codeNode.value;
-
-    const file: FileData = {
-      code: code || '',
-      hidden: meta.hidden,
-      active: meta.active,
-      lang: meta.lang || '',
-    }
-    files[`/${meta.name}`] = file
-  })
-
-  await appendProp(node, 'files', files)
-}
 export interface CodeNodeMeta extends Omit<FileData, 'code'> {
   name?: string
   file?: string
@@ -94,14 +76,36 @@ interface VFile {
   history: string[]
   cwd: string
 }
-export const transformCode = async (playgroundNode: PlaygroundNode): Promise<void> => {
-  playgroundNode.attributes = playgroundNode.attributes || []
-  await prepareFilesProp(playgroundNode)
-  // playgroundNode.attributes.push({
-  //   type: 'mdxJsxAttribute',
-  //   name: 'files',
-  //   value: JSON.stringify(files),
-  // })
+export const transformCode = async (node: PlaygroundNode, file: VFile): Promise<void> => {
+  const files: FilesObject = {}
+
+  const visit = await import('unist-util-visit').then((module) => module.visit);
+
+  visit(node, 'code', (codeNode: CodeNodeElement) => {
+    const meta = resolveCodeMeta(codeNode);
+    let code = codeNode.value;
+
+    if (meta.dir) {
+      console.log(meta.dir, 'dir')
+    } else if (meta.file) {
+      // console.log(meta.file, 'file')
+      // const filePath = join(file.cwd, meta.file);
+      // if (existsSync(filePath)) {
+      //   code = readFileSync(filePath, 'utf8');
+
+      //   meta.name ||= basename(filePath);
+      // }
+    }
+
+    files[`/${meta.name}`] = {
+      code: code || '',
+      hidden: meta.hidden,
+      active: meta.active,
+      lang: meta.lang || '',
+    }
+  })
+
+  await appendProp(node, 'files', files)
 }
 
 const appendProp = async (node: JsxNodeElement, propName: string, propValue: unknown): Promise<void> => {
@@ -136,7 +140,7 @@ export const remarkPlayground = () => {
     visit(tree, 'mdxJsxFlowElement', (node: Node) => {
       const playgroundNode = node as PlaygroundNode
       if (playgroundNode.name === 'Playground') {
-        promises.push(async () => transformCode(playgroundNode))
+        promises.push(async () => transformCode(playgroundNode, file))
       }
     })
 
