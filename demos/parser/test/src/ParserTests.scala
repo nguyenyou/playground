@@ -129,6 +129,16 @@ object ParserTests extends TestSuite {
         assert(result == false)
         result
       }
+      test("invalid - range from smaller number to larger number") {
+        val result = Parser.validateFormat("10-5")
+        assert(result == false)
+        result
+      }
+      test("invalid - range number must be positive") {
+        val result = Parser.validateFormat("-1-2")
+        assert(result == false)
+        result
+      }
     }
 
   }

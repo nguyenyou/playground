@@ -23,12 +23,14 @@ object Parser {
         val rangeParts = part.split("-")
         // Must have exactly 2 parts, both non-empty and numeric
         // Also check that there are no trailing hyphens by ensuring no more than one hyphen between numbers
+        // And check that start <= end for valid range
         rangeParts.length == 2 && 
         rangeParts(0).trim.nonEmpty && 
         rangeParts(1).trim.nonEmpty &&
         rangeParts(0).trim.matches("\\d+") && 
         rangeParts(1).trim.matches("\\d+") &&
-        !part.endsWith("-") // Reject trailing hyphens
+        !part.endsWith("-") && // Reject trailing hyphens
+        rangeParts(0).trim.toInt <= rangeParts(1).trim.toInt // Validate range order
       } else {
         // Validate single number
         part.matches("\\d+")
