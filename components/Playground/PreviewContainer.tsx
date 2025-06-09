@@ -105,7 +105,7 @@ export default function PreviewContainer({
 
       <div
         ref={containerRef}
-        className="relative w-full bg-card h-full overflow-visible"
+        className="relative w-full bg-card h-50 overflow-visible"
       >
         {previewIframe}
         <div

@@ -7,10 +7,13 @@ case class App() {
   val inputVar = Var("")
   val inputSignal = inputVar.signal.distinct
   val isValidSignal = inputSignal.map(Parser.validateFormat)
+  val parsedSignal: Signal[Option[Set[Int]]] = inputSignal.combineWith(isValidSignal).map { (str, isValid) =>
+    if (isValid) Some(Parser.parse(str)) else None
+  }
 
   def apply() = {
     div(
-      cls("space-y-2"),
+      cls("space-y-1"),
       div(
         cls("flex gap-2 items-center"),
         input(
@@ -38,6 +41,24 @@ case class App() {
             if (isValid) "text-green-500" else "text-red-500"
           },
           text <-- isValidSignal.map(if (_) "Valid" else "Invalid")
+        )
+      ),
+      div(
+        cls("flex gap-2 items-center"),
+        span("Parsed result: "),
+        span(
+          text <-- parsedSignal.map { parsed =>
+            parsed.map(_.toString()).getOrElse("")
+          }
+        )
+      ),
+      div(
+        cls("flex gap-2 items-center"),
+        span("Sorted page indexes: "),
+        span(
+          text <-- parsedSignal.map { parsed =>
+            parsed.map(_.toSeq.sorted.mkString(", ")).getOrElse("")
+          }
         )
       )
     )
