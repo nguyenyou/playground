@@ -3,15 +3,32 @@ package build
 
 import mill.*, scalalib.*, scalajslib.*, scalajslib.api.*
 
+object Versions {
+  val scala3 = "3.7.1"
+  val sjs = "1.19.0"
+  val sjsdom = "2.8.0"
+  val laminar = "17.2.1"
+  val utest = "0.8.5"
+}
+
 trait WebModule extends ScalaJSModule {
-  def scalaVersion = "3.7.1"
-  def scalaJSVersion = "1.19.0"
+  def scalaVersion = Versions.scala3
+  def scalaJSVersion = Versions.sjs
 
   def moduleKind = ModuleKind.ESModule
   def moduleSplitStyle = ModuleSplitStyle.FewestModules
 
   def mvnDeps = Seq(
-    mvn"org.scala-js::scalajs-dom::2.8.0",
-    mvn"com.raquo::laminar::17.2.1"
+    mvn"org.scala-js::scalajs-dom::${Versions.sjsdom}",
+    mvn"com.raquo::laminar::${Versions.laminar}"
   )
+
+  object test extends ScalaJSTests with TestModule.Utest {
+    def utestVersion = Versions.utest
+    def moduleKind = ModuleKind.NoModule
+  }
+
+  def jsEnvConfig = Task {
+    JsEnvConfig.JsDom()
+  }
 }

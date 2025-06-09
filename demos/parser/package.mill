@@ -1,0 +1,6 @@
+package build.demos.parser
+
+import mill.*, scalalib.*, scalajslib.*
+import mill.scalajslib.api.*
+
+object `package` extends build.WebModule
