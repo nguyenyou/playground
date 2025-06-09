@@ -1,0 +1,1041 @@
+2025.06.09 19:16:22 INFO  Started: Metals version 1.6.0+4-c8f148ce-SNAPSHOT in folders '/Users/tunguyen/Desktop/DELETEME/playground' for client Cursor 1.96.2.[0m
+2025.06.09 19:16:22 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:16:22 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/build.mill[0m
+2025.06.09 19:16:22 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:16:22 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:16:25 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:17:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:18:06 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:18:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:18:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:18:07 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/build.mill[0m
+2025.06.09 19:18:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:18:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:05 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:06 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:06 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:06 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:06 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:06 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:06 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:06 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:06 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:06 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:06 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:06 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:08 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:08 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:08 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:08 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+Jun 09, 2025 7:19:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 82
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+Jun 09, 2025 7:19:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 94
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:19:12 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/build.mill[0m
+2025.06.09 19:19:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:06 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala[0m
+2025.06.09 19:20:06 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:06 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:06 WARN  Could not find semantic tokens for: file:///Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala[0m
+2025.06.09 19:20:06 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:06 WARN  Could not find semantic tokens for: file:///Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:08 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:08 WARN  Could not find semantic tokens for: file:///Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:08 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:08 WARN  Could not find semantic tokens for: file:///Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala[0m
+2025.06.09 19:20:08 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:09 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:09 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:09 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:09 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:09 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:09 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:08 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:09 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:09 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:09 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:09 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:09 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:09 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:09 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:10 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:14 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:14 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:15 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala[0m
+2025.06.09 19:20:15 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:17 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello-world/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:17 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:17 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello/index.scala[0m
+2025.06.09 19:20:17 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:20 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello-world/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:20 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:20 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala[0m
+2025.06.09 19:20:20 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:20 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:21 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:21 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:22 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:22 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:21 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:22 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:22 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:23 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:23 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:23 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:23 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:23 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:23 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:23 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:23 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:23 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:23 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:23 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:23 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:23 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:22 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:23 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:24 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:24 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:25 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:25 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala[0m
+2025.06.09 19:20:25 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/hello/src/hello/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:31 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala[0m
+2025.06.09 19:20:31 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:31 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:31 WARN  Could not find semantic tokens for: file:///Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala[0m
+2025.06.09 19:20:31 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:31 WARN  Could not find semantic tokens for: file:///Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:33 WARN  Could not find semantic tokens for: file:///Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:33 WARN  Could not find semantic tokens for: file:///Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:34 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:34 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:34 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:34 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:34 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:34 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:34 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:35 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala[0m
+2025.06.09 19:20:34 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:36 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:36 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:36 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:36 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:36 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:36 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:37 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:37 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala[0m
+2025.06.09 19:20:37 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/demos/quickstart/src/quickstart/index.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:49 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/build.mill[0m
+2025.06.09 19:20:49 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:55 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:55 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:55 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:55 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:55 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:55 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:55 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:55 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:56 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:56 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:55 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:55 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:56 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:56 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:20:56 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/build.mill[0m
+2025.06.09 19:20:56 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:15 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:15 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:15 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:15 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:17 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:17 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:16 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:17 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:17 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:17 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:17 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:17 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:17 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:17 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:17 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:17 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:17 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:19 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:19 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:19 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:19 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:19 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:20 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:20 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:20 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:20 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/build.mill[0m
+2025.06.09 19:21:21 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:34 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:34 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:34 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:44 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:46 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:46 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:46 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:46 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:46 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:46 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:47 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:47 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:46 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:47 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:47 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:47 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:49 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:49 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:49 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:49 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:50 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/build.mill[0m
+2025.06.09 19:21:50 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:51 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:51 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:51 INFO  Created report: Optional[file:///Users/tunguyen/Desktop/DELETEME/playground/build.mill][0m
+2025.06.09 19:21:51 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/tunguyen/Desktop/DELETEME/playground/.metals/.reports/metals-full/2025-06-09/r_empty-definition_19-21-51-288.md")[0m
+2025.06.09 19:21:52 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:53 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:55 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:55 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:21:55 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/build.mill[0m
+2025.06.09 19:21:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:12 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:13 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/build.mill[0m
+2025.06.09 19:22:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:13 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:14 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:17 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:17 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:17 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:18 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:19 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:19 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:19 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:19 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/tunguyen/Desktop/DELETEME/playground/.metals/.reports/metals-full/2025-06-09/r_empty-definition_19-21-51-288.md")[0m
+2025.06.09 19:22:19 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/build.mill[0m
+2025.06.09 19:22:19 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:19 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:19 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:20 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:19 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:20 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:20 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/build.mill[0m
+2025.06.09 19:22:20 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:20 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:29 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:29 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:29 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:29 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:32 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:32 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:32 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:32 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:32 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:32 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:32 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:32 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:32 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:32 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:32 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:32 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:34 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:33 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:34 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:34 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:34 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:36 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:36 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:36 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:35 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:36 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:36 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:37 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:37 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:37 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:39 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:39 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:39 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:39 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:38 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:40 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:40 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:40 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:40 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:40 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:41 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:41 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:41 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:42 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:42 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:43 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:43 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:43 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:43 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:43 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/build.mill[0m
+2025.06.09 19:22:44 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:45 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:45 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:45 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:45 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:45 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:46 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/build.mill[0m
+2025.06.09 19:22:46 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:54 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:55 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:55 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:55 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/build.mill[0m
+2025.06.09 19:22:55 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:22:55 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/build.mill[0m
+2025.06.09 19:22:56 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:25:09 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/build.mill[0m
+2025.06.09 19:25:09 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:26:08 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:26:09 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:26:09 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:26:09 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:26:11 WARN  no build target for: /Users/tunguyen/Desktop/DELETEME/playground/build.mill[0m
+2025.06.09 19:26:11 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:26:13 INFO  mill version 1.0.0-RC1 detected to use as a bsp server.[0m
+2025.06.09 19:26:13 INFO  Java version changed (Some(null) -> /opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home), re-starting server[0m
+2025.06.09 19:26:13 INFO  Creating BSP connection file: /Users/tunguyen/Desktop/DELETEME/playground/.bsp/mill-bsp.json[0m
+2025.06.09 19:26:13 INFO  time: ran 'mill-bsp bspConfig' in 0.85s[0m
+2025.06.09 19:26:14 INFO  Attempting to connect to the build server...[0m
+2025.06.09 19:26:14 INFO  Running BSP server List(/Users/tunguyen/.cache/mill/download/1.0.0-RC1-native-mac-aarch64, --bsp, --disable-ticker, --color, false, --jobs, 0)[0m
+2025.06.09 19:26:13 INFO  tracing is enabled: /Users/tunguyen/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.06.09 19:26:14 INFO  BSP server: [bsp] Trying to load BSP server...[0m
+2025.06.09 19:26:14 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:26:14 INFO  BSP server: [bsp] BSP server started[0m
+2025.06.09 19:26:14 INFO  BSP server: [1-buildInitialize] Entered buildInitialize[0m
+2025.06.09 19:26:14 INFO  BSP server: [1-buildInitialize] Got client semanticdbVersion: 4.13.6. Enabling SemanticDB support.[0m
+2025.06.09 19:26:14 INFO  BSP server: [1-buildInitialize] buildInitialize took 4 msec[0m
+2025.06.09 19:26:14 INFO  BSP server: [2-onBuildInitialized] Build initialized[0m
+2025.06.09 19:26:13 INFO  time: Connected to build server in 0.57s[0m
+2025.06.09 19:26:14 INFO  Connected to Build server: mill-bsp v1.0.0-RC1[0m
+2025.06.09 19:26:14 INFO  BSP server: [3-workspaceBuildTargets] Entered workspaceBuildTargets[0m
+2025.06.09 19:26:15 INFO  BSP server: [bsp-init-build.mill-61] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/mill-build/compile.dest/classes ...[0m
+2025.06.09 19:26:15 INFO  scalafmt: excluded /Users/tunguyen/Desktop/DELETEME/playground/build.mill (to format this file, update `project.excludeFilters` in .scalafmt.conf)[0m
+2025.06.09 19:26:18 INFO  BSP server: [bsp-init-build.mill-61] [info] done compiling[0m
+2025.06.09 19:26:18 INFO  BSP server: [bsp-init] 1.0.0-RC1[0m
+2025.06.09 19:26:18 INFO  BSP server: [3-workspaceBuildTargets] Evaluating 3 tasks[0m
+2025.06.09 19:26:18 INFO  BSP server: [3-workspaceBuildTargets] Done[0m
+2025.06.09 19:26:18 INFO  BSP server: [3-workspaceBuildTargets] Evaluating 1 task[0m
+2025.06.09 19:26:18 INFO  BSP server: [3-workspaceBuildTargets] Done[0m
+2025.06.09 19:26:18 INFO  BSP server: [3-workspaceBuildTargets] workspaceBuildTargets took 4921 msec[0m
+2025.06.09 19:26:18 INFO  BSP server: [4-handlerTasks] Entered buildTargetScalacOptions[0m
+2025.06.09 19:26:18 INFO  BSP server: [4-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:26:18 INFO  BSP server: [4-handlerTasks] Done[0m
+2025.06.09 19:26:18 INFO  BSP server: [4-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:26:18 INFO  BSP server: [4-handlerTasks] Done[0m
+2025.06.09 19:26:18 INFO  BSP server: [4-handlerTasks] buildTargetScalacOptions took 51 msec[0m
+2025.06.09 19:26:18 INFO  BSP server: [5-handlerTasks] Entered buildTargetJavacOptions[0m
+2025.06.09 19:26:18 INFO  BSP server: [5-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:26:18 INFO  BSP server: [5-handlerTasks] Done[0m
+2025.06.09 19:26:18 INFO  BSP server: [5-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:26:18 INFO  BSP server: [5-handlerTasks] Done[0m
+2025.06.09 19:26:18 INFO  BSP server: [5-handlerTasks] buildTargetJavacOptions took 68 msec[0m
+2025.06.09 19:26:18 INFO  BSP server: [6-sources] Entered buildTargetSources[0m
+2025.06.09 19:26:18 INFO  BSP server: [6-sources] Evaluating 3 tasks[0m
+2025.06.09 19:26:18 INFO  BSP server: [6-sources] Done[0m
+2025.06.09 19:26:18 INFO  BSP server: [6-sources] Evaluating 1 task[0m
+2025.06.09 19:26:18 INFO  BSP server: [6-sources] Done[0m
+2025.06.09 19:26:18 INFO  BSP server: [6-sources] buildTargetSources took 13 msec[0m
+2025.06.09 19:26:18 INFO  BSP server: [7-handlerTasks] Entered buildTargetDependencySources[0m
+2025.06.09 19:26:18 INFO  BSP server: [7-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:26:18 INFO  BSP server: [7-handlerTasks] Done[0m
+2025.06.09 19:26:18 INFO  BSP server: [7-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:26:21 INFO  BSP server: [7-handlerTasks] Done[0m
+2025.06.09 19:26:21 INFO  BSP server: [7-handlerTasks] buildTargetDependencySources took 1721 msec[0m
+2025.06.09 19:26:21 INFO  BSP server: [8-handlerTasks] Entered buildTargetDependencyModules[0m
+2025.06.09 19:26:21 INFO  BSP server: [8-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:26:21 INFO  BSP server: [8-handlerTasks] Done[0m
+2025.06.09 19:26:21 INFO  BSP server: [8-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:26:21 INFO  BSP server: [8-handlerTasks] Done[0m
+2025.06.09 19:26:21 INFO  BSP server: [8-handlerTasks] buildTargetDependencyModules took 184 msec[0m
+2025.06.09 19:26:21 INFO  time: Imported build in 7s[0m
+2025.06.09 19:26:21 INFO  Required scalafmt dialect rewrite to 'scala3'. Directories:
+- demos/quickstart/src
+- build.mill
+- out/mill-build/generatedScriptSources.dest/support
+- demos/hello/src[0m
+2025.06.09 19:26:24 INFO  time: indexed workspace in 3.29s[0m
+2025.06.09 19:26:24 INFO  BSP server: [9-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.09 19:26:24 INFO  BSP server: [9-handlerTasks] buildTargetScalaTestClasses took 1 msec[0m
+2025.06.09 19:26:24 INFO  BSP server: [10-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.09 19:26:24 INFO  BSP server: [11-compile] Entered buildTargetCompile[0m
+2025.06.09 19:26:24 INFO  BSP server: [12-handlerTasks] Entered buildTargetJvmCompileClasspath[0m
+2025.06.09 19:26:24 INFO  BSP server: [10-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:26:24 INFO  BSP server: [10-handlerTasks] Done[0m
+2025.06.09 19:26:24 INFO  BSP server: [10-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:26:24 INFO  BSP server: [10-handlerTasks] Done[0m
+2025.06.09 19:26:24 INFO  BSP server: [10-handlerTasks] buildTargetScalaMainClasses took 357 msec[0m
+2025.06.09 19:26:24 INFO  BSP server: [11-compile] Evaluating 2 tasks[0m
+2025.06.09 19:26:24 INFO  BSP server: [11-compile-124] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/quickstart/semanticDbData.dest/classes ...[0m
+2025.06.09 19:26:24 INFO  BSP server: [11-compile-123] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/hello/semanticDbData.dest/classes ...[0m
+2025.06.09 19:26:26 INFO  BSP server: [11-compile-124] [info] done compiling[0m
+2025.06.09 19:26:26 INFO  BSP server: [11-compile-123] [info] done compiling[0m
+2025.06.09 19:26:26 INFO  BSP server: [11-compile] Done[0m
+2025.06.09 19:26:26 INFO  BSP server: [11-compile] Evaluating 1 task[0m
+2025.06.09 19:26:26 INFO  BSP server: [11-compile-66] [info] compiling 3 Scala sources to /Users/tunguyen/Desktop/DELETEME/playground/out/mill-build/semanticDbData.dest/classes ...[0m
+2025.06.09 19:26:26 INFO  BSP server: [13-compile] Entered buildTargetCompile[0m
+2025.06.09 19:26:34 INFO  BSP server: [11-compile-66] [info] done compiling[0m
+2025.06.09 19:26:34 INFO  BSP server: [11-compile] Done[0m
+2025.06.09 19:26:34 INFO  BSP server: [11-compile] buildTargetCompile took 10102 msec[0m
+2025.06.09 19:26:34 INFO  BSP server: [12-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:26:34 INFO  BSP server: [14-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.09 19:26:34 INFO  BSP server: [15-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.09 19:26:34 INFO  BSP server: [12-handlerTasks] Done[0m
+2025.06.09 19:26:34 INFO  BSP server: [12-handlerTasks] buildTargetJvmCompileClasspath took 10109 msec[0m
+2025.06.09 19:26:34 INFO  BSP server: [13-compile] Evaluating 1 task[0m
+2025.06.09 19:26:34 INFO  BSP server: [13-compile] Done[0m
+2025.06.09 19:26:34 INFO  BSP server: [13-compile] buildTargetCompile took 7430 msec[0m
+2025.06.09 19:26:34 INFO  BSP server: [14-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:26:34 INFO  BSP server: [14-handlerTasks] Done[0m
+2025.06.09 19:26:34 INFO  BSP server: [14-handlerTasks] Evaluating 2 tasks[0m
+2025.06.09 19:26:34 INFO  BSP server: [14-handlerTasks] Done[0m
+2025.06.09 19:26:34 INFO  BSP server: [14-handlerTasks] buildTargetScalaMainClasses took 82 msec[0m
+2025.06.09 19:26:34 INFO  BSP server: [15-handlerTasks] buildTargetScalaTestClasses took 83 msec[0m
+2025.06.09 19:26:34 INFO  BSP server: [16-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.09 19:26:34 INFO  BSP server: [16-handlerTasks] buildTargetScalaTestClasses took 0 msec[0m
+2025.06.09 19:26:34 INFO  BSP server: [17-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.09 19:26:34 INFO  BSP server: [17-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:26:34 INFO  BSP server: [17-handlerTasks] Done[0m
+2025.06.09 19:26:34 INFO  BSP server: [17-handlerTasks] buildTargetScalaMainClasses took 11 msec[0m
+2025.06.09 19:26:34 INFO  BSP server: [18-handlerTasks] Entered buildTargetJvmCompileClasspath[0m
+2025.06.09 19:26:34 INFO  BSP server: [18-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:26:34 INFO  BSP server: [18-handlerTasks] Done[0m
+2025.06.09 19:26:34 INFO  BSP server: [18-handlerTasks] buildTargetJvmCompileClasspath took 6 msec[0m
+2025.06.09 19:26:34 INFO  BSP server: [19-handlerTasks] Entered buildTargetJvmCompileClasspath[0m
+2025.06.09 19:26:34 INFO  BSP server: [19-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:26:34 INFO  BSP server: [19-handlerTasks] Done[0m
+2025.06.09 19:26:34 INFO  BSP server: [19-handlerTasks] buildTargetJvmCompileClasspath took 6 msec[0m
+2025.06.09 19:26:39 INFO  time: code lens generation in 11s[0m
+2025.06.09 19:26:39 INFO  BSP server: [20-handlerTasks] Entered buildTargetJvmRunEnvironment[0m
+2025.06.09 19:26:39 INFO  BSP server: [20-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:26:39 INFO  BSP server: [20-handlerTasks-70] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/mill-build/compile.dest/classes ...[0m
+2025.06.09 19:26:39 INFO  time: code lens generation in 4.16s[0m
+2025.06.09 19:26:39 INFO  BSP server: [21-handlerTasks] Entered buildTargetJvmRunEnvironment[0m
+Jun 09, 2025 7:26:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 940
+Jun 09, 2025 7:26:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 947
+2025.06.09 19:26:39 INFO  BSP server: [22-handlerTasks] Entered buildTargetJvmRunEnvironment[0m
+2025.06.09 19:26:39 INFO  BSP server: [23-compile] Entered buildTargetCompile[0m
+2025.06.09 19:26:40 INFO  BSP server: [20-handlerTasks-70] [info] done compiling[0m
+2025.06.09 19:26:40 INFO  BSP server: [20-handlerTasks] Done[0m
+2025.06.09 19:26:40 INFO  BSP server: [20-handlerTasks] buildTargetJvmRunEnvironment took 1220 msec[0m
+2025.06.09 19:26:40 INFO  BSP server: [21-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:26:40 INFO  BSP server: [21-handlerTasks] Done[0m
+2025.06.09 19:26:40 INFO  BSP server: [21-handlerTasks] buildTargetJvmRunEnvironment took 1146 msec[0m
+2025.06.09 19:26:40 INFO  BSP server: [22-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:26:40 INFO  BSP server: [22-handlerTasks] Done[0m
+2025.06.09 19:26:40 INFO  BSP server: [22-handlerTasks] buildTargetJvmRunEnvironment took 1155 msec[0m
+2025.06.09 19:26:40 INFO  BSP server: [23-compile] Evaluating 1 task[0m
+2025.06.09 19:26:40 INFO  BSP server: [23-compile-65] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/mill-build/semanticDbData.dest/classes ...[0m
+2025.06.09 19:26:46 INFO  BSP server: [23-compile-65] [info] done compiling[0m
+2025.06.09 19:26:46 INFO  BSP server: [23-compile] Done[0m
+2025.06.09 19:26:46 INFO  BSP server: [23-compile] buildTargetCompile took 7069 msec[0m
+2025.06.09 19:26:46 INFO  BSP server: [24-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.09 19:26:46 INFO  BSP server: [24-handlerTasks] buildTargetScalaTestClasses took 0 msec[0m
+2025.06.09 19:26:46 INFO  BSP server: [25-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.09 19:26:46 INFO  BSP server: [25-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:26:46 INFO  BSP server: [25-handlerTasks] Done[0m
+2025.06.09 19:26:46 INFO  BSP server: [25-handlerTasks] buildTargetScalaMainClasses took 13 msec[0m
+2025.06.09 19:27:14 INFO  BSP server: [26-compile] Entered buildTargetCompile[0m
+2025.06.09 19:27:14 INFO  BSP server: [26-compile] buildTargetCompile took 2 msec[0m
+2025.06.09 19:28:14 INFO  BSP server: [27-compile] Entered buildTargetCompile[0m
+2025.06.09 19:28:14 INFO  BSP server: [27-compile] buildTargetCompile took 1 msec[0m
+2025.06.09 19:29:14 INFO  BSP server: [28-compile] Entered buildTargetCompile[0m
+2025.06.09 19:29:14 INFO  BSP server: [28-compile] buildTargetCompile took 1 msec[0m
+2025.06.09 19:29:41 INFO  BSP server: [29-compile] Entered buildTargetCompile[0m
+2025.06.09 19:29:41 INFO  BSP server: [29-compile] Evaluating 1 task[0m
+2025.06.09 19:29:41 INFO  compiling target mill-build/[0m
+2025.06.09 19:29:41 INFO  BSP server: [29-compile-66] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/mill-build/semanticDbData.dest/classes ...[0m
+2025.06.09 19:29:41 INFO  BSP server: [29-compile-65] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/mill-build/compile.dest/classes ...[0m
+2025.06.09 19:29:41 INFO  BSP server: [29-compile-65] [error] -- [E6] /Users/tunguyen/Desktop/DELETEME/playground/build.mill:8:20[0m
+2025.06.09 19:29:41 INFO  BSP server: [29-compile-65] [error] 8 │  def moduleKind = ModuleKind.ESModule[0m
+2025.06.09 19:29:41 INFO  BSP server: [29-compile-65] [error]   │                   ^^^^^^^^^^[0m
+2025.06.09 19:29:41 INFO  BSP server: [29-compile-65] [error]   │Not found: ModuleKind - did you mean moduleKind?[0m
+2025.06.09 19:29:41 INFO  BSP server: [29-compile-65] [error] one error found[0m
+2025.06.09 19:29:41 INFO  time: compiled mill-build/ in 0.27s[0m
+2025.06.09 19:29:44 INFO  BSP server: [29-compile-66] [error] -- [E6] /Users/tunguyen/Desktop/DELETEME/playground/build.mill:8:20[0m
+2025.06.09 19:29:44 INFO  BSP server: [29-compile-66] [error] 8 │  def moduleKind = ModuleKind.ESModule[0m
+2025.06.09 19:29:44 INFO  BSP server: [29-compile-66] [error]   │                   ^^^^^^^^^^[0m
+2025.06.09 19:29:44 INFO  BSP server: [29-compile-66] [error]   │Not found: ModuleKind - did you mean moduleKind?[0m
+2025.06.09 19:29:44 INFO  BSP server: [29-compile-66] [error] one error found[0m
+2025.06.09 19:29:44 INFO  BSP server: [29-compile] 2 tasks failed[0m
+2025.06.09 19:29:44 INFO  BSP server: [29-compile] compile Compilation failed[0m
+2025.06.09 19:29:44 INFO  BSP server: [29-compile] semanticDbData Compilation failed[0m
+2025.06.09 19:29:44 INFO  BSP server: [29-compile] Failed[0m
+2025.06.09 19:29:44 INFO  BSP server: [29-compile] buildTargetCompile took 3171 msec[0m
+2025.06.09 19:29:44 ERROR 2 tasks failed
+compile Compilation failed
+semanticDbData Compilation failed[0m
+2025.06.09 19:29:44 INFO  BSP server: [30-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.09 19:29:44 INFO  BSP server: [31-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.09 19:29:44 INFO  BSP server: [30-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:29:44 INFO  BSP server: [30-handlerTasks-65] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/mill-build/compile.dest/classes ...[0m
+2025.06.09 19:29:44 INFO  BSP server: [30-handlerTasks-65] [error] -- [E6] /Users/tunguyen/Desktop/DELETEME/playground/build.mill:8:20[0m
+2025.06.09 19:29:44 INFO  BSP server: [30-handlerTasks-65] [error] 8 │  def moduleKind = ModuleKind.ESModule[0m
+2025.06.09 19:29:44 INFO  BSP server: [30-handlerTasks-65] [error]   │                   ^^^^^^^^^^[0m
+2025.06.09 19:29:44 INFO  BSP server: [30-handlerTasks-65] [error]   │Not found: ModuleKind - did you mean moduleKind?[0m
+2025.06.09 19:29:44 INFO  BSP server: [30-handlerTasks-65] [error] one error found[0m
+2025.06.09 19:29:44 INFO  BSP server: [30-handlerTasks] 1 tasks failed[0m
+2025.06.09 19:29:44 INFO  BSP server: [30-handlerTasks] compile Compilation failed[0m
+2025.06.09 19:29:44 INFO  BSP server: [30-handlerTasks] Failed[0m
+2025.06.09 19:29:44 INFO  BSP server: [30-handlerTasks] buildTargetScalaMainClasses took 249 msec[0m
+2025.06.09 19:29:44 ERROR 1 tasks failed
+compile Compilation failed[0m
+2025.06.09 19:29:44 INFO  BSP server: [31-handlerTasks] buildTargetScalaTestClasses took 248 msec[0m
+2025.06.09 19:29:51 INFO  BSP server: [32-compile] Entered buildTargetCompile[0m
+2025.06.09 19:29:51 INFO  BSP server: [32-compile] Evaluating 1 task[0m
+2025.06.09 19:29:51 INFO  compiling target mill-build/[0m
+2025.06.09 19:29:51 INFO  BSP server: [32-compile-66] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/mill-build/semanticDbData.dest/classes ...[0m
+2025.06.09 19:29:51 INFO  BSP server: [32-compile-65] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/mill-build/compile.dest/classes ...[0m
+2025.06.09 19:29:52 INFO  BSP server: [32-compile-65] [info] done compiling[0m
+2025.06.09 19:29:52 INFO  time: compiled mill-build/ in 1.09s[0m
+2025.06.09 19:29:54 INFO  time: code lens generation in 4.32s[0m
+2025.06.09 19:29:56 INFO  time: code lens generation in 5.32s[0m
+2025.06.09 19:29:56 INFO  BSP server: [32-compile-66] [info] done compiling[0m
+2025.06.09 19:29:56 INFO  BSP server: [32-compile] Done[0m
+2025.06.09 19:29:56 INFO  BSP server: [32-compile] buildTargetCompile took 5226 msec[0m
+2025.06.09 19:29:56 INFO  BSP server: [33-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.09 19:29:56 INFO  BSP server: [33-handlerTasks] buildTargetScalaTestClasses took 0 msec[0m
+2025.06.09 19:29:56 INFO  BSP server: [34-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.09 19:29:56 INFO  BSP server: [34-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:29:56 INFO  BSP server: [34-handlerTasks] Done[0m
+2025.06.09 19:29:56 INFO  BSP server: [34-handlerTasks] buildTargetScalaMainClasses took 18 msec[0m
+2025.06.09 19:30:00 INFO  Shutting down server[0m
+2025.06.09 19:30:00 INFO  shutting down Metals[0m
+2025.06.09 19:30:00 INFO  BSP server: [35-buildShutdown] Entered buildShutdown[0m
+2025.06.09 19:30:00 INFO  BSP server: [36-onBuildExit] Entered onBuildExit[0m
+2025.06.09 19:30:00 INFO  Shut down connection with build server.[0m
+2025.06.09 19:30:00 INFO  BSP server: Reload finished, result: mill.api.internal.BspServerResult$Shutdown$@1c7350b0[0m
+2025.06.09 19:30:00 INFO  BSP server: [bsp] BSP session returned with mill.api.internal.BspServerResult$Shutdown$@1c7350b0[0m
+2025.06.09 19:30:00 INFO  BSP server: Stopping server via handle...[0m
+2025.06.09 19:30:00 INFO  BSP server: Shutting down executor[0m
+2025.06.09 19:30:00 INFO  BSP server: [bsp] Exiting BSP runner loop. Stopping BSP server. Last result: Success(mill.api.internal.BspServerResult$Shutdown$@1c7350b0)[0m
+2025.06.09 19:30:00 INFO  Exiting server[0m
+2025.06.09 19:30:04 INFO  Started: Metals version 1.6.0+4-c8f148ce-SNAPSHOT in folders '/Users/tunguyen/Desktop/DELETEME/playground' for client Cursor 1.96.2.[0m
+Jun 09, 2025 7:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2025.06.09 19:30:05 INFO  Attempting to connect to the build server...[0m
+2025.06.09 19:30:05 INFO  Running BSP server List(/Users/tunguyen/.cache/mill/download/1.0.0-RC1-native-mac-aarch64, --bsp, --disable-ticker, --color, false, --jobs, 0)[0m
+2025.06.09 19:30:05 INFO  tracing is enabled: /Users/tunguyen/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.06.09 19:30:05 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:30:06 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:30:05 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:30:06 INFO  BSP server: [bsp] Trying to load BSP server...[0m
+2025.06.09 19:30:06 INFO  BSP server: [bsp] BSP server started[0m
+2025.06.09 19:30:06 INFO  BSP server: [1-buildInitialize] Entered buildInitialize[0m
+2025.06.09 19:30:06 INFO  BSP server: [1-buildInitialize] Got client semanticdbVersion: 4.13.6. Enabling SemanticDB support.[0m
+2025.06.09 19:30:06 INFO  BSP server: [1-buildInitialize] buildInitialize took 4 msec[0m
+2025.06.09 19:30:06 INFO  BSP server: [2-onBuildInitialized] Build initialized[0m
+2025.06.09 19:30:05 INFO  time: Connected to build server in 0.73s[0m
+2025.06.09 19:30:06 INFO  Connected to Build server: mill-bsp v1.0.0-RC1[0m
+2025.06.09 19:30:06 INFO  BSP server: [3-workspaceBuildTargets] Entered workspaceBuildTargets[0m
+2025.06.09 19:30:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:30:06 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:30:07 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+Exception in thread "pool-8-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025.06.09 19:30:06 INFO  BSP server: [bsp-init] 1.0.0-RC1[0m
+Jun 09, 2025 7:30:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2025.06.09 19:30:06 INFO  BSP server: [3-workspaceBuildTargets] Evaluating 3 tasks[0m
+2025.06.09 19:30:06 INFO  BSP server: [3-workspaceBuildTargets] Done[0m
+2025.06.09 19:30:06 INFO  BSP server: [3-workspaceBuildTargets] Evaluating 1 task[0m
+2025.06.09 19:30:06 INFO  BSP server: [3-workspaceBuildTargets] Done[0m
+2025.06.09 19:30:06 INFO  BSP server: [3-workspaceBuildTargets] workspaceBuildTargets took 786 msec[0m
+2025.06.09 19:30:06 INFO  BSP server: [4-handlerTasks] Entered buildTargetScalacOptions[0m
+2025.06.09 19:30:07 INFO  BSP server: [4-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:30:07 INFO  BSP server: [4-handlerTasks] Done[0m
+2025.06.09 19:30:07 INFO  BSP server: [4-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:30:07 INFO  BSP server: [4-handlerTasks] Done[0m
+2025.06.09 19:30:07 INFO  BSP server: [4-handlerTasks] buildTargetScalacOptions took 51 msec[0m
+2025.06.09 19:30:07 INFO  BSP server: [5-handlerTasks] Entered buildTargetJavacOptions[0m
+2025.06.09 19:30:07 INFO  BSP server: [5-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:30:07 INFO  BSP server: [5-handlerTasks] Done[0m
+2025.06.09 19:30:07 INFO  BSP server: [5-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:30:07 INFO  BSP server: [5-handlerTasks] Done[0m
+2025.06.09 19:30:07 INFO  BSP server: [5-handlerTasks] buildTargetJavacOptions took 59 msec[0m
+2025.06.09 19:30:07 INFO  BSP server: [6-sources] Entered buildTargetSources[0m
+2025.06.09 19:30:07 INFO  BSP server: [6-sources] Evaluating 3 tasks[0m
+2025.06.09 19:30:07 INFO  BSP server: [6-sources] Done[0m
+2025.06.09 19:30:07 INFO  BSP server: [6-sources] Evaluating 1 task[0m
+2025.06.09 19:30:07 INFO  BSP server: [6-sources] Done[0m
+2025.06.09 19:30:07 INFO  BSP server: [6-sources] buildTargetSources took 13 msec[0m
+2025.06.09 19:30:07 INFO  BSP server: [7-handlerTasks] Entered buildTargetDependencySources[0m
+2025.06.09 19:30:07 INFO  BSP server: [7-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:30:07 INFO  BSP server: [7-handlerTasks] Done[0m
+2025.06.09 19:30:07 INFO  BSP server: [7-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:30:08 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:30:08 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/tunguyen/Desktop/DELETEME/playground/.metals/.reports/metals-full/2025-06-09/r_empty-definition_19-21-51-288.md")[0m
+2025.06.09 19:30:08 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:30:08 INFO  no build target found for /Users/tunguyen/Desktop/DELETEME/playground/build.mill. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.09 19:30:08 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/tunguyen/Desktop/DELETEME/playground/.metals/.reports/metals-full/2025-06-09/r_empty-definition_19-21-51-288.md")[0m
+2025.06.09 19:30:09 INFO  BSP server: [7-handlerTasks] Done[0m
+2025.06.09 19:30:09 INFO  BSP server: [7-handlerTasks] buildTargetDependencySources took 1878 msec[0m
+2025.06.09 19:30:09 INFO  BSP server: [8-handlerTasks] Entered buildTargetDependencyModules[0m
+2025.06.09 19:30:09 INFO  BSP server: [8-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:30:09 INFO  BSP server: [8-handlerTasks] Done[0m
+2025.06.09 19:30:09 INFO  BSP server: [8-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:30:09 INFO  BSP server: [8-handlerTasks] Done[0m
+2025.06.09 19:30:09 INFO  BSP server: [8-handlerTasks] buildTargetDependencyModules took 153 msec[0m
+2025.06.09 19:30:09 INFO  time: Imported build in 2.98s[0m
+2025.06.09 19:30:10 INFO  time: indexed workspace in 1.45s[0m
+2025.06.09 19:30:10 INFO  BSP server: [9-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.09 19:30:10 INFO  BSP server: [10-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.09 19:30:10 INFO  BSP server: [11-compile] Entered buildTargetCompile[0m
+2025.06.09 19:30:10 INFO  BSP server: [12-handlerTasks] Entered buildTargetJvmCompileClasspath[0m
+2025.06.09 19:30:10 INFO  BSP server: [9-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:30:10 INFO  BSP server: [9-handlerTasks] Done[0m
+2025.06.09 19:30:10 INFO  BSP server: [9-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:30:10 INFO  BSP server: [9-handlerTasks] Done[0m
+2025.06.09 19:30:10 INFO  BSP server: [9-handlerTasks] buildTargetScalaMainClasses took 75 msec[0m
+2025.06.09 19:30:10 INFO  BSP server: [10-handlerTasks] buildTargetScalaTestClasses took 75 msec[0m
+2025.06.09 19:30:10 INFO  BSP server: [11-compile] Evaluating 1 task[0m
+2025.06.09 19:30:10 INFO  BSP server: [11-compile] Done[0m
+2025.06.09 19:30:10 INFO  BSP server: [11-compile] buildTargetCompile took 80 msec[0m
+2025.06.09 19:30:10 INFO  BSP server: [12-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:30:10 INFO  BSP server: [13-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.09 19:30:10 INFO  BSP server: [14-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.09 19:30:10 INFO  BSP server: [12-handlerTasks] Done[0m
+2025.06.09 19:30:10 INFO  BSP server: [12-handlerTasks] buildTargetJvmCompileClasspath took 87 msec[0m
+2025.06.09 19:30:10 INFO  BSP server: [13-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:30:10 INFO  BSP server: [13-handlerTasks] Done[0m
+2025.06.09 19:30:10 INFO  BSP server: [13-handlerTasks] buildTargetScalaMainClasses took 21 msec[0m
+2025.06.09 19:30:10 INFO  BSP server: [14-handlerTasks] buildTargetScalaTestClasses took 21 msec[0m
+2025.06.09 19:30:15 INFO  time: code lens generation in 4.28s[0m
+2025.06.09 19:30:15 INFO  time: code lens generation in 4.05s[0m
+2025.06.09 19:30:15 INFO  time: code lens generation in 4.28s[0m
+2025.06.09 19:30:15 INFO  time: code lens generation in 4.28s[0m
+2025.06.09 19:30:15 INFO  BSP server: [15-handlerTasks] Entered buildTargetJvmRunEnvironment[0m
+2025.06.09 19:30:15 INFO  BSP server: [16-handlerTasks] Entered buildTargetJvmRunEnvironment[0m
+2025.06.09 19:30:15 INFO  BSP server: [17-handlerTasks] Entered buildTargetJvmRunEnvironment[0m
+2025.06.09 19:30:15 INFO  BSP server: [18-handlerTasks] Entered buildTargetJvmRunEnvironment[0m
+2025.06.09 19:30:15 INFO  BSP server: [15-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:30:15 INFO  BSP server: [15-handlerTasks] Done[0m
+2025.06.09 19:30:15 INFO  BSP server: [15-handlerTasks] buildTargetJvmRunEnvironment took 19 msec[0m
+2025.06.09 19:30:15 INFO  BSP server: [16-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:30:15 INFO  BSP server: [16-handlerTasks] Done[0m
+2025.06.09 19:30:15 INFO  BSP server: [16-handlerTasks] buildTargetJvmRunEnvironment took 39 msec[0m
+2025.06.09 19:30:15 INFO  BSP server: [17-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:30:15 INFO  BSP server: [17-handlerTasks] Done[0m
+2025.06.09 19:30:15 INFO  BSP server: [17-handlerTasks] buildTargetJvmRunEnvironment took 58 msec[0m
+2025.06.09 19:30:15 INFO  BSP server: [18-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:30:15 INFO  BSP server: [18-handlerTasks] Done[0m
+2025.06.09 19:30:15 INFO  BSP server: [18-handlerTasks] buildTargetJvmRunEnvironment took 74 msec[0m
+2025.06.09 19:30:19 INFO  Created report: Optional[jar:file:///Users/tunguyen/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-libs-scalajslib_3/1.0.0-RC1/mill-libs-scalajslib_3-1.0.0-RC1-sources.jar!/mill/scalajslib/api/ScalaJSApi.scala][0m
+2025.06.09 19:30:19 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/tunguyen/Desktop/DELETEME/playground/.metals/.reports/metals-full/2025-06-09/r_empty-definition_(mill-build_2f)_19-30-19-773.md")[0m
+2025.06.09 19:30:41 INFO  time: code lens generation in 3.81s[0m
+2025.06.09 19:30:42 INFO  BSP server: [19-compile] Entered buildTargetCompile[0m
+2025.06.09 19:30:42 INFO  BSP server: [19-compile] Evaluating 1 task[0m
+2025.06.09 19:30:42 INFO  compiling target mill-build/[0m
+2025.06.09 19:30:42 INFO  BSP server: [19-compile-65] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/mill-build/compile.dest/classes ...[0m
+2025.06.09 19:30:42 INFO  BSP server: [19-compile-66] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/mill-build/semanticDbData.dest/classes ...[0m
+2025.06.09 19:30:46 INFO  BSP server: [19-compile-65] [info] done compiling[0m
+2025.06.09 19:30:46 INFO  time: compiled mill-build/ in 3.94s[0m
+2025.06.09 19:30:51 INFO  BSP server: [19-compile-66] [info] done compiling[0m
+2025.06.09 19:30:51 INFO  BSP server: [19-compile] Done[0m
+2025.06.09 19:30:51 INFO  BSP server: [19-compile] buildTargetCompile took 8731 msec[0m
+2025.06.09 19:30:51 INFO  BSP server: [20-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.09 19:30:51 INFO  BSP server: [20-handlerTasks] buildTargetScalaTestClasses took 2 msec[0m
+2025.06.09 19:30:51 INFO  BSP server: [21-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.09 19:30:51 INFO  BSP server: [21-handlerTasks] Another Mill process is running '<unknown>', waiting for it to be done...[0m
+2025.06.09 19:30:51 INFO  BSP server: [21-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:30:51 INFO  BSP server: [21-handlerTasks] Done[0m
+2025.06.09 19:30:51 INFO  BSP server: [21-handlerTasks] buildTargetScalaMainClasses took 441 msec[0m
+2025.06.09 19:31:06 INFO  BSP server: [22-compile] Entered buildTargetCompile[0m
+2025.06.09 19:31:06 INFO  BSP server: [22-compile] buildTargetCompile took 1 msec[0m
+2025.06.09 19:32:06 INFO  BSP server: [23-compile] Entered buildTargetCompile[0m
+2025.06.09 19:32:06 INFO  BSP server: [23-compile] buildTargetCompile took 0 msec[0m
+2025.06.09 19:33:06 INFO  BSP server: [24-compile] Entered buildTargetCompile[0m
+2025.06.09 19:33:06 INFO  BSP server: [24-compile] buildTargetCompile took 1 msec[0m
+2025.06.09 19:34:06 INFO  BSP server: [25-compile] Entered buildTargetCompile[0m
+2025.06.09 19:34:06 INFO  BSP server: [25-compile] buildTargetCompile took 0 msec[0m
+2025.06.09 19:35:06 INFO  BSP server: [26-compile] Entered buildTargetCompile[0m
+2025.06.09 19:35:06 INFO  BSP server: [26-compile] buildTargetCompile took 2 msec[0m
+2025.06.09 19:36:06 INFO  BSP server: [27-compile] Entered buildTargetCompile[0m
+2025.06.09 19:36:06 INFO  BSP server: [27-compile] buildTargetCompile took 1 msec[0m
+2025.06.09 19:37:06 INFO  BSP server: [28-compile] Entered buildTargetCompile[0m
+2025.06.09 19:37:06 INFO  BSP server: [28-compile] buildTargetCompile took 2 msec[0m
+2025.06.09 19:38:06 INFO  BSP server: [29-compile] Entered buildTargetCompile[0m
+2025.06.09 19:38:06 INFO  BSP server: [29-compile] buildTargetCompile took 1 msec[0m
+2025.06.09 19:39:06 INFO  BSP server: [30-compile] Entered buildTargetCompile[0m
+2025.06.09 19:39:06 INFO  BSP server: [30-compile] buildTargetCompile took 0 msec[0m
+2025.06.09 19:40:06 INFO  BSP server: [31-compile] Entered buildTargetCompile[0m
+2025.06.09 19:40:06 INFO  BSP server: [31-compile] buildTargetCompile took 1 msec[0m

@@ -1,0 +1,21 @@
+package build
+import mill._, scalalib._, scalajslib._, scalajslib.api._
+import mill.define.Task.Simple
+
+trait WebModule extends ScalaJSModule {
+  def scalaVersion = "3.7.1"
+  def scalaJSVersion = "1.19.0"
+
+  def moduleKind = ModuleKind.ESModule
+  def moduleSplitStyle = ModuleSplitStyle.FewestModules
+
+
+}
+
+object demos extends WebModule {
+  object hello extends WebModule {
+  }
+
+  object quickstart extends WebModule {
+  }
+}
