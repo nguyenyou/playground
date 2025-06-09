@@ -8474,3 +8474,17 @@ demos.parser.compile Compilation failed[0m
 2025.06.10 01:13:30 INFO  BSP server: [150-compile] buildTargetCompile took 0 msec[0m
 2025.06.10 01:14:30 INFO  BSP server: [151-compile] Entered buildTargetCompile[0m
 2025.06.10 01:14:30 INFO  BSP server: [151-compile] buildTargetCompile took 2 msec[0m
+2025.06.10 01:15:30 INFO  BSP server: [152-compile] Entered buildTargetCompile[0m
+2025.06.10 01:15:30 INFO  BSP server: [152-compile] buildTargetCompile took 1 msec[0m
+2025.06.10 01:16:30 INFO  BSP server: [153-compile] Entered buildTargetCompile[0m
+2025.06.10 01:16:30 INFO  BSP server: [153-compile] buildTargetCompile took 0 msec[0m
+2025.06.10 01:17:30 INFO  BSP server: [154-compile] Entered buildTargetCompile[0m
+2025.06.10 01:17:30 INFO  BSP server: [154-compile] buildTargetCompile took 1 msec[0m
+2025.06.10 01:18:30 INFO  BSP server: [155-compile] Entered buildTargetCompile[0m
+2025.06.10 01:18:30 INFO  BSP server: [155-compile] buildTargetCompile took 1 msec[0m
+2025.06.10 01:19:30 INFO  BSP server: [156-compile] Entered buildTargetCompile[0m
+2025.06.10 01:19:30 INFO  BSP server: [156-compile] buildTargetCompile took 0 msec[0m
+2025.06.10 01:20:30 INFO  BSP server: [157-compile] Entered buildTargetCompile[0m
+2025.06.10 01:20:30 INFO  BSP server: [157-compile] buildTargetCompile took 2 msec[0m
+2025.06.10 01:21:30 INFO  BSP server: [158-compile] Entered buildTargetCompile[0m
+2025.06.10 01:21:30 INFO  BSP server: [158-compile] buildTargetCompile took 1 msec[0m
