@@ -27,6 +27,17 @@ export const PLAYGROUND_PRESETS = {
       additionalHead: [] as string[],
     },
   },
+  sjs: {
+    name: 'Scala.js',
+    description: 'Scala.js with Laminar',
+    config: {
+      supportTailwind: false,
+      supportReact: false,
+      includeResetCSS: true,
+      includeRootDiv: true,
+      additionalHead: [] as string[],
+    },
+  },
   tailwind: {
     name: 'Tailwind CSS',
     description: 'HTML, CSS, JavaScript with Tailwind CSS',
@@ -74,7 +85,6 @@ export const PLAYGROUND_PRESETS = {
 } as const
 
 export type PlaygroundPresetName = keyof typeof PLAYGROUND_PRESETS
-
 
 export type BuildOptions = {
   files: FilesObject
@@ -168,7 +178,6 @@ export class PlaygroundBuilder {
     const currentHead = this.config.additionalHead || []
     return this.withConfig({ additionalHead: [...currentHead, ...headArray] })
   }
-
 
   async build({ files, head, htmlAttr }: BuildOptions): Promise<string> {
     const {

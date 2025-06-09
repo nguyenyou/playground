@@ -1,3 +1,9 @@
 package demos.hello
 
-@main def hello = println("Hello, SJS!")
+import org.scalajs.dom
+import com.raquo.laminar.api.L.*
+
+@main def hello = {
+  val container = dom.document.querySelector("#root")
+  render(container, App()())
+}

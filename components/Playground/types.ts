@@ -1,1 +1,1 @@
-export type Lang = 'html' | 'css' | 'javascript' | 'jsx' | 'tsx' | 'ts'
+export type Lang = 'html' | 'css' | 'javascript' | 'jsx' | 'tsx' | 'ts' | 'scala'

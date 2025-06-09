@@ -29,6 +29,8 @@ const getLanguageFromExtension = (filename: string): Lang => {
       return 'ts'
     case 'tsx':
       return 'tsx'
+    case 'scala':
+      return 'scala'
     default:
       return 'javascript' // fallback
   }

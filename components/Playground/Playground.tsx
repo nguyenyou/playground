@@ -1,3 +1,4 @@
+import { FilesObject } from '@/plugins/playground/transform'
 import { FileExplorer } from './FileExplorer'
 import PlaygroundClient from './PlaygroundClient'
 import {
@@ -12,12 +13,11 @@ type Props = {
   config?: PlaygroundConfig
   head?: string[]
   htmlAttr?: string
-  files: string
+  files: FilesObject
 }
 
 export const Playground = async (props: Props) => {
-  const { preset = 'vanilla', config, files: filesJson, head, htmlAttr  } = props
-  const files = parsePlaygroundFiles(filesJson)
+  const { preset = 'vanilla', config, files, head, htmlAttr  } = props
 
   const builder = config ? createPlaygroundBuilder(config) : createPlaygroundBuilder(preset)
 

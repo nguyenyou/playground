@@ -85,10 +85,7 @@ export const transformCode = async (node: PlaygroundNode, file: VFile): Promise<
     const meta = resolveCodeMeta(codeNode);
     let code = codeNode.value;
 
-    if (meta.dir) {
-      console.log(meta.dir, 'dir')
-    } else if (meta.file) {
-      console.log(meta.file, 'file')
+    if (meta.file) {
       const filePath = join(file.cwd, meta.file);
       if (existsSync(filePath)) {
         code = readFileSync(filePath, 'utf8');
