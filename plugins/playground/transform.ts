@@ -22,7 +22,7 @@ export interface FilesObject {
   [path: string]: FileData
 }
 
-interface CodeNode extends JsxNodeElement {
+interface CodeNodeElement extends JsxNodeElement {
   meta?: string
   lang?: string
   value?: string
@@ -30,57 +30,56 @@ interface CodeNode extends JsxNodeElement {
 
 interface PlaygroundNode extends Node {
   name: string
-  children: CodeNode[]
-  attributes?: Array<{
+  children: CodeNodeElement[]
+  attributes: Array<{
     type: string
     name: string
     value: string
   }>
 }
 
-function processMeta(meta?: string): ProcessMetaResult {
-  const result: ProcessMetaResult = {
-    fileName: null,
-    hidden: false,
-    active: false,
-  }
+export const resolveCodeMeta = (codeNode: CodeNodeElement): CodeNodeMeta => {
+  /**
+   * First attribute is treated as `lang` by visitor
+   */
+  const joinedMeta = codeNode.lang + ' ' + (codeNode.meta || '');
+  return joinedMeta
+    .split(' ')
+    .filter((meta) => meta.length)
+    .reduce<CodeNodeMeta>((meta, expression) => {
+      const [key, value] = expression.split('=');
 
-  if (!meta) return result
+      // TODO improve filename checking
+      if (!value && isFilename(key)) {
+        meta.name = key;
+      } else {
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
+        meta[key] = value || true;
+      }
+      return meta;
+    }, {} as CodeNodeMeta);
+};
 
-  const arr = meta.split(/[ ,]+/)
-  for (let i = 0; i < arr.length; i++) {
-    const prop = arr[i]
-    if (prop.endsWith('.js') || prop.endsWith('.css') || prop.endsWith('.html')) {
-      result.fileName = prop
-    }
-    if (prop in result && prop !== 'fileName') {
-      ;(result as any)[prop] = true
-    }
-  }
-  return result
-}
-
-function prepareFilesProp(node: PlaygroundNode): FilesObject {
-  const { children } = node
+async function prepareFilesProp(node: PlaygroundNode): Promise<void> {
   const files: FilesObject = {}
 
-  for (let i = 0; i < children.length; i++) {
-    const n = children[i]
-    const { meta, lang, value } = n
-    const result = processMeta(meta)
+  const visit = await import('unist-util-visit').then((module) => module.visit);
 
-    // Skip if no fileName is found
-    if (!result.fileName) continue
+  visit(node, 'code', (codeNode: CodeNodeElement) => {
+    const meta = resolveCodeMeta(codeNode);
+    let code = codeNode.value;
 
     const file: FileData = {
-      code: value || '',
-      hidden: result.hidden,
-      active: result.active,
-      lang: lang || '',
+      code: code || '',
+      hidden: meta.hidden,
+      active: meta.active,
+      lang: meta.lang || '',
     }
-    files[`/${result.fileName}`] = file
-  }
-  return files
+    files[`/${meta.name}`] = file
+  })
+
+  await appendProp(node, 'files', files)
 }
 export interface CodeNodeMeta extends Omit<FileData, 'code'> {
   name?: string
@@ -97,13 +96,39 @@ interface VFile {
 }
 export const transformCode = async (playgroundNode: PlaygroundNode): Promise<void> => {
   playgroundNode.attributes = playgroundNode.attributes || []
-  const files = prepareFilesProp(playgroundNode)
-  playgroundNode.attributes.push({
-    type: 'mdxJsxAttribute',
-    name: 'files',
-    value: JSON.stringify(files),
-  })
+  await prepareFilesProp(playgroundNode)
+  // playgroundNode.attributes.push({
+  //   type: 'mdxJsxAttribute',
+  //   name: 'files',
+  //   value: JSON.stringify(files),
+  // })
 }
+
+const appendProp = async (node: JsxNodeElement, propName: string, propValue: unknown): Promise<void> => {
+  const valueToEstree = await import('estree-util-value-to-estree').then((module) => module.valueToEstree);
+
+  node.attributes.push({
+    type: 'mdxJsxAttribute',
+    name: propName,
+    value: {
+      type: 'mdxJsxAttributeValueExpression',
+      value: JSON.stringify(propValue),
+      data: {
+        estree: {
+          type: 'Program',
+          body: [
+            {
+              type: 'ExpressionStatement',
+              expression: valueToEstree(propValue),
+            },
+          ],
+          sourceType: 'module',
+        },
+      },
+    },
+  });
+};
+
 export const remarkPlayground = () => {
   return async (tree: Node, file: VFile) => {
     const visit = await import('unist-util-visit').then((module) => module.visit)

@@ -1051,3 +1051,145 @@ WARNING: Unmatched cancel notification for request id 13
 2025.06.09 19:50:27 INFO  Connected to Build server: mill-bsp v1.0.0-RC1[0m
 2025.06.09 19:50:27 INFO  BSP server: [3-workspaceBuildTargets] Entered workspaceBuildTargets[0m
 2025.06.09 19:50:28 INFO  BSP server: [bsp-init-build.mill-61] [info] compiling 3 Scala sources to /Users/tunguyen/Desktop/DELETEME/playground/out/mill-build/compile.dest/classes ...[0m
+2025.06.09 19:50:31 INFO  BSP server: [bsp-init-build.mill-61] [info] done compiling[0m
+2025.06.09 19:50:31 INFO  BSP server: [bsp-init] 1.0.0-RC1[0m
+2025.06.09 19:50:31 INFO  BSP server: [3-workspaceBuildTargets] Evaluating 3 tasks[0m
+2025.06.09 19:50:31 INFO  BSP server: [3-workspaceBuildTargets] Done[0m
+2025.06.09 19:50:31 INFO  BSP server: [3-workspaceBuildTargets] Evaluating 1 task[0m
+2025.06.09 19:50:31 INFO  BSP server: [3-workspaceBuildTargets] Done[0m
+2025.06.09 19:50:31 INFO  BSP server: [3-workspaceBuildTargets] workspaceBuildTargets took 4888 msec[0m
+2025.06.09 19:50:31 INFO  BSP server: [4-handlerTasks] Entered buildTargetScalacOptions[0m
+2025.06.09 19:50:31 INFO  BSP server: [4-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:50:31 INFO  BSP server: [4-handlerTasks] Done[0m
+2025.06.09 19:50:31 INFO  BSP server: [4-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:50:31 INFO  BSP server: [4-handlerTasks] Done[0m
+2025.06.09 19:50:31 INFO  BSP server: [4-handlerTasks] buildTargetScalacOptions took 66 msec[0m
+2025.06.09 19:50:31 INFO  BSP server: [5-handlerTasks] Entered buildTargetJavacOptions[0m
+2025.06.09 19:50:31 INFO  BSP server: [5-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:50:31 INFO  BSP server: [5-handlerTasks] Done[0m
+2025.06.09 19:50:31 INFO  BSP server: [5-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:50:31 INFO  BSP server: [5-handlerTasks] Done[0m
+2025.06.09 19:50:31 INFO  BSP server: [5-handlerTasks] buildTargetJavacOptions took 73 msec[0m
+2025.06.09 19:50:31 INFO  BSP server: [6-sources] Entered buildTargetSources[0m
+2025.06.09 19:50:31 INFO  BSP server: [6-sources] Evaluating 3 tasks[0m
+2025.06.09 19:50:31 INFO  BSP server: [6-sources] Done[0m
+2025.06.09 19:50:31 INFO  BSP server: [6-sources] Evaluating 1 task[0m
+2025.06.09 19:50:31 INFO  BSP server: [6-sources] Done[0m
+2025.06.09 19:50:31 INFO  BSP server: [6-sources] buildTargetSources took 12 msec[0m
+2025.06.09 19:50:31 INFO  BSP server: [7-handlerTasks] Entered buildTargetDependencySources[0m
+2025.06.09 19:50:31 INFO  BSP server: [7-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:50:31 INFO  BSP server: [7-handlerTasks] Done[0m
+2025.06.09 19:50:31 INFO  BSP server: [7-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:50:33 INFO  BSP server: [7-handlerTasks] Done[0m
+2025.06.09 19:50:33 INFO  BSP server: [7-handlerTasks] buildTargetDependencySources took 1545 msec[0m
+2025.06.09 19:50:33 INFO  BSP server: [8-handlerTasks] Entered buildTargetDependencyModules[0m
+2025.06.09 19:50:33 INFO  BSP server: [8-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:50:33 INFO  BSP server: [8-handlerTasks] Done[0m
+2025.06.09 19:50:33 INFO  BSP server: [8-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:50:33 INFO  BSP server: [8-handlerTasks] Done[0m
+2025.06.09 19:50:33 INFO  BSP server: [8-handlerTasks] buildTargetDependencyModules took 113 msec[0m
+2025.06.09 19:50:34 INFO  time: Imported build in 6.73s[0m
+2025.06.09 19:50:35 INFO  BSP server: processId file missing[0m
+2025.06.09 19:50:35 INFO  time: indexed workspace in 1.32s[0m
+2025.06.09 19:50:35 INFO  Running BSP server List(/Users/tunguyen/.cache/mill/download/1.0.0-RC1-native-mac-aarch64, --bsp, --disable-ticker, --color, false, --jobs, 0)[0m
+2025.06.09 19:50:35 INFO  tracing is enabled: /Users/tunguyen/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.06.09 19:50:35 INFO  BSP server: [bsp] Trying to load BSP server...[0m
+2025.06.09 19:50:35 INFO  BSP server: [bsp] BSP server started[0m
+2025.06.09 19:50:35 INFO  BSP server: [1-buildInitialize] Entered buildInitialize[0m
+2025.06.09 19:50:35 INFO  BSP server: [1-buildInitialize] Got client semanticdbVersion: 4.13.6. Enabling SemanticDB support.[0m
+2025.06.09 19:50:35 INFO  BSP server: [1-buildInitialize] buildInitialize took 4 msec[0m
+2025.06.09 19:50:35 INFO  Connected to Build server: mill-bsp v1.0.0-RC1[0m
+2025.06.09 19:50:35 INFO  BSP server: [2-onBuildInitialized] Build initialized[0m
+2025.06.09 19:50:35 INFO  BSP server: [3-workspaceBuildTargets] Entered workspaceBuildTargets[0m
+2025.06.09 19:50:37 INFO  BSP server: [bsp-init-build.mill-61] [info] compiling 3 Scala sources to /Users/tunguyen/Desktop/DELETEME/playground/out/mill-build/compile.dest/classes ...[0m
+2025.06.09 19:50:40 INFO  BSP server: [bsp-init-build.mill-61] [info] done compiling[0m
+2025.06.09 19:50:40 INFO  BSP server: [bsp-init] 1.0.0-RC1[0m
+2025.06.09 19:50:40 INFO  BSP server: [3-workspaceBuildTargets] Evaluating 3 tasks[0m
+2025.06.09 19:50:40 INFO  BSP server: [3-workspaceBuildTargets] Done[0m
+2025.06.09 19:50:40 INFO  BSP server: [3-workspaceBuildTargets] Evaluating 1 task[0m
+2025.06.09 19:50:40 INFO  BSP server: [3-workspaceBuildTargets] Done[0m
+2025.06.09 19:50:40 INFO  BSP server: [3-workspaceBuildTargets] workspaceBuildTargets took 4899 msec[0m
+2025.06.09 19:50:40 INFO  BSP server: [4-handlerTasks] Entered buildTargetScalacOptions[0m
+2025.06.09 19:50:40 INFO  BSP server: [4-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:50:40 INFO  BSP server: [4-handlerTasks] Done[0m
+2025.06.09 19:50:40 INFO  BSP server: [4-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:50:40 INFO  BSP server: [4-handlerTasks] Done[0m
+2025.06.09 19:50:40 INFO  BSP server: [4-handlerTasks] buildTargetScalacOptions took 49 msec[0m
+2025.06.09 19:50:40 INFO  BSP server: [5-handlerTasks] Entered buildTargetJavacOptions[0m
+2025.06.09 19:50:40 INFO  BSP server: [5-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:50:40 INFO  BSP server: [5-handlerTasks] Done[0m
+2025.06.09 19:50:40 INFO  BSP server: [5-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:50:40 INFO  BSP server: [5-handlerTasks] Done[0m
+2025.06.09 19:50:40 INFO  BSP server: [5-handlerTasks] buildTargetJavacOptions took 77 msec[0m
+2025.06.09 19:50:40 INFO  BSP server: [6-sources] Entered buildTargetSources[0m
+2025.06.09 19:50:40 INFO  BSP server: [6-sources] Evaluating 3 tasks[0m
+2025.06.09 19:50:40 INFO  BSP server: [6-sources] Done[0m
+2025.06.09 19:50:40 INFO  BSP server: [6-sources] Evaluating 1 task[0m
+2025.06.09 19:50:40 INFO  BSP server: [6-sources] Done[0m
+2025.06.09 19:50:40 INFO  BSP server: [6-sources] buildTargetSources took 13 msec[0m
+2025.06.09 19:50:40 INFO  BSP server: [7-handlerTasks] Entered buildTargetDependencySources[0m
+2025.06.09 19:50:40 INFO  BSP server: [7-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:50:40 INFO  BSP server: [7-handlerTasks] Done[0m
+2025.06.09 19:50:40 INFO  BSP server: [7-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:50:42 INFO  BSP server: [7-handlerTasks] Done[0m
+2025.06.09 19:50:42 INFO  BSP server: [7-handlerTasks] buildTargetDependencySources took 1288 msec[0m
+2025.06.09 19:50:42 INFO  BSP server: [8-handlerTasks] Entered buildTargetDependencyModules[0m
+2025.06.09 19:50:42 INFO  BSP server: [8-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:50:42 INFO  BSP server: [8-handlerTasks] Done[0m
+2025.06.09 19:50:42 INFO  BSP server: [8-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:50:42 INFO  BSP server: [8-handlerTasks] Done[0m
+2025.06.09 19:50:42 INFO  BSP server: [8-handlerTasks] buildTargetDependencyModules took 123 msec[0m
+2025.06.09 19:50:42 INFO  time: Imported build in 6.47s[0m
+2025.06.09 19:50:43 INFO  time: indexed workspace in 0.86s[0m
+2025.06.09 19:51:35 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:296)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+[0m
+2025.06.09 19:51:35 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:296)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+[0m
+2025.06.09 19:51:35 INFO  BSP server: [9-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.09 19:51:35 INFO  BSP server: [9-handlerTasks] buildTargetScalaTestClasses took 0 msec[0m
+2025.06.09 19:51:35 INFO  BSP server: [10-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.09 19:51:35 INFO  BSP server: [10-handlerTasks] Evaluating 3 tasks[0m
+2025.06.09 19:51:35 INFO  BSP server: [10-handlerTasks-170] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/hello/compile.dest/classes ...[0m
+2025.06.09 19:51:35 INFO  BSP server: [10-handlerTasks-172] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/quickstart/compile.dest/classes ...[0m
+2025.06.09 19:51:35 INFO  BSP server: [11-compile] Entered buildTargetCompile[0m
+2025.06.09 19:51:36 INFO  BSP server: [10-handlerTasks-172] [info] done compiling[0m
+2025.06.09 19:51:36 INFO  BSP server: [10-handlerTasks-170] [info] done compiling[0m
+2025.06.09 19:51:36 INFO  BSP server: [10-handlerTasks] Done[0m
+2025.06.09 19:51:36 INFO  BSP server: [10-handlerTasks] Evaluating 1 task[0m
+2025.06.09 19:51:36 INFO  BSP server: [10-handlerTasks] Done[0m
+2025.06.09 19:51:36 INFO  BSP server: [10-handlerTasks] buildTargetScalaMainClasses took 1746 msec[0m
+2025.06.09 19:51:36 INFO  BSP server: [11-compile] buildTargetCompile took 1161 msec[0m
+2025.06.09 19:52:35 INFO  BSP server: [12-compile] Entered buildTargetCompile[0m
+2025.06.09 19:52:35 INFO  BSP server: [12-compile] buildTargetCompile took 1 msec[0m
+2025.06.09 19:53:35 INFO  BSP server: [13-compile] Entered buildTargetCompile[0m
+2025.06.09 19:53:35 INFO  BSP server: [13-compile] buildTargetCompile took 0 msec[0m
+2025.06.09 19:54:35 INFO  BSP server: [14-compile] Entered buildTargetCompile[0m
+2025.06.09 19:54:35 INFO  BSP server: [14-compile] buildTargetCompile took 2 msec[0m
+2025.06.09 19:55:35 INFO  BSP server: [15-compile] Entered buildTargetCompile[0m
+2025.06.09 19:55:35 INFO  BSP server: [15-compile] buildTargetCompile took 0 msec[0m
+2025.06.09 19:56:35 INFO  BSP server: [16-compile] Entered buildTargetCompile[0m
+2025.06.09 19:56:35 INFO  BSP server: [16-compile] buildTargetCompile took 1 msec[0m
