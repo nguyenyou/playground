@@ -1,7 +1,7 @@
 import { Tabs } from '@base-ui-components/react/tabs'
 import { Code } from './Code'
 import { Lang } from './types'
-import type { FilesObject } from '@/playgroundRemarkPlugin'
+import type { FilesObject } from '@/plugins/playground/transform'
 
 type Props = {
   files: FilesObject

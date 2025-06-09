@@ -1039,3 +1039,15 @@ WARNING: Unmatched cancel notification for request id 13
 2025.06.09 19:39:06 INFO  BSP server: [30-compile] buildTargetCompile took 0 msec[0m
 2025.06.09 19:40:06 INFO  BSP server: [31-compile] Entered buildTargetCompile[0m
 2025.06.09 19:40:06 INFO  BSP server: [31-compile] buildTargetCompile took 1 msec[0m
+2025.06.09 19:50:26 INFO  BSP server: processId file missing[0m
+2025.06.09 19:50:26 INFO  Running BSP server List(/Users/tunguyen/.cache/mill/download/1.0.0-RC1-native-mac-aarch64, --bsp, --disable-ticker, --color, false, --jobs, 0)[0m
+2025.06.09 19:50:26 INFO  tracing is enabled: /Users/tunguyen/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.06.09 19:50:27 INFO  BSP server: [bsp] Trying to load BSP server...[0m
+2025.06.09 19:50:27 INFO  BSP server: [bsp] BSP server started[0m
+2025.06.09 19:50:27 INFO  BSP server: [1-buildInitialize] Entered buildInitialize[0m
+2025.06.09 19:50:27 INFO  BSP server: [1-buildInitialize] Got client semanticdbVersion: 4.13.6. Enabling SemanticDB support.[0m
+2025.06.09 19:50:27 INFO  BSP server: [1-buildInitialize] buildInitialize took 3 msec[0m
+2025.06.09 19:50:27 INFO  BSP server: [2-onBuildInitialized] Build initialized[0m
+2025.06.09 19:50:27 INFO  Connected to Build server: mill-bsp v1.0.0-RC1[0m
+2025.06.09 19:50:27 INFO  BSP server: [3-workspaceBuildTargets] Entered workspaceBuildTargets[0m
+2025.06.09 19:50:28 INFO  BSP server: [bsp-init-build.mill-61] [info] compiling 3 Scala sources to /Users/tunguyen/Desktop/DELETEME/playground/out/mill-build/compile.dest/classes ...[0m

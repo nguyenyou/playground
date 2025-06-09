@@ -1,4 +1,4 @@
-import type { FilesObject } from '@/playgroundRemarkPlugin'
+import type { FilesObject } from '@/plugins/playground/transform'
 
 export interface PlaygroundConfig {
   supportTailwind?: boolean
