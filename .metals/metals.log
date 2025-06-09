@@ -1193,3 +1193,57 @@ java.util.concurrent.TimeoutException: Future timed out after [1 minute]
 2025.06.09 19:55:35 INFO  BSP server: [15-compile] buildTargetCompile took 0 msec[0m
 2025.06.09 19:56:35 INFO  BSP server: [16-compile] Entered buildTargetCompile[0m
 2025.06.09 19:56:35 INFO  BSP server: [16-compile] buildTargetCompile took 1 msec[0m
+2025.06.09 21:52:14 INFO  BSP server: [17-compile] Entered buildTargetCompile[0m
+2025.06.09 21:52:14 INFO  BSP server: [18-handlerTasks] Entered buildTargetJvmCompileClasspath[0m
+2025.06.09 21:52:14 INFO  BSP server: [17-compile] Evaluating 1 task[0m
+2025.06.09 21:52:14 INFO  BSP server: [17-compile-66] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/hello/semanticDbData.dest/classes ...[0m
+2025.06.09 21:52:16 INFO  BSP server: [17-compile-66] [info] done compiling[0m
+2025.06.09 21:52:16 INFO  BSP server: [17-compile] Done[0m
+2025.06.09 21:52:16 INFO  BSP server: [17-compile] buildTargetCompile took 1339 msec[0m
+2025.06.09 21:52:16 INFO  BSP server: [18-handlerTasks] Evaluating 1 task[0m
+2025.06.09 21:52:16 INFO  BSP server: [19-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.09 21:52:16 INFO  BSP server: [20-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.09 21:52:16 INFO  BSP server: [18-handlerTasks] Done[0m
+2025.06.09 21:52:16 INFO  BSP server: [18-handlerTasks] buildTargetJvmCompileClasspath took 1338 msec[0m
+2025.06.09 21:52:16 INFO  BSP server: [19-handlerTasks] Evaluating 1 task[0m
+2025.06.09 21:52:16 INFO  BSP server: [19-handlerTasks] Done[0m
+2025.06.09 21:52:16 INFO  BSP server: [19-handlerTasks] buildTargetScalaMainClasses took 17 msec[0m
+2025.06.09 21:52:16 INFO  BSP server: [20-handlerTasks] buildTargetScalaTestClasses took 17 msec[0m
+2025.06.09 21:52:21 INFO  BSP server: [21-compile] Entered buildTargetCompile[0m
+2025.06.09 21:52:21 INFO  BSP server: [21-compile] Evaluating 1 task[0m
+2025.06.09 21:52:21 INFO  compiling target demos.hello[0m
+2025.06.09 21:52:21 INFO  BSP server: [21-compile-66] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/hello/semanticDbData.dest/classes ...[0m
+2025.06.09 21:52:21 INFO  BSP server: [21-compile-65] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/hello/compile.dest/classes ...[0m
+2025.06.09 21:52:21 INFO  BSP server: [21-compile-65] [info] done compiling[0m
+2025.06.09 21:52:21 INFO  time: compiled demos.hello in 0.36s[0m
+2025.06.09 21:52:21 INFO  BSP server: [21-compile-66] [info] done compiling[0m
+2025.06.09 21:52:21 INFO  BSP server: [21-compile] Done[0m
+2025.06.09 21:52:21 INFO  BSP server: [21-compile] buildTargetCompile took 407 msec[0m
+2025.06.09 21:52:21 INFO  BSP server: [22-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.09 21:52:21 INFO  BSP server: [23-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.09 21:52:21 INFO  BSP server: [22-handlerTasks] Evaluating 1 task[0m
+2025.06.09 21:52:21 INFO  BSP server: [22-handlerTasks] Done[0m
+2025.06.09 21:52:21 INFO  BSP server: [22-handlerTasks] buildTargetScalaMainClasses took 15 msec[0m
+2025.06.09 21:52:21 INFO  BSP server: [23-handlerTasks] buildTargetScalaTestClasses took 15 msec[0m
+2025.06.09 21:52:25 INFO  BSP server: [24-compile] Entered buildTargetCompile[0m
+2025.06.09 21:52:25 INFO  BSP server: [24-compile] Evaluating 1 task[0m
+2025.06.09 21:52:25 INFO  compiling target demos.hello[0m
+2025.06.09 21:52:25 INFO  BSP server: [24-compile-66] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/hello/compile.dest/classes ...[0m
+2025.06.09 21:52:25 INFO  BSP server: [24-compile-65] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/hello/semanticDbData.dest/classes ...[0m
+2025.06.09 21:52:25 INFO  BSP server: [24-compile-66] [info] done compiling[0m
+2025.06.09 21:52:25 INFO  time: compiled demos.hello in 0.14s[0m
+2025.06.09 21:52:25 INFO  BSP server: [24-compile-65] [info] done compiling[0m
+2025.06.09 21:52:25 INFO  BSP server: [24-compile] Done[0m
+2025.06.09 21:52:25 INFO  BSP server: [24-compile] buildTargetCompile took 217 msec[0m
+2025.06.09 21:52:25 INFO  BSP server: [25-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.09 21:52:25 INFO  BSP server: [26-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.09 21:52:25 INFO  BSP server: [25-handlerTasks] Evaluating 1 task[0m
+2025.06.09 21:52:25 INFO  BSP server: [25-handlerTasks] Done[0m
+2025.06.09 21:52:25 INFO  BSP server: [25-handlerTasks] buildTargetScalaMainClasses took 13 msec[0m
+2025.06.09 21:52:25 INFO  BSP server: [26-handlerTasks] buildTargetScalaTestClasses took 13 msec[0m
+2025.06.09 21:52:43 INFO  BSP server: [27-compile] Entered buildTargetCompile[0m
+2025.06.09 21:52:43 INFO  BSP server: [27-compile] buildTargetCompile took 1 msec[0m
+2025.06.09 21:53:43 INFO  BSP server: [28-compile] Entered buildTargetCompile[0m
+2025.06.09 21:53:43 INFO  BSP server: [28-compile] buildTargetCompile took 1 msec[0m
+2025.06.09 21:54:43 INFO  BSP server: [29-compile] Entered buildTargetCompile[0m
+2025.06.09 21:54:43 INFO  BSP server: [29-compile] buildTargetCompile took 1 msec[0m

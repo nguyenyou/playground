@@ -88,13 +88,13 @@ export const transformCode = async (node: PlaygroundNode, file: VFile): Promise<
     if (meta.dir) {
       console.log(meta.dir, 'dir')
     } else if (meta.file) {
-      // console.log(meta.file, 'file')
-      // const filePath = join(file.cwd, meta.file);
-      // if (existsSync(filePath)) {
-      //   code = readFileSync(filePath, 'utf8');
+      console.log(meta.file, 'file')
+      const filePath = join(file.cwd, meta.file);
+      if (existsSync(filePath)) {
+        code = readFileSync(filePath, 'utf8');
 
-      //   meta.name ||= basename(filePath);
-      // }
+        meta.name ||= basename(filePath);
+      }
     }
 
     files[`/${meta.name}`] = {
