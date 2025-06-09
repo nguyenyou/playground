@@ -7878,3 +7878,599 @@ WARNING: Unmatched cancel notification for request id 1275
 2025.06.10 00:52:48 INFO  BSP server: [66-handlerTasks] Evaluating 1 task[0m
 2025.06.10 00:52:48 INFO  BSP server: [66-handlerTasks] Done[0m
 2025.06.10 00:52:48 INFO  BSP server: [66-handlerTasks] buildTargetScalaMainClasses took 61 msec[0m
+2025.06.10 00:53:30 INFO  BSP server: [67-compile] Entered buildTargetCompile[0m
+2025.06.10 00:53:30 INFO  BSP server: [67-compile] buildTargetCompile took 2 msec[0m
+2025.06.10 00:54:30 INFO  BSP server: [68-compile] Entered buildTargetCompile[0m
+2025.06.10 00:54:30 INFO  BSP server: [68-compile] buildTargetCompile took 0 msec[0m
+2025.06.10 00:55:30 INFO  BSP server: [69-compile] Entered buildTargetCompile[0m
+2025.06.10 00:55:30 INFO  BSP server: [69-compile] buildTargetCompile took 1 msec[0m
+2025.06.10 00:56:18 INFO  BSP server: [70-compile] Entered buildTargetCompile[0m
+2025.06.10 00:56:18 INFO  BSP server: [70-compile] Evaluating 1 task[0m
+2025.06.10 00:56:19 INFO  compiling target demos.parser[0m
+2025.06.10 00:56:18 INFO  BSP server: [70-compile-114] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 00:56:18 INFO  BSP server: [70-compile-114] [info] done compiling[0m
+2025.06.10 00:56:19 INFO  time: compiled demos.parser in 0.19s[0m
+2025.06.10 00:56:19 INFO  compiling target demos.parser.test[0m
+2025.06.10 00:56:19 INFO  time: compiled demos.parser.test in 8ms[0m
+2025.06.10 00:56:18 INFO  BSP server: [70-compile] Done[0m
+2025.06.10 00:56:18 INFO  BSP server: [70-compile] buildTargetCompile took 444 msec[0m
+2025.06.10 00:56:18 INFO  BSP server: [71-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 00:56:18 INFO  BSP server: [72-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 00:56:18 INFO  BSP server: [71-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:56:18 INFO  BSP server: [71-handlerTasks] Done[0m
+2025.06.10 00:56:18 INFO  BSP server: [71-handlerTasks] buildTargetScalaMainClasses took 67 msec[0m
+2025.06.10 00:56:18 INFO  BSP server: [72-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:56:18 INFO  BSP server: [72-handlerTasks] Done[0m
+2025.06.10 00:56:18 INFO  BSP server: [72-handlerTasks] buildTargetScalaTestClasses took 112 msec[0m
+2025.06.10 00:56:30 INFO  BSP server: [73-compile] Entered buildTargetCompile[0m
+2025.06.10 00:56:30 INFO  BSP server: [73-compile] buildTargetCompile took 1 msec[0m
+2025.06.10 00:57:12 INFO  BSP server: [74-compile] Entered buildTargetCompile[0m
+2025.06.10 00:57:12 INFO  BSP server: [74-compile] Evaluating 1 task[0m
+2025.06.10 00:57:12 INFO  compiling target demos.parser[0m
+2025.06.10 00:57:12 INFO  time: compiled demos.parser in 20ms[0m
+2025.06.10 00:57:12 INFO  compiling target demos.parser.test[0m
+2025.06.10 00:57:12 INFO  BSP server: [74-compile-118] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/test/semanticDbData.dest/classes ...[0m
+2025.06.10 00:57:12 INFO  BSP server: [74-compile-119] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/test/compile.dest/classes ...[0m
+2025.06.10 00:57:12 INFO  BSP server: [74-compile-119] [info] done compiling[0m
+2025.06.10 00:57:12 INFO  time: compiled demos.parser.test in 0.57s[0m
+2025.06.10 00:57:13 INFO  BSP server: [74-compile-118] [info] done compiling[0m
+2025.06.10 00:57:13 INFO  BSP server: [74-compile] Done[0m
+2025.06.10 00:57:13 INFO  BSP server: [74-compile] buildTargetCompile took 1190 msec[0m
+2025.06.10 00:57:13 INFO  BSP server: [75-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 00:57:13 INFO  BSP server: [76-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 00:57:13 INFO  BSP server: [75-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:57:13 INFO  BSP server: [75-handlerTasks] Done[0m
+2025.06.10 00:57:13 INFO  BSP server: [75-handlerTasks] buildTargetScalaTestClasses took 48 msec[0m
+2025.06.10 00:57:13 INFO  BSP server: [76-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:57:13 INFO  BSP server: [76-handlerTasks] Done[0m
+2025.06.10 00:57:13 INFO  BSP server: [76-handlerTasks] buildTargetScalaMainClasses took 69 msec[0m
+2025.06.10 00:57:30 INFO  BSP server: [77-compile] Entered buildTargetCompile[0m
+2025.06.10 00:57:30 INFO  BSP server: [77-compile] buildTargetCompile took 0 msec[0m
+2025.06.10 00:58:00 INFO  BSP server: [78-compile] Entered buildTargetCompile[0m
+2025.06.10 00:58:00 INFO  BSP server: [78-compile] Evaluating 1 task[0m
+2025.06.10 00:58:00 INFO  compiling target demos.parser.test[0m
+2025.06.10 00:58:00 INFO  BSP server: [78-compile-119] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/test/semanticDbData.dest/classes ...[0m
+2025.06.10 00:58:00 INFO  BSP server: [78-compile-118] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/test/compile.dest/classes ...[0m
+2025.06.10 00:58:01 WARN  Could not load snapshot text for /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/test/src/ParserTests.scala[0m
+2025.06.10 00:58:00 INFO  BSP server: [78-compile-118] [info] done compiling[0m
+2025.06.10 00:58:00 INFO  time: compiled demos.parser.test in 0.52s[0m
+2025.06.10 00:58:02 INFO  BSP server: [78-compile-119] [info] done compiling[0m
+2025.06.10 00:58:02 INFO  BSP server: [78-compile] Done[0m
+2025.06.10 00:58:02 INFO  BSP server: [78-compile] buildTargetCompile took 1125 msec[0m
+2025.06.10 00:58:02 INFO  BSP server: [79-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 00:58:02 INFO  BSP server: [80-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 00:58:02 INFO  BSP server: [79-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:58:02 INFO  BSP server: [79-handlerTasks] Done[0m
+2025.06.10 00:58:02 INFO  BSP server: [79-handlerTasks] buildTargetScalaTestClasses took 40 msec[0m
+2025.06.10 00:58:02 INFO  BSP server: [80-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:58:02 INFO  BSP server: [80-handlerTasks] Done[0m
+2025.06.10 00:58:02 INFO  BSP server: [80-handlerTasks] buildTargetScalaMainClasses took 62 msec[0m
+2025.06.10 00:58:10 INFO  BSP server: [81-compile] Entered buildTargetCompile[0m
+2025.06.10 00:58:10 INFO  BSP server: [81-compile] Evaluating 1 task[0m
+2025.06.10 00:58:10 INFO  compiling target demos.parser.test[0m
+2025.06.10 00:58:10 INFO  BSP server: [81-compile-119] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/test/semanticDbData.dest/classes ...[0m
+2025.06.10 00:58:10 INFO  BSP server: [81-compile-118] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/test/compile.dest/classes ...[0m
+2025.06.10 00:58:10 INFO  BSP server: [81-compile-118] [info] done compiling[0m
+2025.06.10 00:58:10 INFO  time: compiled demos.parser.test in 0.51s[0m
+2025.06.10 00:58:11 INFO  BSP server: [81-compile-119] [info] done compiling[0m
+2025.06.10 00:58:11 INFO  BSP server: [81-compile] Done[0m
+2025.06.10 00:58:11 INFO  BSP server: [81-compile] buildTargetCompile took 1026 msec[0m
+2025.06.10 00:58:11 INFO  BSP server: [82-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 00:58:11 INFO  BSP server: [83-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 00:58:11 INFO  BSP server: [82-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:58:11 INFO  BSP server: [82-handlerTasks] Done[0m
+2025.06.10 00:58:11 INFO  BSP server: [82-handlerTasks] buildTargetScalaTestClasses took 35 msec[0m
+2025.06.10 00:58:11 INFO  BSP server: [83-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:58:11 INFO  BSP server: [83-handlerTasks] Done[0m
+2025.06.10 00:58:11 INFO  BSP server: [83-handlerTasks] buildTargetScalaMainClasses took 54 msec[0m
+2025.06.10 00:58:12 WARN  Could not load snapshot text for /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/test/src/ParserTests.scala[0m
+2025.06.10 00:58:11 INFO  BSP server: [84-compile] Entered buildTargetCompile[0m
+2025.06.10 00:58:11 INFO  BSP server: [84-compile] Evaluating 1 task[0m
+2025.06.10 00:58:12 WARN  Could not load snapshot text for /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/test/src/ParserTests.scala[0m
+2025.06.10 00:58:12 WARN  Could not load snapshot text for /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/test/src/ParserTests.scala[0m
+2025.06.10 00:58:12 INFO  compiling target demos.parser.test[0m
+2025.06.10 00:58:11 INFO  BSP server: [84-compile-118] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/test/semanticDbData.dest/classes ...[0m
+2025.06.10 00:58:11 INFO  BSP server: [84-compile-119] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/test/compile.dest/classes ...[0m
+2025.06.10 00:58:12 WARN  Could not load snapshot text for /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/test/src/ParserTests.scala[0m
+2025.06.10 00:58:13 INFO  BSP server: [84-compile-119] [info] done compiling[0m
+2025.06.10 00:58:12 INFO  time: compiled demos.parser.test in 0.49s[0m
+2025.06.10 00:58:13 WARN  Could not load snapshot text for /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/test/src/ParserTests.scala[0m
+2025.06.10 00:58:13 WARN  Could not find 'assert' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.06.10 00:58:13 INFO  Created report: Optional[file:///Users/tunguyen/Desktop/DELETEME/playground/demos/parser/test/src/ParserTests.scala][0m
+2025.06.10 00:58:13 INFO  empty definition using pc, found symbol in pc: utest/asserts/AssertsVersionSpecific#assert(). (full report at: "/Users/tunguyen/Desktop/DELETEME/playground/.metals/.reports/metals-full/2025-06-10/r_empty-definition_(demos.parser.test)_00-58-13-393.md")[0m
+2025.06.10 00:58:13 INFO  BSP server: [84-compile-118] [info] done compiling[0m
+2025.06.10 00:58:13 INFO  BSP server: [84-compile] Done[0m
+2025.06.10 00:58:13 INFO  BSP server: [84-compile] buildTargetCompile took 935 msec[0m
+2025.06.10 00:58:13 INFO  BSP server: [85-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 00:58:13 INFO  BSP server: [86-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 00:58:13 INFO  BSP server: [85-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:58:13 INFO  BSP server: [85-handlerTasks] Done[0m
+2025.06.10 00:58:13 INFO  BSP server: [85-handlerTasks] buildTargetScalaTestClasses took 32 msec[0m
+2025.06.10 00:58:13 INFO  BSP server: [86-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:58:13 INFO  BSP server: [86-handlerTasks] Done[0m
+2025.06.10 00:58:13 INFO  BSP server: [86-handlerTasks] buildTargetScalaMainClasses took 50 msec[0m
+2025.06.10 00:58:30 INFO  BSP server: [87-compile] Entered buildTargetCompile[0m
+2025.06.10 00:58:30 INFO  BSP server: [87-compile] buildTargetCompile took 0 msec[0m
+2025.06.10 00:59:08 INFO  BSP server: [88-compile] Entered buildTargetCompile[0m
+2025.06.10 00:59:08 INFO  BSP server: [88-compile] Evaluating 1 task[0m
+2025.06.10 00:59:08 INFO  compiling target demos.parser[0m
+2025.06.10 00:59:08 INFO  time: compiled demos.parser in 10ms[0m
+2025.06.10 00:59:08 INFO  compiling target demos.parser.test[0m
+2025.06.10 00:59:08 INFO  BSP server: [88-compile-119] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/test/compile.dest/classes ...[0m
+2025.06.10 00:59:08 INFO  BSP server: [88-compile-118] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/test/semanticDbData.dest/classes ...[0m
+2025.06.10 00:59:08 INFO  BSP server: [88-compile-119] [info] done compiling[0m
+2025.06.10 00:59:08 INFO  time: compiled demos.parser.test in 0.56s[0m
+2025.06.10 00:59:09 INFO  BSP server: [88-compile-118] [info] done compiling[0m
+2025.06.10 00:59:09 INFO  BSP server: [88-compile] Done[0m
+2025.06.10 00:59:09 INFO  BSP server: [88-compile] buildTargetCompile took 1204 msec[0m
+2025.06.10 00:59:09 INFO  BSP server: [89-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 00:59:09 INFO  BSP server: [90-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 00:59:09 INFO  BSP server: [89-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:59:09 INFO  BSP server: [89-handlerTasks] Done[0m
+2025.06.10 00:59:09 INFO  BSP server: [89-handlerTasks] buildTargetScalaMainClasses took 20 msec[0m
+2025.06.10 00:59:09 INFO  BSP server: [90-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:59:09 INFO  BSP server: [90-handlerTasks] Done[0m
+2025.06.10 00:59:09 INFO  BSP server: [90-handlerTasks] buildTargetScalaTestClasses took 64 msec[0m
+2025.06.10 00:59:30 INFO  BSP server: [91-compile] Entered buildTargetCompile[0m
+2025.06.10 00:59:30 INFO  BSP server: [91-compile] buildTargetCompile took 1 msec[0m
+2025.06.10 00:59:55 INFO  BSP server: [92-compile] Entered buildTargetCompile[0m
+2025.06.10 00:59:55 INFO  BSP server: [92-compile] Evaluating 1 task[0m
+2025.06.10 00:59:55 INFO  compiling target demos.parser[0m
+2025.06.10 00:59:55 INFO  time: compiled demos.parser in 6ms[0m
+2025.06.10 00:59:55 INFO  compiling target demos.parser.test[0m
+2025.06.10 00:59:55 INFO  BSP server: [92-compile-118] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/test/semanticDbData.dest/classes ...[0m
+2025.06.10 00:59:55 INFO  BSP server: [92-compile-119] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/test/compile.dest/classes ...[0m
+2025.06.10 00:59:55 WARN  Could not load snapshot text for /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/test/src/ParserTests.scala[0m
+2025.06.10 00:59:55 INFO  BSP server: [92-compile-119] [info] done compiling[0m
+2025.06.10 00:59:55 INFO  time: compiled demos.parser.test in 0.58s[0m
+2025.06.10 00:59:56 INFO  BSP server: [92-compile-118] [info] done compiling[0m
+2025.06.10 00:59:56 INFO  BSP server: [92-compile] Done[0m
+2025.06.10 00:59:56 INFO  BSP server: [92-compile] buildTargetCompile took 1082 msec[0m
+2025.06.10 00:59:56 INFO  BSP server: [93-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 00:59:56 INFO  BSP server: [94-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 00:59:56 INFO  BSP server: [93-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:59:56 INFO  BSP server: [93-handlerTasks] Done[0m
+2025.06.10 00:59:56 INFO  BSP server: [93-handlerTasks] buildTargetScalaMainClasses took 21 msec[0m
+2025.06.10 00:59:56 INFO  BSP server: [94-handlerTasks] Evaluating 1 task[0m
+2025.06.10 00:59:56 INFO  BSP server: [94-handlerTasks] Done[0m
+2025.06.10 00:59:56 INFO  BSP server: [94-handlerTasks] buildTargetScalaTestClasses took 60 msec[0m
+2025.06.10 01:00:30 INFO  BSP server: [95-compile] Entered buildTargetCompile[0m
+2025.06.10 01:00:30 INFO  BSP server: [95-compile] buildTargetCompile took 1 msec[0m
+2025.06.10 01:01:06 INFO  BSP server: [96-compile] Entered buildTargetCompile[0m
+2025.06.10 01:01:06 INFO  BSP server: [96-compile] Evaluating 1 task[0m
+2025.06.10 01:01:06 INFO  compiling target demos.parser[0m
+2025.06.10 01:01:06 INFO  BSP server: [96-compile-114] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:01:06 INFO  BSP server: [96-compile-114] [error] -- [E100] Syntax Error: /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/src/parser/App.scala:19:45 [0m
+2025.06.10 01:01:06 INFO  BSP server: [96-compile-114] [error] 19 |          val result = Parser.parse(inputVar.now)[0m
+2025.06.10 01:01:06 INFO  BSP server: [96-compile-114] [error]    |                                    ^^^^^^^^^^^^[0m
+2025.06.10 01:01:06 INFO  BSP server: [96-compile-114] [error]    |                 method now in trait Var must be called with () argument[0m
+2025.06.10 01:01:06 INFO  BSP server: [96-compile-114] [error]    |[0m
+2025.06.10 01:01:06 INFO  BSP server: [96-compile-114] [error]    | longer explanation available when compiling with `-explain`[0m
+2025.06.10 01:01:06 INFO  BSP server: [96-compile-114] [error] one error found[0m
+2025.06.10 01:01:06 INFO  time: compiled demos.parser in 0.16s[0m
+2025.06.10 01:01:06 INFO  BSP server: [96-compile] 1 tasks failed[0m
+2025.06.10 01:01:06 INFO  BSP server: [96-compile] demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:06 INFO  BSP server: [96-compile] Failed[0m
+2025.06.10 01:01:06 ERROR 1 tasks failed
+demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:06 INFO  BSP server: [96-compile] buildTargetCompile took 342 msec[0m
+2025.06.10 01:01:06 INFO  BSP server: [97-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 01:01:06 INFO  BSP server: [98-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 01:01:06 INFO  BSP server: [97-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:01:06 INFO  BSP server: [97-handlerTasks-111] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:01:06 INFO  BSP server: [97-handlerTasks-111] [error] -- [E100] Syntax Error: /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/src/parser/App.scala:19:45 [0m
+2025.06.10 01:01:06 INFO  BSP server: [97-handlerTasks-111] [error] 19 |          val result = Parser.parse(inputVar.now)[0m
+2025.06.10 01:01:06 INFO  BSP server: [97-handlerTasks-111] [error]    |                                    ^^^^^^^^^^^^[0m
+2025.06.10 01:01:06 INFO  BSP server: [97-handlerTasks-111] [error]    |                 method now in trait Var must be called with () argument[0m
+2025.06.10 01:01:06 INFO  BSP server: [97-handlerTasks-111] [error]    |[0m
+2025.06.10 01:01:06 INFO  BSP server: [97-handlerTasks-111] [error]    | longer explanation available when compiling with `-explain`[0m
+2025.06.10 01:01:06 INFO  BSP server: [97-handlerTasks-111] [error] one error found[0m
+2025.06.10 01:01:06 INFO  BSP server: [97-handlerTasks] 1 tasks failed[0m
+2025.06.10 01:01:06 INFO  BSP server: [97-handlerTasks] demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:06 INFO  BSP server: [97-handlerTasks] Failed[0m
+2025.06.10 01:01:06 ERROR 1 tasks failed
+demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:06 INFO  BSP server: [97-handlerTasks] buildTargetScalaTestClasses took 152 msec[0m
+2025.06.10 01:01:06 INFO  BSP server: [98-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:01:06 INFO  BSP server: [98-handlerTasks-115] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:01:06 INFO  BSP server: [98-handlerTasks-115] [error] -- [E100] Syntax Error: /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/src/parser/App.scala:19:45 [0m
+2025.06.10 01:01:06 INFO  BSP server: [98-handlerTasks-115] [error] 19 |          val result = Parser.parse(inputVar.now)[0m
+2025.06.10 01:01:06 INFO  BSP server: [98-handlerTasks-115] [error]    |                                    ^^^^^^^^^^^^[0m
+2025.06.10 01:01:06 INFO  BSP server: [98-handlerTasks-115] [error]    |                 method now in trait Var must be called with () argument[0m
+2025.06.10 01:01:06 INFO  BSP server: [98-handlerTasks-115] [error]    |[0m
+2025.06.10 01:01:06 INFO  BSP server: [98-handlerTasks-115] [error]    | longer explanation available when compiling with `-explain`[0m
+2025.06.10 01:01:06 INFO  BSP server: [98-handlerTasks-115] [error] one error found[0m
+2025.06.10 01:01:06 INFO  BSP server: [98-handlerTasks] 1 tasks failed[0m
+2025.06.10 01:01:06 INFO  BSP server: [98-handlerTasks] demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:06 INFO  BSP server: [98-handlerTasks] Failed[0m
+2025.06.10 01:01:06 ERROR 1 tasks failed
+demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:06 INFO  BSP server: [98-handlerTasks] buildTargetScalaMainClasses took 304 msec[0m
+2025.06.10 01:01:13 INFO  BSP server: [99-compile] Entered buildTargetCompile[0m
+2025.06.10 01:01:13 INFO  BSP server: [99-compile] Evaluating 1 task[0m
+2025.06.10 01:01:13 INFO  compiling target demos.parser[0m
+2025.06.10 01:01:13 INFO  BSP server: [99-compile-113] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:01:13 INFO  BSP server: [99-compile-113] [error] -- [E100] Syntax Error: /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/src/parser/App.scala:19:45 [0m
+2025.06.10 01:01:13 INFO  BSP server: [99-compile-113] [error] 19 |          val result = Parser.parse(inputVar.now)[0m
+2025.06.10 01:01:13 INFO  BSP server: [99-compile-113] [error]    |                                    ^^^^^^^^^^^^[0m
+2025.06.10 01:01:13 INFO  BSP server: [99-compile-113] [error]    |                 method now in trait Var must be called with () argument[0m
+2025.06.10 01:01:13 INFO  BSP server: [99-compile-113] [error]    |[0m
+2025.06.10 01:01:13 INFO  BSP server: [99-compile-113] [error]    | longer explanation available when compiling with `-explain`[0m
+2025.06.10 01:01:13 INFO  BSP server: [99-compile-113] [error] one error found[0m
+2025.06.10 01:01:13 INFO  BSP server: [99-compile] 1 tasks failed[0m
+2025.06.10 01:01:13 INFO  BSP server: [99-compile] demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:13 INFO  BSP server: [99-compile] Failed[0m
+2025.06.10 01:01:13 INFO  BSP server: [99-compile] buildTargetCompile took 133 msec[0m
+2025.06.10 01:01:13 INFO  time: compiled demos.parser in 0.12s[0m
+2025.06.10 01:01:13 ERROR 1 tasks failed
+demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:13 INFO  BSP server: [100-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 01:01:13 INFO  BSP server: [101-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 01:01:13 INFO  BSP server: [100-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:01:13 INFO  BSP server: [100-handlerTasks-113] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:01:13 INFO  BSP server: [100-handlerTasks-113] [error] -- [E100] Syntax Error: /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/src/parser/App.scala:19:45 [0m
+2025.06.10 01:01:13 INFO  BSP server: [100-handlerTasks-113] [error] 19 |          val result = Parser.parse(inputVar.now)[0m
+2025.06.10 01:01:13 INFO  BSP server: [100-handlerTasks-113] [error]    |                                    ^^^^^^^^^^^^[0m
+2025.06.10 01:01:13 INFO  BSP server: [100-handlerTasks-113] [error]    |                 method now in trait Var must be called with () argument[0m
+2025.06.10 01:01:13 INFO  BSP server: [100-handlerTasks-113] [error]    |[0m
+2025.06.10 01:01:13 INFO  BSP server: [100-handlerTasks-113] [error]    | longer explanation available when compiling with `-explain`[0m
+2025.06.10 01:01:13 INFO  BSP server: [100-handlerTasks-113] [error] one error found[0m
+2025.06.10 01:01:13 INFO  BSP server: [100-handlerTasks] 1 tasks failed[0m
+2025.06.10 01:01:13 INFO  BSP server: [100-handlerTasks] demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:13 INFO  BSP server: [100-handlerTasks] Failed[0m
+2025.06.10 01:01:13 ERROR 1 tasks failed
+demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:13 INFO  BSP server: [100-handlerTasks] buildTargetScalaTestClasses took 123 msec[0m
+2025.06.10 01:01:13 INFO  BSP server: [101-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:01:13 INFO  BSP server: [101-handlerTasks-114] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:01:13 INFO  BSP server: [101-handlerTasks-114] [error] -- [E100] Syntax Error: /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/src/parser/App.scala:19:45 [0m
+2025.06.10 01:01:13 INFO  BSP server: [101-handlerTasks-114] [error] 19 |          val result = Parser.parse(inputVar.now)[0m
+2025.06.10 01:01:13 INFO  BSP server: [101-handlerTasks-114] [error]    |                                    ^^^^^^^^^^^^[0m
+2025.06.10 01:01:13 INFO  BSP server: [101-handlerTasks-114] [error]    |                 method now in trait Var must be called with () argument[0m
+2025.06.10 01:01:13 INFO  BSP server: [101-handlerTasks-114] [error]    |[0m
+2025.06.10 01:01:13 INFO  BSP server: [101-handlerTasks-114] [error]    | longer explanation available when compiling with `-explain`[0m
+2025.06.10 01:01:13 INFO  BSP server: [101-handlerTasks-114] [error] one error found[0m
+2025.06.10 01:01:13 INFO  BSP server: [101-handlerTasks] 1 tasks failed[0m
+2025.06.10 01:01:13 INFO  BSP server: [101-handlerTasks] demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:13 INFO  BSP server: [101-handlerTasks] Failed[0m
+2025.06.10 01:01:13 ERROR 1 tasks failed
+demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:13 INFO  BSP server: [101-handlerTasks] buildTargetScalaMainClasses took 240 msec[0m
+2025.06.10 01:01:30 INFO  BSP server: [102-compile] Entered buildTargetCompile[0m
+2025.06.10 01:01:30 INFO  BSP server: [102-compile] buildTargetCompile took 1 msec[0m
+2025.06.10 01:01:42 INFO  BSP server: [103-compile] Entered buildTargetCompile[0m
+2025.06.10 01:01:42 INFO  BSP server: [103-compile] Evaluating 1 task[0m
+2025.06.10 01:01:42 INFO  compiling target demos.parser[0m
+2025.06.10 01:01:42 INFO  BSP server: [103-compile-113] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:01:42 INFO  BSP server: [103-compile-113] [error] -- [E100] Syntax Error: /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/src/parser/App.scala:19:45 [0m
+2025.06.10 01:01:42 INFO  BSP server: [103-compile-113] [error] 19 |          val result = Parser.parse(inputVar.now)[0m
+2025.06.10 01:01:42 INFO  BSP server: [103-compile-113] [error]    |                                    ^^^^^^^^^^^^[0m
+2025.06.10 01:01:42 INFO  BSP server: [103-compile-113] [error]    |                 method now in trait Var must be called with () argument[0m
+2025.06.10 01:01:42 INFO  BSP server: [103-compile-113] [error]    |[0m
+2025.06.10 01:01:42 INFO  BSP server: [103-compile-113] [error]    | longer explanation available when compiling with `-explain`[0m
+2025.06.10 01:01:42 INFO  BSP server: [103-compile-113] [error] one error found[0m
+2025.06.10 01:01:42 INFO  time: compiled demos.parser in 0.16s[0m
+2025.06.10 01:01:42 INFO  BSP server: [103-compile] 1 tasks failed[0m
+2025.06.10 01:01:42 INFO  BSP server: [103-compile] demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:42 INFO  BSP server: [103-compile] Failed[0m
+2025.06.10 01:01:42 INFO  BSP server: [103-compile] buildTargetCompile took 295 msec[0m
+2025.06.10 01:01:42 ERROR 1 tasks failed
+demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:42 INFO  BSP server: [104-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 01:01:42 INFO  BSP server: [105-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 01:01:42 INFO  BSP server: [104-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:01:42 INFO  BSP server: [104-handlerTasks-115] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:01:42 INFO  BSP server: [104-handlerTasks-115] [error] -- [E100] Syntax Error: /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/src/parser/App.scala:19:45 [0m
+2025.06.10 01:01:42 INFO  BSP server: [104-handlerTasks-115] [error] 19 |          val result = Parser.parse(inputVar.now)[0m
+2025.06.10 01:01:42 INFO  BSP server: [104-handlerTasks-115] [error]    |                                    ^^^^^^^^^^^^[0m
+2025.06.10 01:01:42 INFO  BSP server: [104-handlerTasks-115] [error]    |                 method now in trait Var must be called with () argument[0m
+2025.06.10 01:01:42 INFO  BSP server: [104-handlerTasks-115] [error]    |[0m
+2025.06.10 01:01:42 INFO  BSP server: [104-handlerTasks-115] [error]    | longer explanation available when compiling with `-explain`[0m
+2025.06.10 01:01:42 INFO  BSP server: [104-handlerTasks-115] [error] one error found[0m
+2025.06.10 01:01:42 INFO  BSP server: [104-handlerTasks] 1 tasks failed[0m
+2025.06.10 01:01:42 INFO  BSP server: [104-handlerTasks] demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:42 INFO  BSP server: [104-handlerTasks] Failed[0m
+2025.06.10 01:01:42 INFO  BSP server: [104-handlerTasks] buildTargetScalaMainClasses took 202 msec[0m
+2025.06.10 01:01:42 ERROR 1 tasks failed
+demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:42 INFO  BSP server: [105-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:01:42 INFO  BSP server: [105-handlerTasks-113] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:01:42 INFO  BSP server: [105-handlerTasks-113] [error] -- [E100] Syntax Error: /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/src/parser/App.scala:19:45 [0m
+2025.06.10 01:01:42 INFO  BSP server: [105-handlerTasks-113] [error] 19 |          val result = Parser.parse(inputVar.now)[0m
+2025.06.10 01:01:42 INFO  BSP server: [105-handlerTasks-113] [error]    |                                    ^^^^^^^^^^^^[0m
+2025.06.10 01:01:42 INFO  BSP server: [105-handlerTasks-113] [error]    |                 method now in trait Var must be called with () argument[0m
+2025.06.10 01:01:42 INFO  BSP server: [105-handlerTasks-113] [error]    |[0m
+2025.06.10 01:01:42 INFO  BSP server: [105-handlerTasks-113] [error]    | longer explanation available when compiling with `-explain`[0m
+2025.06.10 01:01:42 INFO  BSP server: [105-handlerTasks-113] [error] one error found[0m
+2025.06.10 01:01:42 INFO  BSP server: [105-handlerTasks] 1 tasks failed[0m
+2025.06.10 01:01:42 INFO  BSP server: [105-handlerTasks] demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:42 INFO  BSP server: [105-handlerTasks] Failed[0m
+2025.06.10 01:01:42 INFO  BSP server: [105-handlerTasks] buildTargetScalaTestClasses took 409 msec[0m
+2025.06.10 01:01:42 ERROR 1 tasks failed
+demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:50 INFO  BSP server: [106-compile] Entered buildTargetCompile[0m
+2025.06.10 01:01:50 INFO  BSP server: [106-compile] Evaluating 1 task[0m
+2025.06.10 01:01:50 INFO  compiling target demos.parser[0m
+2025.06.10 01:01:50 INFO  BSP server: [106-compile-114] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:01:50 INFO  BSP server: [106-compile-114] [error] -- [E100] Syntax Error: /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/src/parser/App.scala:19:45 [0m
+2025.06.10 01:01:50 INFO  BSP server: [106-compile-114] [error] 19 |          val result = Parser.parse(inputVar.now)[0m
+2025.06.10 01:01:50 INFO  BSP server: [106-compile-114] [error]    |                                    ^^^^^^^^^^^^[0m
+2025.06.10 01:01:50 INFO  BSP server: [106-compile-114] [error]    |                 method now in trait Var must be called with () argument[0m
+2025.06.10 01:01:50 INFO  BSP server: [106-compile-114] [error]    |[0m
+2025.06.10 01:01:50 INFO  BSP server: [106-compile-114] [error]    | longer explanation available when compiling with `-explain`[0m
+2025.06.10 01:01:50 INFO  BSP server: [106-compile-114] [error] one error found[0m
+2025.06.10 01:01:50 INFO  time: compiled demos.parser in 84ms[0m
+2025.06.10 01:01:50 INFO  BSP server: [106-compile] 1 tasks failed[0m
+2025.06.10 01:01:50 INFO  BSP server: [106-compile] demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:50 INFO  BSP server: [106-compile] Failed[0m
+2025.06.10 01:01:50 INFO  BSP server: [106-compile] buildTargetCompile took 102 msec[0m
+2025.06.10 01:01:50 ERROR 1 tasks failed
+demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:50 INFO  BSP server: [107-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 01:01:50 INFO  BSP server: [108-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 01:01:50 INFO  BSP server: [107-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:01:50 INFO  BSP server: [107-handlerTasks-114] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:01:50 INFO  BSP server: [107-handlerTasks-114] [error] -- [E100] Syntax Error: /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/src/parser/App.scala:19:45 [0m
+2025.06.10 01:01:50 INFO  BSP server: [107-handlerTasks-114] [error] 19 |          val result = Parser.parse(inputVar.now)[0m
+2025.06.10 01:01:50 INFO  BSP server: [107-handlerTasks-114] [error]    |                                    ^^^^^^^^^^^^[0m
+2025.06.10 01:01:50 INFO  BSP server: [107-handlerTasks-114] [error]    |                 method now in trait Var must be called with () argument[0m
+2025.06.10 01:01:50 INFO  BSP server: [107-handlerTasks-114] [error]    |[0m
+2025.06.10 01:01:50 INFO  BSP server: [107-handlerTasks-114] [error]    | longer explanation available when compiling with `-explain`[0m
+2025.06.10 01:01:50 INFO  BSP server: [107-handlerTasks-114] [error] one error found[0m
+2025.06.10 01:01:50 INFO  BSP server: [107-handlerTasks] 1 tasks failed[0m
+2025.06.10 01:01:50 INFO  BSP server: [107-handlerTasks] demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:50 INFO  BSP server: [107-handlerTasks] Failed[0m
+2025.06.10 01:01:50 ERROR 1 tasks failed
+demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:50 INFO  BSP server: [107-handlerTasks] buildTargetScalaMainClasses took 111 msec[0m
+2025.06.10 01:01:50 INFO  BSP server: [108-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:01:50 INFO  BSP server: [108-handlerTasks-113] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:01:50 INFO  BSP server: [108-handlerTasks-113] [error] -- [E100] Syntax Error: /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/src/parser/App.scala:19:45 [0m
+2025.06.10 01:01:50 INFO  BSP server: [108-handlerTasks-113] [error] 19 |          val result = Parser.parse(inputVar.now)[0m
+2025.06.10 01:01:50 INFO  BSP server: [108-handlerTasks-113] [error]    |                                    ^^^^^^^^^^^^[0m
+2025.06.10 01:01:50 INFO  BSP server: [108-handlerTasks-113] [error]    |                 method now in trait Var must be called with () argument[0m
+2025.06.10 01:01:50 INFO  BSP server: [108-handlerTasks-113] [error]    |[0m
+2025.06.10 01:01:50 INFO  BSP server: [108-handlerTasks-113] [error]    | longer explanation available when compiling with `-explain`[0m
+2025.06.10 01:01:50 INFO  BSP server: [108-handlerTasks-113] [error] one error found[0m
+2025.06.10 01:01:50 INFO  BSP server: [108-handlerTasks] 1 tasks failed[0m
+2025.06.10 01:01:50 INFO  BSP server: [108-handlerTasks] demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:50 INFO  BSP server: [108-handlerTasks] Failed[0m
+2025.06.10 01:01:50 ERROR 1 tasks failed
+demos.parser.compile Compilation failed[0m
+2025.06.10 01:01:50 INFO  BSP server: [108-handlerTasks] buildTargetScalaTestClasses took 221 msec[0m
+2025.06.10 01:02:06 INFO  BSP server: [109-compile] Entered buildTargetCompile[0m
+2025.06.10 01:02:06 INFO  BSP server: [109-compile] Evaluating 1 task[0m
+2025.06.10 01:02:06 INFO  compiling target demos.parser[0m
+2025.06.10 01:02:06 INFO  BSP server: [109-compile-113] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:02:06 INFO  BSP server: [109-compile-113] [error] -- [E100] Syntax Error: /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/src/parser/App.scala:20:45 [0m
+2025.06.10 01:02:06 INFO  BSP server: [109-compile-113] [error] 20 |          val result = Parser.parse(inputVar.now)[0m
+2025.06.10 01:02:06 INFO  BSP server: [109-compile-113] [error]    |                                    ^^^^^^^^^^^^[0m
+2025.06.10 01:02:06 INFO  BSP server: [109-compile-113] [error]    |                 method now in trait Var must be called with () argument[0m
+2025.06.10 01:02:06 INFO  BSP server: [109-compile-113] [error]    |[0m
+2025.06.10 01:02:06 INFO  BSP server: [109-compile-113] [error]    | longer explanation available when compiling with `-explain`[0m
+2025.06.10 01:02:06 INFO  BSP server: [109-compile-113] [error] one error found[0m
+2025.06.10 01:02:06 INFO  time: compiled demos.parser in 97ms[0m
+2025.06.10 01:02:06 INFO  BSP server: [109-compile] 1 tasks failed[0m
+2025.06.10 01:02:06 INFO  BSP server: [109-compile] demos.parser.compile Compilation failed[0m
+2025.06.10 01:02:06 INFO  BSP server: [109-compile] Failed[0m
+2025.06.10 01:02:06 ERROR 1 tasks failed
+demos.parser.compile Compilation failed[0m
+2025.06.10 01:02:06 INFO  BSP server: [109-compile] buildTargetCompile took 120 msec[0m
+2025.06.10 01:02:06 INFO  BSP server: [110-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 01:02:06 INFO  BSP server: [111-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 01:02:06 INFO  BSP server: [110-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:02:06 INFO  BSP server: [110-handlerTasks-113] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:02:06 INFO  BSP server: [110-handlerTasks-113] [error] -- [E100] Syntax Error: /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/src/parser/App.scala:20:45 [0m
+2025.06.10 01:02:06 INFO  BSP server: [110-handlerTasks-113] [error] 20 |          val result = Parser.parse(inputVar.now)[0m
+2025.06.10 01:02:06 INFO  BSP server: [110-handlerTasks-113] [error]    |                                    ^^^^^^^^^^^^[0m
+2025.06.10 01:02:06 INFO  BSP server: [110-handlerTasks-113] [error]    |                 method now in trait Var must be called with () argument[0m
+2025.06.10 01:02:06 INFO  BSP server: [110-handlerTasks-113] [error]    |[0m
+2025.06.10 01:02:06 INFO  BSP server: [110-handlerTasks-113] [error]    | longer explanation available when compiling with `-explain`[0m
+2025.06.10 01:02:06 INFO  BSP server: [110-handlerTasks-113] [error] one error found[0m
+2025.06.10 01:02:06 INFO  BSP server: [110-handlerTasks] 1 tasks failed[0m
+2025.06.10 01:02:06 INFO  BSP server: [110-handlerTasks] demos.parser.compile Compilation failed[0m
+2025.06.10 01:02:06 INFO  BSP server: [110-handlerTasks] Failed[0m
+2025.06.10 01:02:06 ERROR 1 tasks failed
+demos.parser.compile Compilation failed[0m
+2025.06.10 01:02:06 INFO  BSP server: [110-handlerTasks] buildTargetScalaTestClasses took 104 msec[0m
+2025.06.10 01:02:06 INFO  BSP server: [111-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:02:06 INFO  BSP server: [111-handlerTasks-115] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:02:06 INFO  BSP server: [111-handlerTasks-115] [error] -- [E100] Syntax Error: /Users/tunguyen/Desktop/DELETEME/playground/demos/parser/src/parser/App.scala:20:45 [0m
+2025.06.10 01:02:06 INFO  BSP server: [111-handlerTasks-115] [error] 20 |          val result = Parser.parse(inputVar.now)[0m
+2025.06.10 01:02:06 INFO  BSP server: [111-handlerTasks-115] [error]    |                                    ^^^^^^^^^^^^[0m
+2025.06.10 01:02:06 INFO  BSP server: [111-handlerTasks-115] [error]    |                 method now in trait Var must be called with () argument[0m
+2025.06.10 01:02:06 INFO  BSP server: [111-handlerTasks-115] [error]    |[0m
+2025.06.10 01:02:06 INFO  BSP server: [111-handlerTasks-115] [error]    | longer explanation available when compiling with `-explain`[0m
+2025.06.10 01:02:06 INFO  BSP server: [111-handlerTasks-115] [error] one error found[0m
+2025.06.10 01:02:06 INFO  BSP server: [111-handlerTasks] 1 tasks failed[0m
+2025.06.10 01:02:06 INFO  BSP server: [111-handlerTasks] demos.parser.compile Compilation failed[0m
+2025.06.10 01:02:06 INFO  BSP server: [111-handlerTasks] Failed[0m
+2025.06.10 01:02:06 ERROR 1 tasks failed
+demos.parser.compile Compilation failed[0m
+2025.06.10 01:02:06 INFO  BSP server: [111-handlerTasks] buildTargetScalaMainClasses took 238 msec[0m
+2025.06.10 01:02:11 INFO  BSP server: [112-compile] Entered buildTargetCompile[0m
+2025.06.10 01:02:11 INFO  BSP server: [112-compile] Evaluating 1 task[0m
+2025.06.10 01:02:12 INFO  compiling target demos.parser[0m
+2025.06.10 01:02:11 INFO  BSP server: [112-compile-114] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:02:11 INFO  BSP server: [112-compile-114] [info] done compiling[0m
+2025.06.10 01:02:12 INFO  time: compiled demos.parser in 0.15s[0m
+2025.06.10 01:02:12 INFO  compiling target demos.parser.test[0m
+2025.06.10 01:02:12 INFO  time: compiled demos.parser.test in 5ms[0m
+2025.06.10 01:02:11 INFO  BSP server: [112-compile] Done[0m
+2025.06.10 01:02:11 INFO  BSP server: [112-compile] buildTargetCompile took 191 msec[0m
+2025.06.10 01:02:11 INFO  BSP server: [113-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 01:02:11 INFO  BSP server: [114-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 01:02:11 INFO  BSP server: [113-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:02:11 INFO  BSP server: [113-handlerTasks] Done[0m
+2025.06.10 01:02:11 INFO  BSP server: [113-handlerTasks] buildTargetScalaMainClasses took 15 msec[0m
+2025.06.10 01:02:11 INFO  BSP server: [114-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:02:11 INFO  BSP server: [114-handlerTasks] Done[0m
+2025.06.10 01:02:11 INFO  BSP server: [114-handlerTasks] buildTargetScalaTestClasses took 49 msec[0m
+2025.06.10 01:02:13 INFO  BSP server: [115-compile] Entered buildTargetCompile[0m
+2025.06.10 01:02:13 INFO  BSP server: [115-compile] Evaluating 1 task[0m
+2025.06.10 01:02:13 INFO  compiling target demos.parser[0m
+2025.06.10 01:02:13 INFO  BSP server: [115-compile-114] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:02:13 INFO  BSP server: [115-compile-114] [info] done compiling[0m
+2025.06.10 01:02:13 INFO  time: compiled demos.parser in 0.14s[0m
+2025.06.10 01:02:13 INFO  compiling target demos.parser.test[0m
+2025.06.10 01:02:13 INFO  time: compiled demos.parser.test in 3ms[0m
+2025.06.10 01:02:13 INFO  BSP server: [115-compile] Done[0m
+2025.06.10 01:02:13 INFO  BSP server: [115-compile] buildTargetCompile took 169 msec[0m
+2025.06.10 01:02:13 INFO  BSP server: [116-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 01:02:13 INFO  BSP server: [117-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 01:02:13 INFO  BSP server: [116-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:02:13 INFO  BSP server: [116-handlerTasks] Done[0m
+2025.06.10 01:02:13 INFO  BSP server: [116-handlerTasks] buildTargetScalaMainClasses took 15 msec[0m
+2025.06.10 01:02:13 INFO  BSP server: [117-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:02:13 INFO  BSP server: [117-handlerTasks] Done[0m
+2025.06.10 01:02:13 INFO  BSP server: [117-handlerTasks] buildTargetScalaTestClasses took 49 msec[0m
+2025.06.10 01:02:16 INFO  Created report: Optional[file:///Users/tunguyen/Desktop/DELETEME/playground/demos/parser/src/parser/App.scala][0m
+2025.06.10 01:02:16 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/tunguyen/Desktop/DELETEME/playground/.metals/.reports/metals-full/2025-06-10/r_empty-definition_(demos.parser)_01-02-16-632.md")[0m
+2025.06.10 01:02:16 INFO  BSP server: [118-compile] Entered buildTargetCompile[0m
+2025.06.10 01:02:16 INFO  BSP server: [118-compile] Evaluating 1 task[0m
+2025.06.10 01:02:16 INFO  compiling target demos.parser[0m
+2025.06.10 01:02:16 INFO  BSP server: [118-compile-114] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:02:16 INFO  BSP server: [118-compile-114] [info] done compiling[0m
+2025.06.10 01:02:16 INFO  time: compiled demos.parser in 0.14s[0m
+2025.06.10 01:02:16 INFO  compiling target demos.parser.test[0m
+2025.06.10 01:02:16 INFO  time: compiled demos.parser.test in 4ms[0m
+2025.06.10 01:02:16 INFO  BSP server: [118-compile] Done[0m
+2025.06.10 01:02:16 INFO  BSP server: [118-compile] buildTargetCompile took 179 msec[0m
+2025.06.10 01:02:16 INFO  BSP server: [119-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 01:02:16 INFO  BSP server: [120-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 01:02:16 INFO  BSP server: [119-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:02:16 INFO  BSP server: [119-handlerTasks] Done[0m
+2025.06.10 01:02:16 INFO  BSP server: [119-handlerTasks] buildTargetScalaTestClasses took 54 msec[0m
+2025.06.10 01:02:16 INFO  BSP server: [120-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:02:16 INFO  BSP server: [120-handlerTasks] Done[0m
+2025.06.10 01:02:16 INFO  BSP server: [120-handlerTasks] buildTargetScalaMainClasses took 69 msec[0m
+2025.06.10 01:02:30 INFO  BSP server: [121-compile] Entered buildTargetCompile[0m
+2025.06.10 01:02:30 INFO  BSP server: [121-compile] buildTargetCompile took 0 msec[0m
+2025.06.10 01:03:30 INFO  BSP server: [122-compile] Entered buildTargetCompile[0m
+2025.06.10 01:03:30 INFO  BSP server: [122-compile] buildTargetCompile took 2 msec[0m
+2025.06.10 01:04:30 INFO  BSP server: [123-compile] Entered buildTargetCompile[0m
+2025.06.10 01:04:30 INFO  BSP server: [123-compile] buildTargetCompile took 1 msec[0m
+2025.06.10 01:05:30 INFO  BSP server: [124-compile] Entered buildTargetCompile[0m
+2025.06.10 01:05:30 INFO  BSP server: [124-compile] buildTargetCompile took 2 msec[0m
+2025.06.10 01:06:30 INFO  BSP server: [125-compile] Entered buildTargetCompile[0m
+2025.06.10 01:06:30 INFO  BSP server: [125-compile] buildTargetCompile took 1 msec[0m
+2025.06.10 01:07:30 INFO  BSP server: [126-compile] Entered buildTargetCompile[0m
+2025.06.10 01:07:30 INFO  BSP server: [126-compile] buildTargetCompile took 1 msec[0m
+2025.06.10 01:08:08 INFO  BSP server: [127-compile] Entered buildTargetCompile[0m
+2025.06.10 01:08:08 INFO  BSP server: [127-compile] Evaluating 1 task[0m
+2025.06.10 01:08:08 INFO  compiling target demos.parser[0m
+2025.06.10 01:08:08 INFO  BSP server: [127-compile-114] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:08:08 INFO  BSP server: [127-compile-114] [info] done compiling[0m
+2025.06.10 01:08:08 INFO  time: compiled demos.parser in 0.2s[0m
+2025.06.10 01:08:08 INFO  compiling target demos.parser.test[0m
+2025.06.10 01:08:08 INFO  time: compiled demos.parser.test in 6ms[0m
+2025.06.10 01:08:08 INFO  BSP server: [127-compile] Done[0m
+2025.06.10 01:08:08 INFO  BSP server: [127-compile] buildTargetCompile took 485 msec[0m
+2025.06.10 01:08:08 INFO  BSP server: [128-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 01:08:08 INFO  BSP server: [129-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 01:08:08 INFO  BSP server: [128-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:08:08 INFO  BSP server: [128-handlerTasks] Done[0m
+2025.06.10 01:08:08 INFO  BSP server: [128-handlerTasks] buildTargetScalaMainClasses took 84 msec[0m
+2025.06.10 01:08:08 INFO  BSP server: [129-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:08:08 INFO  BSP server: [129-handlerTasks] Done[0m
+2025.06.10 01:08:08 INFO  BSP server: [129-handlerTasks] buildTargetScalaTestClasses took 126 msec[0m
+2025.06.10 01:08:30 INFO  BSP server: [130-compile] Entered buildTargetCompile[0m
+2025.06.10 01:08:30 INFO  BSP server: [130-compile] buildTargetCompile took 0 msec[0m
+2025.06.10 01:09:30 INFO  BSP server: [131-compile] Entered buildTargetCompile[0m
+2025.06.10 01:09:30 INFO  BSP server: [131-compile] buildTargetCompile took 2 msec[0m
+2025.06.10 01:09:42 INFO  BSP server: [132-compile] Entered buildTargetCompile[0m
+2025.06.10 01:09:42 INFO  BSP server: [132-compile] Evaluating 1 task[0m
+2025.06.10 01:09:42 INFO  compiling target demos.parser[0m
+2025.06.10 01:09:42 INFO  BSP server: [132-compile-114] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:09:42 INFO  BSP server: [132-compile-114] [info] done compiling[0m
+2025.06.10 01:09:42 INFO  time: compiled demos.parser in 0.19s[0m
+2025.06.10 01:09:42 INFO  compiling target demos.parser.test[0m
+2025.06.10 01:09:42 INFO  time: compiled demos.parser.test in 4ms[0m
+2025.06.10 01:09:42 INFO  BSP server: [132-compile] Done[0m
+2025.06.10 01:09:42 INFO  BSP server: [132-compile] buildTargetCompile took 434 msec[0m
+2025.06.10 01:09:42 INFO  BSP server: [133-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 01:09:42 INFO  BSP server: [134-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 01:09:42 INFO  BSP server: [133-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:09:42 INFO  BSP server: [133-handlerTasks] Done[0m
+2025.06.10 01:09:42 INFO  BSP server: [133-handlerTasks] buildTargetScalaTestClasses took 40 msec[0m
+2025.06.10 01:09:42 INFO  BSP server: [134-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:09:42 INFO  BSP server: [134-handlerTasks] Done[0m
+2025.06.10 01:09:42 INFO  BSP server: [134-handlerTasks] buildTargetScalaMainClasses took 104 msec[0m
+2025.06.10 01:10:11 INFO  BSP server: [135-compile] Entered buildTargetCompile[0m
+2025.06.10 01:10:11 INFO  BSP server: [135-compile] Evaluating 1 task[0m
+2025.06.10 01:10:12 INFO  compiling target demos.parser[0m
+2025.06.10 01:10:12 INFO  time: compiled demos.parser in 6ms[0m
+2025.06.10 01:10:12 INFO  compiling target demos.parser.test[0m
+2025.06.10 01:10:12 INFO  time: compiled demos.parser.test in 4ms[0m
+2025.06.10 01:10:11 INFO  BSP server: [135-compile] Done[0m
+2025.06.10 01:10:11 INFO  BSP server: [135-compile] buildTargetCompile took 182 msec[0m
+2025.06.10 01:10:11 INFO  BSP server: [136-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 01:10:11 INFO  BSP server: [137-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 01:10:11 INFO  BSP server: [136-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:10:11 INFO  BSP server: [136-handlerTasks] Done[0m
+2025.06.10 01:10:11 INFO  BSP server: [136-handlerTasks] buildTargetScalaMainClasses took 61 msec[0m
+2025.06.10 01:10:11 INFO  BSP server: [137-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:10:11 INFO  BSP server: [137-handlerTasks] Done[0m
+2025.06.10 01:10:11 INFO  BSP server: [137-handlerTasks] buildTargetScalaTestClasses took 104 msec[0m
+2025.06.10 01:10:24 INFO  BSP server: [138-compile] Entered buildTargetCompile[0m
+2025.06.10 01:10:24 INFO  BSP server: [138-compile] Evaluating 1 task[0m
+2025.06.10 01:10:24 INFO  compiling target demos.parser[0m
+2025.06.10 01:10:24 INFO  BSP server: [138-compile-114] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:10:24 INFO  BSP server: [138-compile-114] [info] done compiling[0m
+2025.06.10 01:10:24 INFO  time: compiled demos.parser in 0.16s[0m
+2025.06.10 01:10:24 INFO  compiling target demos.parser.test[0m
+2025.06.10 01:10:24 INFO  time: compiled demos.parser.test in 4ms[0m
+2025.06.10 01:10:24 INFO  BSP server: [138-compile] Done[0m
+2025.06.10 01:10:24 INFO  BSP server: [138-compile] buildTargetCompile took 199 msec[0m
+2025.06.10 01:10:24 INFO  BSP server: [139-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 01:10:24 INFO  BSP server: [140-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 01:10:24 INFO  BSP server: [139-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:10:24 INFO  BSP server: [139-handlerTasks] Done[0m
+2025.06.10 01:10:24 INFO  BSP server: [139-handlerTasks] buildTargetScalaTestClasses took 39 msec[0m
+2025.06.10 01:10:24 INFO  BSP server: [140-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:10:24 INFO  BSP server: [140-handlerTasks] Done[0m
+2025.06.10 01:10:24 INFO  BSP server: [140-handlerTasks] buildTargetScalaMainClasses took 53 msec[0m
+2025.06.10 01:10:30 INFO  BSP server: [141-compile] Entered buildTargetCompile[0m
+2025.06.10 01:10:30 INFO  BSP server: [141-compile] buildTargetCompile took 0 msec[0m
+2025.06.10 01:10:41 INFO  BSP server: [142-compile] Entered buildTargetCompile[0m
+2025.06.10 01:10:41 INFO  BSP server: [142-compile] Evaluating 1 task[0m
+2025.06.10 01:10:41 INFO  compiling target demos.parser[0m
+2025.06.10 01:10:41 INFO  BSP server: [142-compile-114] [info] compiling 1 Scala source to /Users/tunguyen/Desktop/DELETEME/playground/out/demos/parser/compile.dest/classes ...[0m
+2025.06.10 01:10:41 INFO  BSP server: [142-compile-114] [info] done compiling[0m
+2025.06.10 01:10:41 INFO  time: compiled demos.parser in 0.17s[0m
+2025.06.10 01:10:41 INFO  compiling target demos.parser.test[0m
+2025.06.10 01:10:41 INFO  time: compiled demos.parser.test in 4ms[0m
+2025.06.10 01:10:41 INFO  BSP server: [142-compile] Done[0m
+2025.06.10 01:10:41 INFO  BSP server: [142-compile] buildTargetCompile took 312 msec[0m
+2025.06.10 01:10:41 INFO  BSP server: [143-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 01:10:41 INFO  BSP server: [144-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 01:10:41 INFO  BSP server: [143-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:10:41 INFO  BSP server: [143-handlerTasks] Done[0m
+2025.06.10 01:10:41 INFO  BSP server: [143-handlerTasks] buildTargetScalaTestClasses took 49 msec[0m
+2025.06.10 01:10:41 INFO  BSP server: [144-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:10:41 INFO  BSP server: [144-handlerTasks] Done[0m
+2025.06.10 01:10:41 INFO  BSP server: [144-handlerTasks] buildTargetScalaMainClasses took 112 msec[0m
+2025.06.10 01:11:30 INFO  BSP server: [145-compile] Entered buildTargetCompile[0m
+2025.06.10 01:11:30 INFO  BSP server: [145-compile] buildTargetCompile took 2 msec[0m
+2025.06.10 01:11:34 INFO  BSP server: [146-compile] Entered buildTargetCompile[0m
+2025.06.10 01:11:34 INFO  BSP server: [146-compile] Evaluating 1 task[0m
+2025.06.10 01:11:34 INFO  compiling target demos.parser[0m
+2025.06.10 01:11:34 INFO  time: compiled demos.parser in 9ms[0m
+2025.06.10 01:11:34 INFO  compiling target demos.parser.test[0m
+2025.06.10 01:11:34 INFO  time: compiled demos.parser.test in 3ms[0m
+2025.06.10 01:11:34 INFO  BSP server: [146-compile] Done[0m
+2025.06.10 01:11:34 INFO  BSP server: [146-compile] buildTargetCompile took 230 msec[0m
+2025.06.10 01:11:34 INFO  BSP server: [147-handlerTasks] Entered buildTargetScalaMainClasses[0m
+2025.06.10 01:11:34 INFO  BSP server: [148-handlerTasks] Entered buildTargetScalaTestClasses[0m
+2025.06.10 01:11:34 INFO  BSP server: [147-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:11:34 INFO  BSP server: [147-handlerTasks] Done[0m
+2025.06.10 01:11:34 INFO  BSP server: [147-handlerTasks] buildTargetScalaMainClasses took 81 msec[0m
+2025.06.10 01:11:34 INFO  BSP server: [148-handlerTasks] Evaluating 1 task[0m
+2025.06.10 01:11:34 INFO  BSP server: [148-handlerTasks] Done[0m
+2025.06.10 01:11:34 INFO  BSP server: [148-handlerTasks] buildTargetScalaTestClasses took 142 msec[0m
+2025.06.10 01:12:30 INFO  BSP server: [149-compile] Entered buildTargetCompile[0m
+2025.06.10 01:12:30 INFO  BSP server: [149-compile] buildTargetCompile took 1 msec[0m
+2025.06.10 01:13:30 INFO  BSP server: [150-compile] Entered buildTargetCompile[0m
+2025.06.10 01:13:30 INFO  BSP server: [150-compile] buildTargetCompile took 0 msec[0m
+2025.06.10 01:14:30 INFO  BSP server: [151-compile] Entered buildTargetCompile[0m
+2025.06.10 01:14:30 INFO  BSP server: [151-compile] buildTargetCompile took 2 msec[0m

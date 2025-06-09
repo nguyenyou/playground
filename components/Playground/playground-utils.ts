@@ -38,6 +38,31 @@ export const PLAYGROUND_PRESETS = {
       additionalHead: [] as string[],
     },
   },
+  'sjs-tailwind': {
+    name: 'Scala.js Tailwind',
+    description: 'Scala.js with Laminar and Tailwind CSS',
+    config: {
+      supportTailwind: true,
+      supportReact: false,
+      includeResetCSS: false,
+      includeRootDiv: true,
+      additionalHead: [] as string[],
+    },
+  },
+  'sjs-daisyui': {
+    name: 'Scala.js with DaisyUI',
+    description: 'Scala.js with Laminar and DaisyUI',
+    config: {
+      supportTailwind: true,
+      supportReact: false,
+      includeResetCSS: false,
+      includeRootDiv: true,
+      additionalHead: [
+        '<link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />',
+        '<link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />',
+      ] as string[],
+    },
+  },
   tailwind: {
     name: 'Tailwind CSS',
     description: 'HTML, CSS, JavaScript with Tailwind CSS',

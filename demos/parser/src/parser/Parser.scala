@@ -1,7 +1,43 @@
 package demos.parser
 
 object Parser {
+  def validateFormat(input: String): Boolean = {
+    if (input.isEmpty) return false
+    
+    // Check for valid characters only (digits, comma, space, hyphen)
+    if (!input.matches("[0-9, -]+")) return false
+    
+    // Check for consecutive commas
+    if (input.contains(",,")) return false
+    
+    // Check for leading or trailing commas
+    if (input.trim.startsWith(",") || input.trim.endsWith(",")) return false
+    
+    // Split by comma and validate each part
+    val parts = input.split(",").map(_.trim)
+    
+    parts.forall { part =>
+      if (part.isEmpty) false
+      else if (part.contains("-")) {
+        // Validate range format: number-number
+        val rangeParts = part.split("-")
+        rangeParts.length == 2 && 
+        rangeParts(0).trim.nonEmpty && 
+        rangeParts(1).trim.nonEmpty &&
+        rangeParts(0).trim.matches("\\d+") && 
+        rangeParts(1).trim.matches("\\d+")
+      } else {
+        // Validate single number
+        part.matches("\\d+")
+      }
+    }
+  }
+  
   def parse(input: String): Set[Int] = {
+    if (!validateFormat(input)) {
+      throw new IllegalArgumentException(s"Invalid input format: $input")
+    }
+    
     input.split(",")
       .map(_.trim)
       .flatMap { part =>

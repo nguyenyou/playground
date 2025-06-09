@@ -43,7 +43,7 @@ const getFilenameFromPath = (path: string): string => {
 
 const TabPanel = ({ value, code, lang }: TabPanelProps) => {
   return (
-    <Tabs.Panel className="h-40" value={value}>
+    <Tabs.Panel className="h-full" value={value}>
       <Code code={code} lang={lang} />
     </Tabs.Panel>
   )
