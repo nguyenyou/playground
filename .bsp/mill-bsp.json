@@ -1,1 +1,1 @@
-{"name":"mill-bsp","argv":["/Users/tunguyen/.cache/mill/download/1.0.0-RC1-native-mac-aarch64","--bsp","--disable-ticker","--color","false","--jobs","0"],"millVersion":"1.0.0-RC1","bspVersion":"2.2.0-M2","languages":["java","scala","kotlin"]}
+{"name":"mill-bsp","argv":["/Users/tunguyen/.cache/mill/download/1.0.0-RC1-30-613539-native-mac-aarch64","--bsp","--disable-ticker","--color","false","--jobs","0"],"millVersion":"1.0.0-RC1-30-613539","bspVersion":"2.2.0-M2","languages":["java","scala","kotlin"]}
