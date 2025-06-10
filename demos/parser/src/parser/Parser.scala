@@ -90,7 +90,7 @@ case class Parser(maxNumber: Int) {
             if (start == 0 || end == 0) {
               InvalidPart(part, "zero is not allowed in ranges (numbers must start from 1)")
             } else if (start > maxNumber || end > maxNumber) {
-              InvalidPart(part, s"page numbers in range cannot exceed ${maxNumber}")
+              InvalidPart(part, s"number cannot exceed ${maxNumber}")
             } else if (start <= end) {
               ValidRange(start, end)
             } else {
