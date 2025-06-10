@@ -91,10 +91,12 @@ case class Parser(maxNumber: Int) {
               InvalidPart(part, "zero is not allowed in ranges (numbers must start from 1)")
             } else if (start > maxNumber || end > maxNumber) {
               InvalidPart(part, s"number cannot exceed ${maxNumber}")
-            } else if (start <= end) {
+            } else if (start == end) {
+              InvalidPart(part, "range cannot have the same start and end number (use single number instead)")
+            } else if (start < end) {
               ValidRange(start, end)
             } else {
-              InvalidPart(part, s"invalid range order: start ($start) must be <= end ($end)")
+              InvalidPart(part, s"invalid range order: start ($start) must be < end ($end)")
             }
           case _ => InvalidPart(part, s"number cannot exceed ${maxNumber}")
         }

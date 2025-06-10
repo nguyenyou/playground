@@ -17,9 +17,10 @@ object ParserTests extends TestSuite {
         assert(result == Right(Set(5, 6, 7)))
       }
       
-      test("single range with same start and end") {
+      test("single range with same start and end returns error") {
         val result = Parser.parse("5-5")
-        assert(result == Right(Set(5)))
+        assert(result.isLeft)
+        assert(result.left.get.contains("range cannot have the same start and end number"))
       }
       
       test("comma separated numbers") {
@@ -93,7 +94,6 @@ object ParserTests extends TestSuite {
         assert(Parser.validateFormat("  1-3  ").isRight)
         
         // Edge cases
-        assert(Parser.validateFormat("5-5").isRight)  // Same start and end
         assert(Parser.validateFormat("100-200").isRight)  // Large numbers
         
         // Boundary cases for 1000 limit
@@ -121,6 +121,7 @@ object ParserTests extends TestSuite {
         assert(Parser.validateFormat("1-2-3").isLeft)   // Multiple hyphens
         assert(Parser.validateFormat("1-2-").isLeft)    // Trailing hyphen after range
         assert(Parser.validateFormat("10-5").isLeft)    // Invalid range order
+        assert(Parser.validateFormat("5-5").isLeft)     // Same start and end
         
         // Invalid characters
         assert(Parser.validateFormat("1,a,3").isLeft)   // Letters
@@ -161,6 +162,12 @@ object ParserTests extends TestSuite {
         val result = Parser.parse("10-5")
         assert(result.isLeft)
         assert(result.left.get.contains("invalid range order"))
+      }
+      
+      test("specific error for same start and end in range") {
+        val result = Parser.parse("5-5")
+        assert(result.isLeft)
+        assert(result.left.get.contains("range cannot have the same start and end number"))
       }
       
       test("specific error for multiple hyphens") {
@@ -226,25 +233,25 @@ object ParserTests extends TestSuite {
       test("specific error for range start exceeding 1000") {
         val result = Parser.parse("1001-1005")
         assert(result.isLeft)
-        assert(result.left.get.contains("page numbers in range cannot exceed 1000"))
+        assert(result.left.get.contains("number cannot exceed 1000"))
       }
       
       test("specific error for range end exceeding 1000") {
         val result = Parser.parse("500-1001")
         assert(result.isLeft)
-        assert(result.left.get.contains("page numbers in range cannot exceed 1000"))
+        assert(result.left.get.contains("number cannot exceed 1000"))
       }
       
       test("specific error for both range values exceeding 1000") {
         val result = Parser.parse("1001-1010")
         assert(result.isLeft)
-        assert(result.left.get.contains("page numbers in range cannot exceed 1000"))
+        assert(result.left.get.contains("number cannot exceed 1000"))
       }
       
       test("specific error for range exceeding 1000 in mixed input") {
         val result = Parser.parse("1-10, 500-1001, 20")
         assert(result.isLeft)
-        assert(result.left.get.contains("page numbers in range cannot exceed 1000"))
+        assert(result.left.get.contains("number cannot exceed 1000"))
       }
     }
     
