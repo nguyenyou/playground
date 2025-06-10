@@ -83,6 +83,8 @@ object Parser {
           case Success(n) => 
             if (n == 0) {
               InvalidPart(part, "zero is not allowed (numbers must start from 1)")
+            } else if (n > 1000) {
+              InvalidPart(part, "page number cannot exceed 1000")
             } else {
               ValidNumber(n)
             }
@@ -94,6 +96,8 @@ object Parser {
           case (Success(start), Success(end)) =>
             if (start == 0 || end == 0) {
               InvalidPart(part, "zero is not allowed in ranges (numbers must start from 1)")
+            } else if (start > 1000 || end > 1000) {
+              InvalidPart(part, "page numbers in range cannot exceed 1000")
             } else if (start <= end) {
               ValidRange(start, end)
             } else {
