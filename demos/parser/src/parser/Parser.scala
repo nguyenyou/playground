@@ -2,7 +2,7 @@ package demos.parser
 
 import scala.util.{Try, Success, Failure}
 
-object Parser {
+case class Parser(maxNumber: Int) {
   
   private val NumberPattern = "\\d+".r
   private val RangePattern = "(\\d+)\\s*-\\s*(\\d+)".r
@@ -23,13 +23,6 @@ object Parser {
   // Convenience methods for those who want boolean/exception behavior
   def isValidFormat(input: String): Boolean = {
     validateFormat(input).isRight
-  }
-  
-  def parseUnsafe(input: String): Set[Int] = {
-    parse(input) match {
-      case Right(numbers) => numbers
-      case Left(errorMsg) => throw new IllegalArgumentException(errorMsg)
-    }
   }
   
   private def parseInternal(input: String): Either[String, Set[Int]] = {
@@ -83,12 +76,12 @@ object Parser {
           case Success(n) => 
             if (n == 0) {
               InvalidPart(part, "zero is not allowed (numbers must start from 1)")
-            } else if (n > 1000) {
-              InvalidPart(part, "page number cannot exceed 1000")
+            } else if (n > maxNumber) {
+              InvalidPart(part, s"number cannot exceed ${maxNumber}")
             } else {
               ValidNumber(n)
             }
-          case Failure(_) => InvalidPart(part, "number too large")
+          case Failure(_) => InvalidPart(part, s"number cannot exceed ${maxNumber}")
         }
         
       case RangePattern(startStr, endStr) =>
@@ -96,14 +89,14 @@ object Parser {
           case (Success(start), Success(end)) =>
             if (start == 0 || end == 0) {
               InvalidPart(part, "zero is not allowed in ranges (numbers must start from 1)")
-            } else if (start > 1000 || end > 1000) {
-              InvalidPart(part, "page numbers in range cannot exceed 1000")
+            } else if (start > maxNumber || end > maxNumber) {
+              InvalidPart(part, s"page numbers in range cannot exceed ${maxNumber}")
             } else if (start <= end) {
               ValidRange(start, end)
             } else {
               InvalidPart(part, s"invalid range order: start ($start) must be <= end ($end)")
             }
-          case _ => InvalidPart(part, "numbers too large in range")
+          case _ => InvalidPart(part, s"number cannot exceed ${maxNumber}")
         }
         
       case _ =>
@@ -125,4 +118,16 @@ object Parser {
         }
     }
   }
+}
+
+object Parser {
+  // Default instance with maxNumber = 1000
+  private val defaultInstance = Parser(maxNumber = 1000)
+  
+  // Delegate methods to the default instance for convenience
+  def parse(input: String): Either[String, Set[Int]] = defaultInstance.parse(input)
+  
+  def validateFormat(input: String): Either[String, Unit] = defaultInstance.validateFormat(input)
+  
+  def isValidFormat(input: String): Boolean = defaultInstance.isValidFormat(input)
 }

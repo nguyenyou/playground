@@ -214,13 +214,13 @@ object ParserTests extends TestSuite {
       test("specific error for single page number exceeding 1000") {
         val result = Parser.parse("1001")
         assert(result.isLeft)
-        assert(result.left.get.contains("page number cannot exceed 1000"))
+        assert(result.left.get.contains("number cannot exceed 1000"))
       }
       
       test("specific error for page number exceeding 1000 in mixed input") {
         val result = Parser.parse("1, 999, 1001")
         assert(result.isLeft)
-        assert(result.left.get.contains("page number cannot exceed 1000"))
+        assert(result.left.get.contains("number cannot exceed 1000"))
       }
       
       test("specific error for range start exceeding 1000") {
@@ -256,22 +256,6 @@ object ParserTests extends TestSuite {
         assert(!Parser.isValidFormat("1001")) // Above boundary
         assert(!Parser.isValidFormat("invalid"))
         assert(!Parser.isValidFormat(""))
-      }
-      
-      test("parseUnsafe throws exceptions like old parse") {
-        val result = Parser.parseUnsafe("5")
-        assert(result == Set(5))
-        
-        val boundaryResult = Parser.parseUnsafe("1000")
-        assert(boundaryResult == Set(1000))
-        
-        intercept[IllegalArgumentException] {
-          Parser.parseUnsafe("invalid")
-        }
-        
-        intercept[IllegalArgumentException] {
-          Parser.parseUnsafe("1001")
-        }
       }
     }
   }
