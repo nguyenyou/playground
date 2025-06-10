@@ -1,60 +1,117 @@
 package demos.parser
 
+import scala.util.{Try, Success, Failure}
+
 object Parser {
-  def validateFormat(input: String): Boolean = {
-    if (input.isEmpty) return false
-    
-    // Check for valid characters only (digits, comma, space, hyphen)
-    if (!input.matches("[0-9, -]+")) return false
-    
-    // Check for consecutive commas
-    if (input.contains(",,")) return false
-    
-    // Check for leading or trailing commas
-    if (input.trim.startsWith(",") || input.trim.endsWith(",")) return false
-    
-    // Split by comma and validate each part
-    val parts = input.split(",").map(_.trim)
-    
-    parts.forall { part =>
-      if (part.isEmpty) false
-      else if (part.contains("-")) {
-        // Validate range format: number-number
-        val rangeParts = part.split("-")
-        // Must have exactly 2 parts, both non-empty and numeric
-        // Also check that there are no trailing hyphens by ensuring no more than one hyphen between numbers
-        // And check that start <= end for valid range
-        rangeParts.length == 2 && 
-        rangeParts(0).trim.nonEmpty && 
-        rangeParts(1).trim.nonEmpty &&
-        rangeParts(0).trim.matches("\\d+") && 
-        rangeParts(1).trim.matches("\\d+") &&
-        !part.endsWith("-") && // Reject trailing hyphens
-        rangeParts(0).trim.toInt <= rangeParts(1).trim.toInt // Validate range order
-      } else {
-        // Validate single number
-        part.matches("\\d+")
-      }
+  
+  private val NumberPattern = "\\d+".r
+  private val RangePattern = "(\\d+)\\s*-\\s*(\\d+)".r
+  
+  private sealed trait ParseResult
+  private case class ValidNumber(value: Int) extends ParseResult
+  private case class ValidRange(start: Int, end: Int) extends ParseResult
+  private case class InvalidPart(part: String, reason: String) extends ParseResult
+  
+  def validateFormat(input: String): Either[String, Unit] = {
+    parseInternal(input).map(_ => ())
+  }
+  
+  def parse(input: String): Either[String, Set[Int]] = {
+    parseInternal(input)
+  }
+  
+  // Convenience methods for those who want boolean/exception behavior
+  def isValidFormat(input: String): Boolean = {
+    validateFormat(input).isRight
+  }
+  
+  def parseUnsafe(input: String): Set[Int] = {
+    parse(input) match {
+      case Right(numbers) => numbers
+      case Left(errorMsg) => throw new IllegalArgumentException(errorMsg)
     }
   }
   
-  def parse(input: String): Set[Int] = {
-    if (!validateFormat(input)) {
-      throw new IllegalArgumentException(s"Invalid input format: $input")
+  private def parseInternal(input: String): Either[String, Set[Int]] = {
+    if (input.trim.isEmpty) {
+      return Left("Input cannot be empty")
     }
     
-    input.split(",")
-      .map(_.trim)
-      .flatMap { part =>
-        if (part.contains("-")) {
-          // Handle range like "5-7"
-          val Array(start, end) = part.split("-").map(_.trim.toInt)
-          start to end
-        } else {
-          // Handle single number
-          Seq(part.toInt)
+    // Check for invalid leading/trailing commas first
+    val trimmed = input.trim
+    if (trimmed.startsWith(",") || trimmed.endsWith(",")) {
+      return Left("Input cannot start or end with comma")
+    }
+    
+    // Check for consecutive commas
+    if (input.contains(",,")) {
+      return Left("Input cannot contain consecutive commas")
+    }
+    
+    // Split and process each part - don't filter empty parts, detect them as invalid
+    val parts = input.split(",").map(_.trim)
+    
+    if (parts.isEmpty) {
+      return Left("No valid parts found after splitting")
+    }
+    
+    val results = parts.map(parsePart)
+    
+    // Check for any invalid parts
+    results.collectFirst { case InvalidPart(part, reason) => 
+      Left(s"Invalid part '$part': $reason")
+    }.getOrElse {
+      // All parts are valid, extract the numbers
+      val numbers = results.flatMap {
+        case ValidNumber(n) => Set(n)
+        case ValidRange(start, end) => (start to end).toSet
+        case InvalidPart(_, _) => Set.empty[Int] // Should never happen due to above check
+      }.toSet
+      
+      Right(numbers)
+    }
+  }
+  
+  private def parsePart(part: String): ParseResult = {
+    if (part.isEmpty) {
+      return InvalidPart(part, "empty part")
+    }
+    
+    part match {
+      case NumberPattern() =>
+        Try(part.toInt) match {
+          case Success(n) => ValidNumber(n)
+          case Failure(_) => InvalidPart(part, "number too large")
         }
-      }
-      .toSet
+        
+      case RangePattern(startStr, endStr) =>
+        (Try(startStr.toInt), Try(endStr.toInt)) match {
+          case (Success(start), Success(end)) =>
+            if (start <= end) {
+              ValidRange(start, end)
+            } else {
+              InvalidPart(part, s"invalid range order: start ($start) must be <= end ($end)")
+            }
+          case _ => InvalidPart(part, "numbers too large in range")
+        }
+        
+      case _ =>
+        // Check for common error patterns to provide better error messages
+        if (part.contains("-")) {
+          if (part.startsWith("-")) {
+            InvalidPart(part, "range cannot start with hyphen (negative numbers not supported)")
+          } else if (part.endsWith("-")) {
+            InvalidPart(part, "range cannot end with hyphen")
+          } else if (part.count(_ == '-') > 1) {
+            InvalidPart(part, "range can only contain one hyphen")
+          } else {
+            InvalidPart(part, "invalid range format (expected: number-number)")
+          }
+        } else if (part.matches(".*[^0-9\\s-].*")) {
+          InvalidPart(part, "contains invalid characters (only digits, spaces, commas, and hyphens allowed)")
+        } else {
+          InvalidPart(part, "invalid format")
+        }
+    }
   }
 }

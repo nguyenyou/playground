@@ -6,9 +6,12 @@ import com.raquo.laminar.api.L.*
 case class App() {
   val inputVar = Var("")
   val inputSignal = inputVar.signal.distinct
-  val isValidSignal = inputSignal.map(Parser.validateFormat)
-  val parsedSignal: Signal[Option[Set[Int]]] = inputSignal.combineWith(isValidSignal).map { (str, isValid) =>
-    if (isValid) Some(Parser.parse(str)) else None
+  val isValidSignal = inputSignal.map(Parser.isValidFormat)
+  val parsedSignal: Signal[Option[Set[Int]]] = inputSignal.map { str =>
+    Parser.parse(str) match {
+      case Right(result) => Some(result)
+      case Left(_) => None
+    }
   }
 
   def apply() = {
