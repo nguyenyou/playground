@@ -52,6 +52,26 @@ object ParserTests extends TestSuite {
         assert(result == Right(Set(100, 101, 102, 200)))
       }
       
+      test("page numbers at boundary (1000)") {
+        val result = Parser.parse("1000")
+        assert(result == Right(Set(1000)))
+      }
+      
+      test("page numbers just below boundary (999)") {
+        val result = Parser.parse("999")
+        assert(result == Right(Set(999)))
+      }
+      
+      test("range ending at boundary (1000)") {
+        val result = Parser.parse("998-1000")
+        assert(result == Right(Set(998, 999, 1000)))
+      }
+      
+      test("mixed input with boundary values") {
+        val result = Parser.parse("1, 999-1000, 500")
+        assert(result == Right(Set(1, 500, 999, 1000)))
+      }
+      
       test("invalid input returns Left") {
         val result = Parser.parse("invalid")
         assert(result.isLeft)
@@ -75,6 +95,12 @@ object ParserTests extends TestSuite {
         // Edge cases
         assert(Parser.validateFormat("5-5").isRight)  // Same start and end
         assert(Parser.validateFormat("100-200").isRight)  // Large numbers
+        
+        // Boundary cases for 1000 limit
+        assert(Parser.validateFormat("1000").isRight)    // At boundary
+        assert(Parser.validateFormat("999").isRight)     // Just below boundary
+        assert(Parser.validateFormat("998-1000").isRight) // Range ending at boundary
+        assert(Parser.validateFormat("1, 999-1000, 500").isRight) // Mixed at boundary
       }
       
       test("invalid inputs") {
@@ -109,6 +135,12 @@ object ParserTests extends TestSuite {
         assert(Parser.validateFormat("0-5").isLeft)     // Zero in range start
         assert(Parser.validateFormat("3-0").isLeft)     // Zero in range end
         assert(Parser.validateFormat("1, 0, 3").isLeft) // Zero in mixed input
+        
+        // Page numbers exceeding 1000 limit
+        assert(Parser.validateFormat("1001").isLeft)    // Single page > 1000
+        assert(Parser.validateFormat("1001-1005").isLeft) // Range start > 1000
+        assert(Parser.validateFormat("500-1001").isLeft)  // Range end > 1000
+        assert(Parser.validateFormat("1, 999, 1001").isLeft) // Mixed with page > 1000
       }
     }
     
@@ -178,12 +210,50 @@ object ParserTests extends TestSuite {
         assert(result.isLeft)
         assert(result.left.get.contains("zero is not allowed (numbers must start from 1)"))
       }
+      
+      test("specific error for single page number exceeding 1000") {
+        val result = Parser.parse("1001")
+        assert(result.isLeft)
+        assert(result.left.get.contains("page number cannot exceed 1000"))
+      }
+      
+      test("specific error for page number exceeding 1000 in mixed input") {
+        val result = Parser.parse("1, 999, 1001")
+        assert(result.isLeft)
+        assert(result.left.get.contains("page number cannot exceed 1000"))
+      }
+      
+      test("specific error for range start exceeding 1000") {
+        val result = Parser.parse("1001-1005")
+        assert(result.isLeft)
+        assert(result.left.get.contains("page numbers in range cannot exceed 1000"))
+      }
+      
+      test("specific error for range end exceeding 1000") {
+        val result = Parser.parse("500-1001")
+        assert(result.isLeft)
+        assert(result.left.get.contains("page numbers in range cannot exceed 1000"))
+      }
+      
+      test("specific error for both range values exceeding 1000") {
+        val result = Parser.parse("1001-1010")
+        assert(result.isLeft)
+        assert(result.left.get.contains("page numbers in range cannot exceed 1000"))
+      }
+      
+      test("specific error for range exceeding 1000 in mixed input") {
+        val result = Parser.parse("1-10, 500-1001, 20")
+        assert(result.isLeft)
+        assert(result.left.get.contains("page numbers in range cannot exceed 1000"))
+      }
     }
     
     test("convenience methods") {
       test("isValidFormat works like old validateFormat") {
         assert(Parser.isValidFormat("5"))
         assert(Parser.isValidFormat("5-7"))
+        assert(Parser.isValidFormat("1000"))  // At boundary
+        assert(!Parser.isValidFormat("1001")) // Above boundary
         assert(!Parser.isValidFormat("invalid"))
         assert(!Parser.isValidFormat(""))
       }
@@ -192,8 +262,15 @@ object ParserTests extends TestSuite {
         val result = Parser.parseUnsafe("5")
         assert(result == Set(5))
         
+        val boundaryResult = Parser.parseUnsafe("1000")
+        assert(boundaryResult == Set(1000))
+        
         intercept[IllegalArgumentException] {
           Parser.parseUnsafe("invalid")
+        }
+        
+        intercept[IllegalArgumentException] {
+          Parser.parseUnsafe("1001")
         }
       }
     }
