@@ -103,6 +103,12 @@ object ParserTests extends TestSuite {
         
         // Empty parts
         assert(Parser.validateFormat("1, ,3").isLeft)   // Empty middle part
+        
+        // Zero numbers (users count from 1)
+        assert(Parser.validateFormat("0").isLeft)       // Single zero
+        assert(Parser.validateFormat("0-5").isLeft)     // Zero in range start
+        assert(Parser.validateFormat("3-0").isLeft)     // Zero in range end
+        assert(Parser.validateFormat("1, 0, 3").isLeft) // Zero in mixed input
       }
     }
     
@@ -147,6 +153,30 @@ object ParserTests extends TestSuite {
         val result = Parser.parse("1,,3")
         assert(result.isLeft)
         assert(result.left.get.contains("Input cannot contain consecutive commas"))
+      }
+      
+      test("specific error for zero number") {
+        val result = Parser.parse("0")
+        assert(result.isLeft)
+        assert(result.left.get.contains("zero is not allowed (numbers must start from 1)"))
+      }
+      
+      test("specific error for zero in range start") {
+        val result = Parser.parse("0-5")
+        assert(result.isLeft)
+        assert(result.left.get.contains("zero is not allowed in ranges (numbers must start from 1)"))
+      }
+      
+      test("specific error for zero in range end") {
+        val result = Parser.parse("3-0")
+        assert(result.isLeft)
+        assert(result.left.get.contains("zero is not allowed in ranges (numbers must start from 1)"))
+      }
+      
+      test("specific error for zero in mixed input") {
+        val result = Parser.parse("1, 0, 3")
+        assert(result.isLeft)
+        assert(result.left.get.contains("zero is not allowed (numbers must start from 1)"))
       }
     }
     

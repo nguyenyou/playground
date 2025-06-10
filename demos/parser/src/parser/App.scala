@@ -7,11 +7,10 @@ case class App() {
   val inputVar = Var("")
   val inputSignal = inputVar.signal.distinct
   val isValidSignal = inputSignal.map(Parser.isValidFormat)
-  val parsedSignal: Signal[Option[Set[Int]]] = inputSignal.map { str =>
-    Parser.parse(str) match {
-      case Right(result) => Some(result)
-      case Left(_) => None
-    }
+  val parsedSignal: Signal[Either[String, Set[Int]]] = inputSignal.map(Parser.parse)
+  val validParsedSignal: Signal[Option[Set[Int]]] = parsedSignal.map {
+    case Right(result) => Some(result)
+    case Left(_) => None
   }
 
   def apply() = {
@@ -33,24 +32,30 @@ case class App() {
         span(
           cls("hidden") <-- inputSignal.map(_.isEmpty),
           cls <-- isValidSignal.map(if (_) "text-green-500" else "text-red-500"),
-          text <-- isValidSignal.map(if (_) "Valid" else "Invalid")
+          text <-- parsedSignal.map {
+            case Right(_) => "✓ Valid"
+            case Left(error) => s"✗ $error"
+          }
         )
       ),
       div(
         cls("flex gap-2 items-center"),
         span("Parsed result: "),
         span(
-          text <-- parsedSignal.map { parsed =>
-            parsed.map(_.toString()).getOrElse("")
+          text <-- parsedSignal.map {
+            case Right(result) => result.toString()
+            case Left(_) => ""
           }
         )
       ),
       div(
         cls("flex gap-2 items-center"),
+        cls("hidden") <-- parsedSignal.map(_.isLeft),
         span("Sorted page indexes: "),
         span(
-          text <-- parsedSignal.map { parsed =>
-            parsed.map(_.toSeq.sorted.mkString(", ")).getOrElse("")
+          text <-- parsedSignal.map {
+            case Right(result) => result.toSeq.sorted.mkString(", ")
+            case Left(_) => ""
           }
         )
       )

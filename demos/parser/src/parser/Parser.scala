@@ -80,14 +80,21 @@ object Parser {
     part match {
       case NumberPattern() =>
         Try(part.toInt) match {
-          case Success(n) => ValidNumber(n)
+          case Success(n) => 
+            if (n == 0) {
+              InvalidPart(part, "zero is not allowed (numbers must start from 1)")
+            } else {
+              ValidNumber(n)
+            }
           case Failure(_) => InvalidPart(part, "number too large")
         }
         
       case RangePattern(startStr, endStr) =>
         (Try(startStr.toInt), Try(endStr.toInt)) match {
           case (Success(start), Success(end)) =>
-            if (start <= end) {
+            if (start == 0 || end == 0) {
+              InvalidPart(part, "zero is not allowed in ranges (numbers must start from 1)")
+            } else if (start <= end) {
               ValidRange(start, end)
             } else {
               InvalidPart(part, s"invalid range order: start ($start) must be <= end ($end)")
