@@ -1,0 +1,77 @@
+---
+title: "SJS Preview Example"
+---
+
+# ScalaJS Preview Example
+
+This page demonstrates the new inline ScalaJS preview feature.
+
+## Simple Example
+
+<Playground preset="sjs">
+
+```scala preview
+div("hello world")
+```
+
+</Playground>
+
+## With Styling
+
+<Playground preset="sjs">
+
+```css styles.css
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+```
+
+```scala preview
+div(
+  fontSize := "32px",
+  color := "blue",
+  fontWeight := "bold",
+  "Styled Hello World!"
+)
+```
+
+</Playground>
+
+## With State (Counter Example)
+
+<Playground preset="sjs">
+
+```scala preview
+val countVar = Var(0)
+div(
+  display.flex,
+  alignItems.center,
+  gap := "10px",
+  button(
+    "-",
+    onClick --> Observer { _ =>
+      countVar.update(_ - 1)
+    }
+  ),
+  span(
+    child.text <-- countVar.signal.map(_.toString)
+  ),
+  button(
+    "+",
+    onClick --> Observer { _ =>
+      countVar.update(_ + 1)
+    }
+  )
+)
+```
+
+</Playground>
+
+Note: This is the new automatic approach. No manual mill setup needed!
+
