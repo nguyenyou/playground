@@ -1,0 +1,250 @@
+---
+title: "ScalaJS Inline Demo"
+---
+
+# ScalaJS Inline Code Examples
+
+This demonstrates the new inline ScalaJS preview functionality where you can write ScalaJS code directly in markdown!
+
+## Simple Laminar Example
+
+<Playground preset="sjs">
+
+```scala App.scala preview
+div(
+  h1("Hello from inline ScalaJS!"),
+  p("This code was written directly in the MDX file"),
+  div(
+    "Current time: ",
+    child.text <-- EventStream.periodic(1000).map(_ => 
+      new js.Date().toLocaleTimeString()
+    ).toSignal("...")
+  )
+)
+```
+
+```css styles.css
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  padding: 2rem;
+}
+
+h1 {
+  color: #333;
+}
+```
+
+</Playground>
+
+## Counter Example
+
+<Playground preset="sjs">
+
+```scala Counter.scala preview
+val count = Var(0)
+
+div(
+  h2("Interactive Counter"),
+  div(
+    display.flex,
+    gap := "1rem",
+    alignItems.center,
+    
+    button(
+      "−",
+      fontSize := "1.5rem",
+      padding := "0.5rem 1rem",
+      onClick --> Observer(_ => count.update(_ - 1))
+    ),
+    
+    span(
+      fontSize := "2rem",
+      fontWeight.bold,
+      minWidth := "3rem",
+      textAlign.center,
+      text <-- count.signal.map(_.toString)
+    ),
+    
+    button(
+      "+",
+      fontSize := "1.5rem", 
+      padding := "0.5rem 1rem",
+      onClick --> Observer(_ => count.update(_ + 1))
+    )
+  ),
+  
+  p(
+    marginTop := "1rem",
+    "Count is: ",
+    b(child.text <-- count.signal.map(_.toString))
+  )
+)
+```
+
+</Playground>
+
+## With Tailwind CSS
+
+<Playground preset="sjs-tailwind">
+
+```scala TailwindExample.scala preview template=laminar-tailwind
+val items = Var(List("Learn ScalaJS", "Build with Laminar", "Use Tailwind"))
+val inputText = Var("")
+
+div(
+  className := "max-w-md mx-auto p-6",
+  
+  h2(className := "text-2xl font-bold mb-4", "Todo List"),
+  
+  div(
+    className := "flex gap-2 mb-4",
+    input(
+      className := "flex-1 px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500",
+      placeholder := "Add new item...",
+      value <-- inputText.signal,
+      onInput.mapToValue --> inputText.set
+    ),
+    button(
+      className := "px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600",
+      "Add",
+      onClick.preventDefault.mapTo(inputText.now()) --> { text =>
+        if (text.nonEmpty) {
+          items.update(_ :+ text)
+          inputText.set("")
+        }
+      }
+    )
+  ),
+  
+  ul(
+    className := "space-y-2",
+    children <-- items.signal.map(_.zipWithIndex.map { case (item, idx) =>
+      li(
+        className := "p-3 bg-gray-100 rounded-lg flex justify-between items-center",
+        span(item),
+        button(
+          className := "text-red-500 hover:text-red-700",
+          "Remove",
+          onClick --> Observer(_ => items.update(_.patch(idx, Nil, 1)))
+        )
+      )
+    })
+  )
+)
+```
+
+</Playground>
+
+## DOM API Example
+
+<Playground preset="sjs">
+
+```scala DomExample.scala preview template=dom
+val canvas = document.createElement("canvas").asInstanceOf[html.Canvas]
+canvas.width = 400
+canvas.height = 200
+canvas.style.border = "1px solid #ccc"
+
+val ctx = canvas.getContext("2d").asInstanceOf[dom.CanvasRenderingContext2D]
+
+// Draw something
+ctx.fillStyle = "#3b82f6"
+ctx.fillRect(50, 50, 100, 100)
+
+ctx.fillStyle = "#10b981"
+ctx.beginPath()
+ctx.arc(250, 100, 50, 0, 2 * Math.PI)
+ctx.fill()
+
+ctx.fillStyle = "#333"
+ctx.font = "20px Arial"
+ctx.fillText("ScalaJS Canvas", 120, 30)
+
+document.querySelector("#root").appendChild(canvas)
+```
+
+</Playground>
+
+## Component-Based Example
+
+<Playground preset="sjs">
+
+```scala Components.scala preview template=laminar-component
+case class Todo(id: Int, text: String, completed: Boolean)
+
+val todos = Var(List(
+  Todo(1, "Learn ScalaJS", true),
+  Todo(2, "Master Laminar", false),
+  Todo(3, "Build awesome apps", false)
+))
+
+def TodoItem(todo: Todo, onToggle: Int => Unit, onDelete: Int => Unit) = li(
+  display.flex,
+  alignItems.center,
+  padding := "0.5rem",
+  backgroundColor := (if (todo.completed) "#f0f0f0" else "white"),
+  
+  input(
+    typ := "checkbox",
+    checked := todo.completed,
+    onChange --> Observer(_ => onToggle(todo.id))
+  ),
+  
+  span(
+    marginLeft := "0.5rem",
+    flex := "1",
+    textDecoration := (if (todo.completed) "line-through" else "none"),
+    todo.text
+  ),
+  
+  button(
+    marginLeft := "0.5rem",
+    color := "red",
+    onClick --> Observer(_ => onDelete(todo.id))
+  )(
+    "×"
+  )
+)
+
+div(
+  h2("Todo App"),
+  
+  ul(
+    listStyle := "none",
+    padding := "0",
+    children <-- todos.signal.map { todoList =>
+      todoList.map { todo =>
+        TodoItem(
+          todo,
+          id => todos.update(_.map(t => if (t.id == id) t.copy(completed = !t.completed) else t)),
+          id => todos.update(_.filterNot(_.id == id))
+        )
+      }
+    }
+  ),
+  
+  p(
+    marginTop := "1rem",
+    "Completed: ",
+    child.text <-- todos.signal.map(_.count(_.completed).toString),
+    " / ",
+    child.text <-- todos.signal.map(_.size.toString)
+  )
+)
+```
+
+</Playground>
+
+## Benefits of Inline ScalaJS
+
+1. **No manual file management** - Just write code in your MDX
+2. **Automatic compilation** - Mill handles everything behind the scenes  
+3. **Intelligent caching** - Unchanged code isn't recompiled
+4. **Multiple templates** - Choose between Laminar, DOM API, or custom templates
+5. **Live preview** - See your code running immediately
+
+The enhanced plugin detects `preview` in your scala code blocks and automatically:
+- Wraps your code in the appropriate template
+- Compiles it with ScalaJS  
+- Caches the result
+- Displays it in an interactive playground
