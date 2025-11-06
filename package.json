@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "prebuild": "bun scripts/compile-scala-previews.ts",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "compile-scala": "bun scripts/compile-scala-previews.ts"
   },
   "prettier": {
     "semi": false,
