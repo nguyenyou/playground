@@ -1,4 +1,4 @@
-//| mill-version: 1.0.0-RC1-30-613539
+//| mill-version: 1.0.6
 package build
 
 import mill.*, scalalib.*, scalajslib.*, scalajslib.api.*
