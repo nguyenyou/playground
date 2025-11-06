@@ -1,0 +1,92 @@
+---
+title: "Scala Preview Demo"
+---
+
+# ScalaJS Preview Demo
+
+This demonstrates the new automated ScalaJS preview system! 🚀
+
+## Basic Counter Example
+
+Just write your Laminar code directly in the markdown with `scala preview`:
+
+```scala preview
+val countVar = Var(0)
+
+div(
+  display.flex,
+  alignItems.center,
+  justifyContent.center,
+  gap := "10px",
+  button(
+    "-",
+    onClick --> Observer { _ =>
+      countVar.update(_ - 1)
+    }
+  ),
+  span(
+    text <-- countVar.signal.map(_.toString)
+  ),
+  button(
+    "+",
+    onClick --> Observer { _ =>
+      countVar.update(_ + 1)
+    }
+  )
+)
+```
+
+## Simple Hello World
+
+Even simpler example:
+
+```scala preview
+div(
+  "Hello from automated ScalaJS! 👋"
+)
+```
+
+## Styled Component
+
+With inline styles:
+
+```scala preview
+val message = Var("Click me!")
+
+div(
+  padding := "20px",
+  backgroundColor := "#f0f0f0",
+  borderRadius := "8px",
+  textAlign := "center",
+  button(
+    padding := "10px 20px",
+    backgroundColor := "#007bff",
+    color := "white",
+    border := "none",
+    borderRadius := "4px",
+    cursor := "pointer",
+    text <-- message.signal,
+    onClick --> Observer { _ =>
+      message.set("Clicked! 🎉")
+    }
+  )
+)
+```
+
+## Benefits
+
+✅ No manual Mill package creation  
+✅ No manual compilation step  
+✅ No file path management  
+✅ Just write code and preview  
+✅ Smart caching for fast rebuilds  
+✅ Type-safe ScalaJS compilation  
+
+The system automatically:
+1. Extracts your code during build
+2. Generates a Mill module with proper package structure
+3. Wraps your code in a template (adds imports, main function)
+4. Compiles via Mill
+5. Caches the result for fast rebuilds
+6. Links everything to the preview
+

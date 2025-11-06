@@ -17,6 +17,10 @@
 /.next/
 /out/
 
+# scala preview system
+/demos/autogen/
+/node_modules/.cache/scala-previews/
+
 # production
 /build
 
