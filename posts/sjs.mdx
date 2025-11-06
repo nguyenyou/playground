@@ -1,32 +1,20 @@
 ---
 title: "SJS"
 ---
- 
+
 # Hello SJS
- 
+
 <Playground preset="sjs">
 
-```css styles.css
-html, body {
-  width: 100%;
-  height: 100%;
-}
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-```
-```js index.js file=out/demos/hello/fullLinkJS.dest/main.js hidden
-```
-
-```scala App.scala file=demos/hello/src/hello/App.scala
-```
-
-```scala index.scala file=demos/hello/src/hello/index.scala
-```
-
-```html index.html hidden
+```scala preview
+div(
+  cls := "p-8 font-mono text-lg",
+  span("Hello Scala.js preview!"),
+  button(
+    "Click me",
+    onClick --> Observer(_ => println("clicked"))
+  )
+)
 ```
 
 </Playground>
